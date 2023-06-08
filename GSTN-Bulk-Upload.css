@@ -1,0 +1,1223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Myriad Pro; */
+    /* font-family: "Myriad pro Semibold"; */
+    font-size: 14px;
+    /* color: #42526E; */
+}
+
+/* nav css */
+.nav {
+    background-color: #3BB161;
+    height: 80px;
+    /* color: white; */
+}
+
+.logo {
+    position: absolute;
+    height: 120px;
+    margin-top: -9px;
+    padding: 0px 10px;
+    /* width: 200px; */
+}
+
+.sec {
+    /* background-color: #3f8555; */
+    position: absolute;
+    margin-left: 940px;
+    border-radius: 7px;
+    opacity: 0.5;
+    margin-top: 24px;
+    /* color: rgb(221, 48, 48); */
+    border: none;
+    width: 220PX;
+    height: 35PX;
+}
+
+.bi-search {
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: -60px;
+    color: rgb(255, 255, 255);
+}
+
+.sub-nav {
+    background-color: #3e7e52;
+    margin-left: 1180px;
+    width: 40px;
+    height: 40px;
+    padding: 6px 5px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.bi-bell-fill {
+    color: white;
+    padding-left: 8px;
+    margin-top: 3px;
+
+}
+
+.sub-nav1 {
+    background-color: #3e7e52;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 5px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.bi-person-fill {
+    /* margin-top: 20px; */
+    color: white;
+    margin-left: 2px;
+}
+
+
+.bi-chevron-down {
+    margin-top: 30px;
+    color: white;
+}
+
+/* **** Nav Css End ****** */
+.main-div {
+    background-color: #E6E6E6;
+    width: 100%;
+    margin-top: -600px;
+    height: 600px;
+}
+
+
+/* <!-- ********* 2ND DIV ************* --> */
+
+.div2 {
+    font-family: "Myriad Pro";
+    position: relative;
+    background-color: #ffffff;
+    margin-left: 0PX;
+    margin-top: -13px;
+    color: #42526E;
+    width: 210px;
+    height: 600px;
+    font-size: 14px;
+}
+
+.kp {
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.kp1 {
+  
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 70px;
+}
+
+.kp2 {
+    background-color: #dce8f1;
+    color: #3BB161;
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 125px;
+}
+
+.kp3 {
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 180px;
+}
+
+.kp4 {
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 235px;
+}
+
+.kp5 {
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 290px;
+}
+
+.kp6 {
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 180px;
+    height: 50px;
+    margin-top: 345px;
+}
+
+.kp:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+
+}
+
+.kp1:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp2:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp3:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp4:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp5:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp6:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.div2 ul {
+    list-style: none;
+}
+
+.div2 ul a {
+    color: #42526E;
+    text-decoration: none;
+}
+
+
+
+/* .li5 {
+    font-size: 14px;
+    font-family: "Myriad pro Semibold"; 
+}
+
+.li11, .li12, .li13{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+}
+ */
+
+
+.li1,
+.li2,
+.li6,
+.li7,
+.li8,
+.li9,
+.li10 {
+    padding: 22px 63px;
+}
+
+.div2 ul a:hover {
+    color: #00a534;
+
+}
+
+.div2 ul li {
+    width: 244px;
+    height: 60px;
+    line-height: 11px;
+    /* border-left: 3px solid #a0e2b5; */
+}
+
+
+.div2 ul ul {
+    position: absolute;
+    display: none;
+    height: 600px;
+    width: 200px;
+    /* padding: 0PX 20px; */
+    font-size: 14px;
+    background-color: rgb(214, 214, 214);
+    margin-left: 143px;
+    margin-top: -100px;
+}
+
+.li1 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+
+.li2 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+.li2 ul {
+    padding: 10px 0px;
+}
+
+.li3,
+.li30 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li4 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li5 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li6 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+
+.kp2 .li6 ul {
+    margin-top: -155px;
+}
+
+.li7 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+
+.li8 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+.li9 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+.li10 {
+    height: 80px;
+    margin-top: -2px;
+    margin-left: -15px;
+}
+
+
+.li11 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+
+.li12 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.li13 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.li2 hr {
+    margin-top: 40px;
+}
+
+
+.li14 {
+    position: absolute;
+    margin-top: -80px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.li15 {
+    position: absolute;
+    margin-top: -90px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.li16 {
+    position: absolute;
+    margin-top: -20px;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.li17 {
+    position: absolute;
+    margin-top: -20px;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-top: 55px;
+}
+
+.li18 {
+    font-family: "Myriad pro Semibold";
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.li19 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li20,
+.li21,
+.li22,
+.li23,
+.li24,
+.li25,
+.li26,
+.li27,
+.li28,
+.li29 {
+    font-family: "Myriad pro Semibold";
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.li31,
+.li32,
+.li35,
+.li36 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li37 {
+    font-family: "Myriad pro Semibold";
+    margin-top: -10px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+
+.li33 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.li39 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.li34 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.li38 {
+    font-family: "Myriad pro Semibold";
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.li40 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.li41 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li42,
+.li43,
+.li44 {
+    font-family: "Myriad pro Semibold";
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.li45 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.li46 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    margin-top: -20px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.li47 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    margin-top: -10px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.li47 hr {
+    margin-top: 35px;
+}
+
+.li48 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.li49 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    margin-top: 9px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
+.li50 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -25px;
+}
+
+.li51 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.li52 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.li53 {
+    position: absolute;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.div2 ul li:hover>ul {
+    display: block;
+
+}
+
+.div1 ul ul {
+    display: none;
+}
+
+.li1 a {
+    position: relative;
+    margin-top: -100px;
+}
+
+
+
+.main-div svg {
+    color: #42526E;
+}
+
+.bi-house:hover,
+.bi-wallet-fill:hover,
+.bi-wallet-fill:hover,
+.bi-card-list:hover,
+.bi-file-earmark-arrow-down:hover,
+.bi-file-check-fill:hover,
+.bi-patch-check-fill:hover,
+.bi-person-square:hover {
+    color: #3BB161;
+}
+
+.bi-house {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-wallet-fill {
+    margin-top: 86px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-card-list {
+    margin-top: 143px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-file-earmark-arrow-down {
+    margin-top: 195px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-file-check-fill {
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-patch-check-fill {
+    margin-top: 305px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-person-square {
+    margin-top: 360px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+
+#opensidebarMenu,
+.sidebarIconToggle,
+.top,
+.middle,
+.bottom {
+    display: none;
+}
+
+
+.sidebarIconToggle {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    /* background-color: #000000; */
+    top: 32px;
+    left: 364px;
+    cursor: pointer;
+}
+
+#opensidebarMenu:checked~.div2 {
+    transform: translateX(0px);
+}
+
+.spinner {
+    height: 3px;
+    background-color: black;
+    transition: all 0.03s;
+}
+
+.spinner.middle,
+.spinner.bottom {
+    margin-top: 3px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.middle {
+    opacity: 0;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+/* <!--****** 2nd Div End **********--> */
+/* ***************GSTIN Report Work CSS ******************/
+
+.div4 {
+    /* background-color: gray; */
+    width: 990px;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    margin-left: 210px;
+    margin-top: -600px;
+    padding: 50px 40px;
+}
+
+.div4 h5 {
+    color: red;
+}
+
+#AcName {
+    margin-top: 30px;
+    width: 420px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+input::file-selector-button {
+    font-weight: bold;
+    /* color: #0f75BB; */
+    padding: 0.5em;
+    /* border: thin solid grey; */
+    border-radius: 2px;
+    width: 420px;
+}
+
+
+#p1 {
+    margin-left: 450px;
+    margin-top: -30px;
+    color: red;
+    font-size: 16px;
+}
+
+.div4 p {
+    font-size: 13px;
+}
+
+.btn1 {
+    margin-top: 0px;
+    margin-left: 560px;
+    width: 125px;
+    border-radius: 5px;
+    height: 40PX;
+    background-color: #0F75BB;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #3BB161;
+}
+
+.bi-x-lg {
+    margin-left: 990px;
+    margin-top: -350px;
+    color: red;
+}
+
+/* *********Last Div start  *********** */
+.last-div {
+    background-color: rgb(204, 204, 204);
+    font-family: 'Comfortaa';
+    text-align: center;
+    padding: 10px 0px;
+    height: 40px;
+    margin-top: 303px;
+}
+
+/* *********Last Div End  *********** */
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        width: 768px;
+    }
+
+    .sec {
+        /* background-color: #3f8555; */
+
+        margin-left: 400px;
+    }
+
+    .bi-search {
+        margin-left: 591px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -63px;
+        color: white;
+        margin-left: 713px;
+    }
+
+    .sub-nav {
+        margin-left: 631px;
+    }
+
+    .div4 {
+        /* background-color: gray; */
+        width: 572px;
+        margin-left: 195px;
+        margin-top: -621px;
+    }
+
+    #AcName {
+        width: 256px;
+        height: 35px;
+    }
+
+    #p1 {
+        margin-left: 264px;
+    }
+
+    .btn1 {
+        margin-top: 59px;
+        margin-left: 325px;
+    }
+
+    .main-div {
+        width: 768px;
+    }
+
+    .bi-x-lg {
+        margin-left: 491px;
+        margin-top: -452px;
+        width: 29px;
+    }
+
+    .last-div {
+        width: 768px;
+        margin-top: 265px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        width: 576px;
+    }
+
+    .sec {
+        margin-left: 282px;
+        width: 157PX;
+    }
+
+    .bi-search {
+        margin-left: 410px;
+    }
+
+    .sub-nav {
+        margin-left: 449px;
+    }
+
+    .main-div {
+        width: 561px;
+    }
+
+    .div2 {
+        margin-left: -24PX;
+        width: 188px;
+    }
+
+    .sub-nav1 {
+        margin-left: 3px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -63px;
+        color: white;
+        margin-left: 528px;
+    }
+
+
+    .div4 {
+        width: 413px;
+        margin-left: 144px;
+        margin-top: -623px;
+    }
+
+    #p1 {
+        margin-left: 0px;
+        margin-top: 6px;
+    } 
+    .btn1 {
+        margin-top: 14px;
+        margin-left: 220px;
+    }
+    
+    .div2 ul ul {
+        margin-left: 119px;
+    }
+    .main-div {
+        width: 576px;
+    }
+
+    .bi-x-lg {
+        margin-left: 348px;
+        margin-top: -493px;
+        width: 21px;
+    }
+.kp2{
+    width: 168px;
+}
+    .last-div {
+        width: 576px;
+        margin-top: 256px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+
+    /* .div2 {
+        display: none;
+    } */
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 425px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
+
+    .main-div {
+        width: 425px;
+    }
+
+    .div4 {
+        padding: 20px 18px;
+        width: 447px;
+        margin-top: -644px;
+        margin-left: -16px;
+    }
+
+    .bi-x-lg {
+        margin-left: 368px;
+        margin-top: -471px;
+        width: 24px;
+    }
+    .div4 {
+        padding: 25px 29px;
+        width: 432px;
+        margin-top: -605px;
+        margin-left: -16px;
+    }
+    .div2 {
+        transform: translateX(-210px);
+        transition: transform 250ms ease-in-out
+    }
+
+    .sidebarIconToggle,
+    .top,
+    .middle,
+    .bottom {
+        display: block;
+    }
+
+
+    .last-div {
+        width: 425px;
+        margin-top: 288px;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+
+    /* .div2 {
+        display: none;
+    } */
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 375px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
+
+    .main-div {
+        width: 375px;
+    }
+
+    .div4 {
+        width: 375px;
+    }
+    .bi-x-lg {
+        margin-left: 316px;
+    }
+
+    .btn1 {
+        margin-top: 14px;
+        margin-left: 205px;
+    }
+
+
+    .sidebarIconToggle {
+        left: 325px;
+    }
+
+
+    .div2 {
+        margin-left: -28PX;
+        transform: translateX(-210px);
+        transition: transform 250ms ease-in-out;
+    }
+
+    .li31 a{
+        font-size: 11px;
+    }
+
+    .div2 ul ul {
+        width: 156px;
+        margin-left: 120px;
+    }
+
+    .last-div {
+        width: 375px;
+        margin-top: 288px;
+    }
+}
+
+
+@media (max-width: 320px) {
+/* 
+    .div2 {
+        display: none;
+    } */
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 320px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
+
+    .main-div {
+        width: 320px;
+    }
+
+    .div4 {
+        width: 322px;
+        margin-top: -601px;
+        margin-left: -19px;
+    }
+
+    .btn1 {
+        margin-top: 14px;
+        margin-left: 155px;
+    }
+
+    .bi-x-lg {
+        margin-left: 276px;
+        margin-top: -492px;
+    }
+
+    .sidebarIconToggle {
+        left: 268px;
+    }
+
+    .kp2 {
+        width: 164px;
+    }
+    
+    .div2 {
+        margin-left: -31PX;
+        width: 185px;
+    }
+
+    .div2 ul ul {
+        width: 162px;
+        margin-left: 112px;
+    }
+    
+    .last-div {
+        width: 320px;
+        margin-top: 284px;
+    }
+
+}

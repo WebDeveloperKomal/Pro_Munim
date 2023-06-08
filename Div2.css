@@ -1,0 +1,364 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Myriad Pro; */
+    /* font-family: "Myriad pro Semibold"; */
+    font-size: 14px;
+}
+
+/* nav css */
+.nav {
+    background-color: #3BB161;
+    height: 80px;
+    /* color: white; */
+}
+
+.logo {
+    position: absolute;
+    height: 120px;
+    margin-top: -9px;
+    padding: 0px 10px;
+    /* width: 200px; */
+}
+
+.sec {
+    /* background-color: #3f8555; */
+    position: absolute;
+    margin-left: 940px;
+    border-radius: 7px;
+    opacity: 0.5;
+    margin-top: 24px;
+    border: none;
+    width: 220PX;
+    height: 35PX;
+}
+
+.bi-search {
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: -60px;
+    color: rgb(255, 255, 255);
+}
+
+.sub-nav {
+    background-color: #3e7e52;
+    margin-left: 1180px;
+    width: 40px;
+    height: 40px;
+    padding: 6px 5px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.bi-bell-fill {
+    color: white;
+    padding-left: 8px;
+    margin-top: 3px;
+
+}
+
+.sub-nav1 {
+    background-color: #3e7e52;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 5px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.bi-person-fill {
+    /* margin-top: 20px; */
+    color: white;
+    margin-left: 2px;
+}
+
+
+.bi-chevron-down {
+    margin-top: 30px;
+    color: white;
+}
+
+
+/* **** Nav Css End ****** */
+.main-div {
+    background-color: #E6E6E6;
+    width: 100%;
+    margin-top: -600px;
+    height: 580px;
+}
+
+
+/* <!-- ********* NEW DIV ************* --> */
+
+.div2 {
+    font-family: "Myriad Pro";
+    background-color: #ffffff;
+    margin-left: 0PX;
+    margin-top: -40px;
+    color: #42526E;
+    width: 210px;
+    height: 600px;
+    font-size: 14px;
+    transform: translateX(-210px);
+    transition: transform 250ms ease-in-out
+}
+
+.kp{
+    position: absolute; 
+     border-radius: 40px;  
+     margin-left: 20px; 
+     width: 180px; 
+     height: 50px; 
+    margin-top: 15px;
+}
+    
+
+.kp:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+
+}
+
+.kp1:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp2:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp3:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp4:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp5:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.kp6:hover {
+    background-color: #E6E6E6;
+    color: #3BB161;
+}
+
+.div2 ul {
+    list-style: none;
+}
+
+.div2 ul a {
+    color: #42526E;
+    text-decoration: none;
+}
+
+.li1,
+.li2,
+.li6,
+.li7,
+.li8,
+.li9,
+.li10 {
+    padding: 22px 63px;
+}
+
+.div2 ul a:hover {
+    color: #00a534;
+
+}
+
+.div2 ul li {
+    /* color: #be0707; */
+    width: 244px;
+    height: 60px;
+    line-height: 50px;
+    /* border-left: 3px solid #a0e2b5; */
+}
+
+
+.div2 ul ul {
+    position: absolute;
+    display: none;
+    height: 600px;
+    width: 220px;
+    /* padding: 0PX 20px; */
+    font-size: 14px;
+    background-color: rgb(214, 214, 214);
+    margin-left: 143px;
+    margin-top: -122px;
+   
+}
+
+.li3 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.li4 {
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.li5 {
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.li11 {
+    position: absolute;
+    margin-top: -20px;
+    font-size: 14px;
+    /* margin-left: 30px; */
+}
+
+.li12 {
+    position: absolute;
+    margin-top: -50px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.li13 {
+    position: absolute;
+    margin-top: -67px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+
+.li14 {
+    position: absolute;
+    margin-top: -80px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.li15 {
+    position: absolute;
+    margin-top: -90px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.div2 ul li:hover>ul {
+    display: block;
+}
+
+.div1 ul ul {
+    display: none;
+}
+
+
+
+.main-div svg {
+    color: #42526E;
+}
+
+.bi-house:hover,
+.bi-wallet-fill:hover,
+.bi-wallet-fill:hover,
+.bi-card-list:hover,
+.bi-file-earmark-arrow-down:hover,
+.bi-file-check-fill:hover,
+.bi-patch-check-fill:hover,
+.bi-person-square:hover {
+    color: #3BB161;
+}
+
+.bi-house {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-wallet-fill {
+    margin-top: 86px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-card-list {
+    margin-top: 143px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-file-earmark-arrow-down {
+    margin-top: 195px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-file-check-fill {
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-patch-check-fill {
+    margin-top: 305px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.bi-person-square {
+    margin-top: 360px;
+    position: absolute;
+    margin-left: 35px;
+}
+
+.main-div:hover {
+    color: #3BB161;
+}
+
+/* <!--****** 2nd Div End **********--> */
+
+
+.sidebarIconToggle {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    /* background-color: #000000; */
+    top: 22px;
+    left: 40px;
+    cursor: pointer;
+}
+
+#opensidebarMenu:checked~.div2 {
+    transform: translateX(0px);
+}
+
+.spinner {
+    height: 3px;
+    background-color: white;
+    transition: all 0.03s;
+}
+
+.spinner.middle,
+.spinner.bottom {
+    margin-top: 3px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.middle {
+    opacity: 0;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.top {
+    transform:  rotate(135deg);
+    margin-top: 8px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+    transform:  rotate(-135deg);
+    margin-top: -9px;
+}

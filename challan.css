@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa';
+}
+
+/* nav css */
+.nav {
+    background-color: #3BB161;
+    height: 80px;
+}
+
+.logo {
+    position: absolute;
+    height: 120px;
+    margin-top: -9px;
+    padding: 0px 30px;
+    /* width: 200px; */
+}
+
+.sec {
+    position: absolute;
+    margin-left: 950px;
+    border-radius: 5px;
+    opacity: 0.5;
+    margin-top: 20px;
+    width: 220PX;
+    height: 35PX;
+}
+
+.bi-search {
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 30px;
+}
+
+.bi-bell-fill {
+    margin-top: 20px;
+    margin-left: 1200px;
+    border-radius: 10px;
+}
+
+.bi-person-circle {
+    margin-top: 20px;
+}
+
+.main-div {
+    background-color: rgb(235, 231, 231);
+}
+
+.div2 {
+    background-color: aliceblue;
+    width: 250px;
+    height: 600px;
+    font-size: 15px;
+    padding: 35px 55px;
+    color: #322b75;
+    text-decoration: none;
+}
+
+.div2 a{
+    text-decoration: none;
+    color: #322b75;
+}
+
+.bi-house {
+    margin-top: -700px;
+    margin-left: -29px;
+}
+
+.bi-wallet-fill {
+    margin-top: -600px;
+    margin-left: -29px;
+}
+
+.bi-card-list {
+    margin-top: -500px;
+    margin-left: -29px;
+}
+
+.bi-file-earmark-arrow-down {
+    margin-top: -400px;
+    margin-left: -29px;
+}
+
+.bi-file-check-fill {
+    margin-top: -300px;
+    margin-left: -29px;
+}
+
+.bi-patch-check-fill {
+    margin-top: -200px;
+    margin-left: -29px;
+}
+
+.bi-person-square {
+    margin-top: -100px;
+    margin-left: -29px;
+}
+
+.div3{
+    background-color: white;
+    margin-left: 280px;
+    margin-top: -550px;
+    width: 700PX;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.div4{
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: -500px;
+    width: 340PX;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+
+
+@media only screen and(max-width: 425px){
+    .logo {
+        position: absolute;
+        height: 115px;
+        margin-top: -10px;
+        padding: 0px 13px;
+        /* width: 200px; */
+    }
+}
+
+
+
+ 
+

@@ -1,0 +1,163 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* opacity: 0.4; */
+  font-family: "COMFORTAA";
+}
+
+.div1 h3 {
+  color: rgb(241, 9, 9);
+  padding: 180px 202px;
+}
+
+.div1 h1 {
+  color: rgb(240, 14, 25);
+  margin-left: 200px;
+  margin-top: -190px;
+}
+
+.div1 h5 {
+  color: rgb(247, 244, 245);
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.div2 {
+  background-color: rgb(225, 236, 236);
+  margin-left: 750px;
+  margin-top: -400px;
+  height: 450px;
+  width: 350px;
+  opacity: 0.4;
+
+}
+
+.div3 {
+  position: absolute;
+  margin-left: 750px;
+  margin-top: -450px;
+}
+
+#img1 {
+  height: 100px;
+}
+
+.div4 {
+  position: absolute;
+  margin-left: 770px;
+  margin-top: -350px;
+  padding: 10px 10px;
+}
+
+.div2:hover {
+  box-shadow: 0 0 50px 0 rgb(250, 83, 5);
+}
+
+.div41 {
+  width: 280px;
+  height: 35px;
+}
+
+.div42 {
+  width: 280px;
+  height: 35px;
+}
+
+.div43 {
+  width: 200px;
+  height: 35px;
+}
+
+.div44 {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 12px;
+  width: 80px;
+  height: 35px;
+  margin-left: -3px;
+}
+
+.div41[type=text]:focus {
+  border-color: rgb(241, 17, 35);
+  box-shadow: 0 0 8px 0 rgb(230, 12, 23);
+}
+
+.div42[type=password]:focus {
+  border-color: rgb(241, 17, 35);
+  box-shadow: 0 0 8px 0 rgb(216, 252, 11);
+}
+
+.div43[type=password]:focus {
+  border-color: rgb(241, 17, 35);
+  box-shadow: 0 0 8px 0 rgb(45, 12, 230);
+}
+
+.div44[type=button]:focus {
+  border-color: rgb(241, 17, 35);
+  box-shadow: 0 0 8px 0 rgb(12, 230, 23);
+}
+
+.div44:hover {
+  background-color: rgb(240, 18, 18);
+}
+
+.div4 h4 {
+  margin-left: 10px;
+  margin-top: 30px;
+  color: #000;
+}
+
+.div45 {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -40px;
+  height: 35px;
+  width: 130px;
+}
+
+.div46 {
+  position: absolute;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 12px;
+  margin-left: 40px;
+  margin-top: -30px;
+  width: 200px;
+  height: 40px;
+}
+
+.div46:hover {
+  background-color: rgb(240, 18, 18);
+}
+
+.div46[type=button]:focus {
+  border-color: rgb(241, 17, 35);
+  box-shadow: 0 0 8px 0 rgb(12, 230, 23);
+}
+
+.div47 {
+  background-color: rgb(247, 237, 237);
+  height: 320px;
+  padding: 80px 200px;
+  margin-top: 200px;
+  font-size: 22px;
+  font-family: "COMFORTAA";
+}
+
+.div47:hover {
+  border-color: rgb(241, 17, 35);
+  box-shadow: 0 0 25px 0 rgb(250, 83, 5);
+}
+
+.div47 h2 {
+  color: red;
+  margin-top: -40px;
+}
+
+.div47 ul {
+  /* margin-top: -20px; */
+  padding: 10px 40px;
+}

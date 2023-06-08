@@ -1,0 +1,111 @@
+/* @import "compass/css3"; */
+
+.tabbed {
+    font-family: 'Comfortaa';
+  width: 1031px;
+  /* margin: 71px; */
+  margin-left: 50px;
+  margin-top: 100px;
+  color: #0a5386;   
+}
+
+.tabbed>input {
+  display: none;
+
+}
+
+.tabbed .tabs h2{
+    color: #3bb161;
+}
+
+
+.tabbed>label {
+    display: block;
+    float: left;
+    color: #666666;
+    background-color: #eee;
+    padding: 14px 15px;
+    margin-right: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #666;
+    transition: background-color .3s;
+}
+
+
+.tabbed>label:hover,
+.tabbed>input:checked+label {
+  background: #fff;
+}
+
+.tabs {
+  clear: both;
+  color: #0a5386;
+  font-size: 17px;
+  perspective: 600px;
+}
+
+.tabs-btn{
+  font-family: 'Comfortaa';
+  margin-left: 5px;
+ margin-top: 25px;
+ font-size: 14px;
+  height: 30px;
+  width: 250px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+.tabs>div {
+  background: #fff;
+  width: 1220px;
+  position: absolute;
+  border: 1px solid gray;
+  padding: 0px 19px 30px;
+  line-height: 1.8em;
+  opacity: 0;
+  transform: rotateX(-20deg);
+  transform-origin: top center;
+  transition: opacity .3s, transform 1s;
+  z-index: 0;
+}
+
+#tab-nav-1:checked~.tabs>div:nth-of-type(1),
+#tab-nav-2:checked~.tabs>div:nth-of-type(2),
+#tab-nav-3:checked~.tabs>div:nth-of-type(3),
+#tab-nav-4:checked~.tabs>div:nth-of-type(4),
+#tab-nav-5:checked~.tabs>div:nth-of-type(5) {
+  transform: rotateX(0);
+  opacity: 1;
+  z-index: 1;
+}
+
+
+.tabs li{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .tabbed {
+    width: 400px
+  }
+
+  .tabbed>label {
+    display: none
+  }
+
+  .tabs>div {
+    width: 400px;
+    border: none;
+    padding: 0;
+    opacity: 1;
+    position: relative;
+    transform: none;
+    margin-bottom: 60px;
+  }
+
+  .tabs>div h2 {
+    border-bottom: 2px solid #4EC6DE;
+    padding-bottom: .5em;
+  }
+}
