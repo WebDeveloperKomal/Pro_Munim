@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sakhi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .navbar {
+            display: flex;
+        }
+
+        .navbar:hover {
+            box-shadow: 0 0 50px 0 rgb(183, 221, 12);
+        }
+
+        .logo {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 45px;
+        }
+
+        .logo img {
+            width: 180px;
+        }
+
+        .nav-list {
+            width: 100%;
+            background-color: #ebcccc;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 25px 25px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: black;
+            margin-left: 50px;
+        }
+
+        .nav-list li a:hover {
+            text-decoration: none;
+            color: red;
+        }
+
+        .div1 {
+            background-color: black;
+            height: 600px;
+            color: yellow;
+        }
+
+        .img2 {
+            /* position: absolute; */
+            height: 400px;
+            margin-left: 680px;
+            margin-top: 50px;
+            border-radius: 30px;
+            width: 500px;
+        }
+
+        .div2 {
+            background-color: rgb(245, 214, 173);
+            height: 1050px;
+        }
+
+        .div2 h1 {
+            text-align: center;
+            margin-left: -100px;
+            margin-top: 20px;
+            color: rgb(121, 121, 16);
+        }
+
+        .div2 h2 {
+            margin-left: 90px;
+            margin-top: -370px;
+            color: red;
+        }
+
+        .div2 h2:hover {
+            color: black;
+        }
+
+
+        .div2 h3 {
+            /* text-align: right; */
+            margin-top: 10px;
+            margin-left: 90px;
+        }
+
+        .div3 h3 {
+            /* text-align: right; */
+            margin-top: 10px;
+            margin-left: 660px;
+        }
+
+        .div3 h2 {
+            margin-top: -380px;
+            margin-left: 660px;
+            color: red;
+        }
+
+        .div3 h2:hover {
+            color: black;
+        }
+
+        .img3 {
+
+            height: 400px;
+            margin-left: 80px;
+            margin-top: 110px;
+            border-radius: 30px;
+            width: 550px;
+        }
+
+        .div4 {
+            background-color: aliceblue;
+            height: 550px;
+        }
+
+        .div4 h1 {
+            position: absolute;
+            margin-left: 100px;
+            font-size: 50px;
+            margin-top: 50px;
+            color: rgb(204, 204, 29);
+        }
+
+        .div5 {
+            position: absolute;
+            background-color: rgb(206, 203, 203);
+            margin-left: 170px;
+            margin-top: 150px;
+            width: 480px;
+            height: 150px;
+            border-radius: 0px 50px 0px;
+        }
+
+        .div5 h3 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 23px;
+            color: red;
+        }
+
+        .div5 h3:hover {
+            color: black;
+        }
+
+        .div6 {
+            position: absolute;
+            background-color: rgb(206, 203, 203);
+            margin-left: 655px;
+            margin-top: 150px;
+            width: 480px;
+            height: 150px;
+            border-radius: 50px 0px 50px;
+        }
+
+        .div6 h3 {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 23px;
+            color: red;
+        }
+
+        .div6 h3:hover {
+            color: black;
+        }
+
+        .div7 {
+            position: absolute;
+            background-color: rgb(206, 203, 203);
+            margin-left: 170px;
+            margin-top: 305px;
+            width: 480px;
+            height: 150px;
+            border-radius: 50px 0px 50px;
+        }
+
+        .div7 h3 {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 23px;
+            color: red;
+        }
+
+        .div7 h3:hover {
+            color: black;
+        }
+
+        .div8 {
+            position: absolute;
+            background-color: rgb(206, 203, 203);
+            margin-left: 655px;
+            margin-top: 305px;
+            width: 480px;
+            height: 150px;
+            border-radius: 0px 50px 0px;
+        }
+
+        .div8 h3 {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 23px;
+            color: red;
+        }
+
+        .div8 h3:hover {
+            color: black;
+        }
+
+        .div9 {
+            background-color: rgb(157, 243, 243);
+            height: 600px;
+        }
+
+        .div9 h1 {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 40px;
+            font-size: 40px;
+        }
+
+        .container {
+            position: absolute;
+            /* position: relative; */
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -250px;
+            margin-top: 90px;
+            /* flex-warp: warp; */
+            padding: 90px;
+        }
+
+        .container .card {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background-color: #dfc21a;
+            margin: 30px 10px;
+            padding: 20px 15px;
+
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+            border-radius: 15px;
+        }
+
+        .container .card:hover {
+            height: 320px;
+        }
+
+        .container .card .image {
+            position: relative;
+            width: 260px;
+            height: 260px;
+
+            top: -40%;
+            left: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .container .card .image img {
+            /* max-width: 100%; */
+            width: 280px;
+            height: 180px;
+            border-radius: 15px;
+        }
+
+        .container .card .content {
+            position: relative;
+            top: -140px;
+            padding: 10px 15px;
+            color: #080707;
+            text-align: center;
+
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+
+        }
+
+        .container .card:hover .content {
+            margin-top: 30px;
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 0.2s;
+
+        }
+
+        .container1 {
+            position: absolute;
+            /* position: relative; */
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 150px;
+            margin-top: 90px;
+            flex-warp: warp;
+            padding: 90px;
+        }
+
+        .container1 .card1 {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background-color: #dfc21a;
+            margin: 30px 10px;
+            padding: 20px 15px;
+
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+            border-radius: 15px;
+        }
+
+        .container1 .card1:hover {
+            height: 320px;
+        }
+
+        .container1 .card1 .image1 {
+            position: relative;
+            width: 260px;
+            height: 260px;
+
+            top: -40%;
+            left: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .container1 .card1 .image1 img {
+            /* max-width: 100%; */
+            width: 280px;
+            height: 180px;
+            border-radius: 15px;
+        }
+
+        .container1 .card1 .content1 {
+            position: relative;
+            top: -140px;
+            padding: 10px 15px;
+            color: #080707;
+            text-align: center;
+
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+
+        }
+
+        .container1 .card1:hover .content1 {
+            margin-top: 30px;
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 0.2s;
+
+        }
+
+        .container2 {
+            position: absolute;
+            /* position: relative; */
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 550px;
+            margin-top: 90px;
+            flex-warp: warp;
+            padding: 90px;
+        }
+
+        .container2 .card2 {
+            position: relative;
+            max-width: 300px;
+            height: 215px;
+            background-color: #dfc21a;
+            margin: 30px 10px;
+            padding: 20px 15px;
+
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            transition: 0.3s ease-in-out;
+            border-radius: 15px;
+        }
+
+        .container2 .card2:hover {
+            height: 320px;
+        }
+
+        .container2 .card2 .image2 {
+            position: relative;
+            width: 260px;
+            height: 260px;
+
+            top: -40%;
+            left: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .container2 .car2 .image2 img {
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        .container2 .card2 .content2 {
+            position: relative;
+            top: -140px;
+            padding: 10px 15px;
+            color: #080707;
+            text-align: center;
+
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+
+        }
+
+        .container2 .card2:hover .content2 {
+            margin-top: 30px;
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 0.2s;
+
+        }
+
+        .div10 {
+            margin-top: 40px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .pg-footer {
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+        .footer {
+            background-color: #004658;
+            color: #fff;
+        }
+
+        .footer-wave-svg {
+            background-color: transparent;
+            display: block;
+            height: 30px;
+            position: relative;
+            top: -1px;
+            width: 100%;
+        }
+
+        .footer-wave-path {
+            fill: #fffff2;
+        }
+
+        .footer-content {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1230px;
+            padding: 40px 15px 450px;
+            position: relative;
+        }
+
+        .footer-content-column {
+            box-sizing: border-box;
+            float: left;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+            color: #fff;
+        }
+
+        .footer-content-column ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-logo-link {
+            display: inline-block;
+        }
+
+        .footer-menu {
+            margin-top: 30px;
+        }
+
+        .footer-menu-name {
+            color: #fffff2;
+            font-size: 15px;
+            font-weight: 900;
+            letter-spacing: .1em;
+            line-height: 18px;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        .footer-menu-list {
+            list-style: none;
+            margin-bottom: 0;
+            margin-top: 10px;
+            padding-left: 0;
+        }
+
+        .footer-menu-list li {
+            margin-top: 5px;
+        }
+
+        .footer-call-to-action-description {
+            color: #fffff2;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .footer-call-to-action-button:hover {
+            background-color: #fffff2;
+            color: #00bef0;
+        }
+
+        .button:last-of-type {
+            margin-right: 0;
+        }
+
+        .footer-call-to-action-button {
+            background-color: #027b9a;
+            border-radius: 21px;
+            color: #fffff2;
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: .1em;
+            line-height: 18px;
+            padding: 12px 30px;
+            margin: 0 10px 10px 0;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color .2s;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .footer-call-to-action {
+            margin-top: 30px;
+        }
+
+        .footer-call-to-action-title {
+            color: #fffff2;
+            font-size: 14px;
+            font-weight: 900;
+            letter-spacing: .1em;
+            line-height: 18px;
+            margin-bottom: 0;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        .footer-call-to-action-link-wrapper {
+            margin-bottom: 0;
+            margin-top: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-call-to-action-link-wrapper a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-social-links {
+            bottom: 0;
+            height: 54px;
+            position: absolute;
+            right: 0;
+            width: 236px;
+        }
+
+        .footer-social-amoeba-svg {
+            height: 54px;
+            left: 0;
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 236px;
+        }
+
+        .footer-social-amoeba-path {
+            fill: #027b9a;
+        }
+
+        .footer-social-link.linkedin {
+            height: 26px;
+            left: 3px;
+            top: 11px;
+            width: 26px;
+        }
+
+        .footer-social-link {
+            display: block;
+            padding: 10px;
+            position: absolute;
+        }
+
+        .hidden-link-text {
+            position: absolute;
+            clip: rect(1px 1px 1px 1px);
+            clip: rect(1px, 1px, 1px, 1px);
+            -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+            clip-path: inset(0px 0px 99.9% 99.9%);
+            overflow: hidden;
+            height: 1px;
+            width: 1px;
+            padding: 0;
+            border: 0;
+            top: 50%;
+        }
+
+        .footer-social-icon-svg {
+            display: block;
+        }
+
+        .footer-social-icon-path {
+            fill: #ff6105;
+            transition: fill .2s;
+        }
+
+        .footer-social-link.twitter {
+            height: 28px;
+            left: 62px;
+            top: 3px;
+            width: 28px;
+        }
+
+        .footer-social-link.youtube {
+            height: 24px;
+            left: 123px;
+            top: 12px;
+            width: 24px;
+        }
+
+        .footer-social-link.github {
+            height: 34px;
+            left: 172px;
+            top: 7px;
+            width: 34px;
+        }
+
+        .footer-copyright {
+            background-color: #027b9a;
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+        }
+
+        .footer-copyright-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1200px;
+        }
+
+        .footer-copyright-text {
+            color: #fff;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .footer-copyright-link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Media Query For different screens */
+        @media (min-width:320px) and (max-width:479px) {
+
+            /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+            .footer-content {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1230px;
+                padding: 40px 15px 1050px;
+                position: relative;
+            }
+        }
+
+        @media (min-width:480px) and (max-width:599px) {
+
+            /* smartphones, Android phones, landscape iPhone */
+            .footer-content {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1230px;
+                padding: 40px 15px 1050px;
+                position: relative;
+            }
+        }
+
+        @media (min-width:600px) and (max-width: 800px) {
+
+            /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+            .footer-content {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1230px;
+                padding: 40px 15px 1050px;
+                position: relative;
+            }
+        }
+
+        @media (min-width:801px) {
+            /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+        }
+
+        @media (min-width:1025px) {
+            /* big landscape tablets, laptops, and desktops */
+
+        }
+
+        @media (min-width:1281px) {
+            /* hi-res laptops and desktops */
+
+        }
+
+        @media (min-width: 760px) {
+            .footer-content {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 1230px;
+                padding: 40px 15px 450px;
+                position: relative;
+            }
+
+            .footer-wave-svg {
+                height: 50px;
+            }
+
+            .footer-content-column {
+                width: 24.99%;
+            }
+        }
+
+        @media (min-width: 568px) {
+            /* .footer-content-column {
+      width: 49.99%;
+  } */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.jpg.png" alt=""></div>
+            <li><a href="Home"><b>HOME</b></a></li>
+            <li><a href="sakhiAbout.html"><b>ABOUT</b></a></li>
+            <li><a href="sakhiservices.html"><b>SERVICESE</b></a></li>
+            <li><a href="sakhicontactus.html"><b>CONTACT US</b></a></li>
+        </ul>
+        <!-- <input type="text" name="search" id="search">
+     <button  class="btn-sm">search</button> -->
+    </nav>
+    <hr>
+    <br>
+    <div class="div1">
+        <h1>Hello</h1>
+        <!-- <div class="img1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaSLNk_zZECK1z4o1wHfw7DHTmP36zIbseSz1oQAnDA&usqp=CAU&ec=48600112" alt=""></div> -->
+    </div>
+    <hr>
+    <div class="div2">
+
+        <br>
+        <h1>SERVICESE</h1>
+        <img src="https://www.theforage.com/blog/wp-content/uploads/2022/07/finance-careers-1024x684.jpg" alt=""
+            class="img2">
+        <h2>Financial And Busines Plan :-</h2>
+        <h3> <b> Choosing a career in finance can feel daunting – there are nearly <br> endless areas of the finance
+                industry, and it is an
+                ever-growing field. <br> For example, the U.S. Bureau of Labor Statistics projects that the <br>
+                financial and business
+                operations field will add nearly 800,000 new <br> jobs between 2020 to 2030. <br><br> So, where do you
+                begin figuring out what
+                jobs exist in the finance <br> industry and which one is right for you? Well, we’ve compiled <br> a list
+                of 20 careers in finance,
+                ranging from entry-level analyst <br> positions to insurance sales and all the way up to chief financial
+                <br> officers. We’ve
+                included salary data (sourced primarily from the <br> labor bureau) and job descriptions to help you get
+                a feel for what <br>
+                these roles look like and understand your options.
+            </b>
+            </h5>
+
+            <div class="div3">
+                <img src="https://www.myinsurancebroker.com/insurance/life-insurance/how-to-utilize-the-flexible-nature-of-whole-life-insurance/whole-life-insurance.jpg"
+                    alt="" class="img3">
+                <h2>Term Insurance Plan :-</h2>
+                <h3> <b>Now secure your family & also cover yourself against 64 critical <br>
+                        illnesses till age 85. Pay Premium Only Till Age 60 and Get <br> Covered Till Age 85 | Buy
+                        Online & Save upto
+                        8% 30 Day Return <br> Option. Accident Cover. Cover 64 Critical Illness. 99.34% Settlement <br>
+                        Ratio. Affordable Premium. Hassle Free Process. Insurance coverage: <br> 10/10 Term Plan, Pay
+                        only till 60
+                        yrs age, Cover 64 Critical Illness.
+                        <br><br>
+                        Now secure your family & also cover yourself against 64 critical <br> illnesses till age 85. Pay
+                        Premium Only Till Age 60 and Get Covered <br> Till Age 85 | Buy Online & Save upto 8% 30 Day
+                        Return
+                        Option. <br> Accident Cover. Cover 64 Critical Illness. 99.34% Settlement Ratio. <br> Affordable
+                        Premium.
+                        Hassle Free Process. Insurance coverage: 10/10 <br> Term Plan, Pay only till 60 yrs age, Cover
+                        64
+                        Critical Illness.
+                    </b>
+                    </h5>
+            </div>
+    </div>
+    <div class="div4">
+        <h1>Plan Highlights :-</h1>
+        <div class="div5">
+            <h3>Choose to increase Life Cover at important milestones with Life stage option^</h3>
+        </div>
+
+        <div class="div6">
+            <h3>Ease of payment with Single / Limited / Regular payment options
+            </h3>
+        </div>
+
+        <div class="div7">
+            <h3>Whole Life Cover till the age of 100*</h3>
+        </div>
+
+        <div class="div8">
+            <h3>Lower premium rate for women</h3>
+        </div>
+    </div>
+
+    <div class="div9">
+        <h1>Life Insuarance Plans and Policies :-</h1>
+        <div class=container>
+            <div class=card>
+                <div class=image>
+                    <img href="#"
+                        src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREhUQExIQEhAVFRUZFRAWEA8QFxAVFRUWFhYXFhUYHSggGBolGxYVIT0iJSkrLi8uGB8zOTMxNygtLisBCgoKDg0OGxAQGy0lICUuLy0tLy4tLS0tLzAtLS0tNy0tLTAuLS8tLy0tLi0tLS0tLS0tLS0tLS8tLS0tLS0tLf/AABEIALgBEgMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAQMEBQYHAgj/xABJEAACAgECAwUFBAQKBwkAAAABAgADEQQSBSExBhMiQVEHFGFxgTKRobEjQnLBFTNSU2KSorKz8BYkNHOC0eE1NkNEVGN0k8L/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAQMCBAUGB//EADcRAAIBAgMFBQcDAwUAAAAAAAABAgMRBCExBRJBUWETcYGRoQYiMrHB0fBCcuEUI/EVUmKCwv/aAAwDAQACEQMRAD8A0qIieqMBESGOOcAS3t1IHIcz+EpXX55DkPzlGCSXcnqZ5kxAIiTEAiJMr06V3V7FRmSsKbGAyKwzbVLfM8obsC3iTEAiJMQCrVqCPiJeV2Bukx0lTjmIBk4lGm/PI9fzlaCBERAEREAREQBERAEREAREQBERAEREAREQDyTLK63d8p71NmeQ6fnKMEkRJiAREmIBEq6fTvYwRFZ3PRVQsT9B5fGZjsx2Zs1r8jspU+OzGf8AhUebfl5+QPV+E8Jp0qbKUCjzbqzn1Zupnm9te0tDZ77KK36nK+S/c/pa/cnd7VDCyq56I5xw/wBn2qsGbDXQP5LHvG/qry/tTo3ZLsWlOi1NLKtxvGHsw9ZsC/ZUAMfskscjGSZldHpjY4QfU+nqZtlVQVQoGABgCcLZ+1No7RcqlWe7T4KMUrvvd37uutr25NFmIpUqNlFXfX84nCr/AGanHg1OT6PTjP1Vv3TXuKdj9ZpwWNfeKP1qibAPmuAw+7E7xxvRbT3i/ZY8x6H/AJGYqaUvaXauAruliGqlucUrrmnG3re2jvYvjhaNWG9DL86nz6JM652l7H06oGxAKtR13gYWw+lgHX9rr8+k5ZrtG9LtVYpV1PNT+BB8wfWe22RtvD7Sg+zymtYvVdU+K6680jRrYeVJ56cy2iTE7JQRLzT255Hr6+ss5cVNgSAXcS37yVwYIJiIgCIiAIiIAiIgCIiAIiIAiIgCUr3wPiZVljc2TAKcSYgkiJMQCJkOBcKbVXJQvINzZv5CD7Tf58yJYTpnsz4aEobUEeK1iFPoiHH4tu+4Tk7c2j/QYKVaPxaR/c/sru3G1i6hS7Wajw4m2aDRJRWtVa7UQYA/Mk+ZJ55lxE9017mCjzI/Ez4w9+rPnJvjq2+b6s72UV0Rn+CaXam89X/Ly/5zKzwi4AA6DkPpPc+mYbDxw9KNKOiVv58WcCpNzk5PiUr6w6lT0Imn3VlWKnqJus1ztBThw/8AK/d/0xOL7RYVToKstYv0eXo7W72beBqWnuc/mv4uYua3217PDV1b0H+sVglD/OL1NZ+fUfH5mbJE8nhMXVwlaNek7Si7r7Po1kzp1KcakXGWh8/RNi7d8N7jVvgYSwd4vwLE7h/WBP1E16fb8JiYYmhCvT0kk148O9aPqeenFwk4vgREmJsGIU+vSX4lhLrTNkY9JIK8SJMggREQBERAEREAREQBERAEREA8WtgGWUuNSeglHEEnmJOIxAIiesSMQCJvGg7drp6KqK9OzFEVSzOEBbHiIAB6nJmkYg8po4/Z+GxsYxxEbqLva7S5XdmvxllOrOm7x4m8j2kP/wCmr/8Asb/lMlw32m1owezT2ZXJCpYhBODjJbGBn4GcwN4+JgXj4zi/6TsNTTjFJpppqU+GfNpl7q4lpp39DpOv9sGsc/oqdPSv9IWWt/Wyo/CXvZ/t3rrtJxG57U7zT10NURVWAhd3Dcsc+SjrOWibd2P/ANg4t/utN/iWTt1MPRjDKK4eskjUuXul9rXEUI3e7WjzDVMpP1Rhj7pm39q9N1WLtPbXavMd2yWq/kRltpXy8j85yrE8u4HWV4zZ+Eq0pRqq0Xk2nb88jKnKUZJx1N/u9pBz4NPy9Wu5/cF/fKdftIfz0ykfC1h+YM0RHB6ScTQp+zeyJR92kmue9P57xe8XXvnL0X2Nk7X9oa9aKmVLK7E3hgxUghtpGCDz5jzA6zWp6xIxOvg8JSwlFUKStFXtnfVt6vPVspnNzlvS1IiVaK9zBcgZOMnoJf8A8Dn+cr+8yypXp03absZ0sPVqq8I38vqYuVKDgzIfwOf5yv7zLXV6M1keJWz6HOMSIYilN7sXn4mVTC1qcd6cbLw+5WiQpky41hERAEREAREQBERAEREAREQC2v6ynPdvUzzBJESYgERJiARKd48MqzNdmezN+vcpUAFUeO18hE9BkA5Y+glWIjGVKSk7JrUlOzTK/BvZ3qNTp01K20L3gJRG7zpkgbmA5dPIGa/xfgt2ltNFqgOADyZWBB6EEfvwfhO2dnuGarR6Q0uqWtXu7lat+HUjcAxIyDuLdByGJyvtf3/vL2ahO7sswQuGACqAoC7gDyAH5+c87hMEqtVwk8ly4931N+cmqfaQXydvz8sYVRym29j/APYOLf7nTf4lsp8P7NjVaDv9Mr2auvUbL693Spx4HC+gOMn4Oeg5ZivglnDuF619QUD6oaeuusNkgq7swJ6EhSTyJ+yZ3KlWnbs087pJccmvS3E0Enqc/wATc+C+zkarR16g3tXfYC48AdAh+wMcjnHPOfPpymmTrXs24/Xfp103MXUDYRtbaVGdhDYx9nyPPImhtlvcg+F39Pz/ACbGFtdnJuPcFu0VxptADAZV1OVsU5wyn6EY+E8KcgGbN7VeMJqNUtSA/wCrhkZipXLlvEAD1A2jn55OOXM6zUPCPlK9jtqclwt63JxKVkTEmJ3jVPemoNjpWCoLuqgscKCzBQWPkOfM+k3Iey3VlS41HDCgOC/vV20HlyJ7rAPMffNKxN84Wo/0c1vL/wA3V/iaSa9eU47u67XaWnMiy4mN0Hs+1Nxv2W6ELRYK7LGvsCFiivlGFZyuHAycc8yhb2I1C6qjRi3RvdqBYUZL7HrXu0Zzvbu8qcKcYBmz9gxR/A+u94Fnu/fLvFW3fjbTjbu5dcTH9i/c/wCGdJ7mLxRi3PfbN/edxqN32eW3bs+uZV21W9Rt5RvwyyV9b887EqKPF3s51iIxVtJe1YO6um9ncY6+FkXn8OsxvCuy+o1Olt1lXdGqksHQs4sOxFsO1QpB8LjzHQ/XoWk02k0J1nF6Xv1LrbfXZUFRBVY9wLhuQO0Nt58+Rzzlr7OuLDT8Nv1FgBX35RZy5BbV0qOcegDk/SVrE1dxtZ5paW71byz9BY5xwnh1mqur09QBssOFySAORJLEA4AAJ6HpKvH+DWaK5tPaazYoUkozMviGRgsoP4TonBuBjhV+p1Tjw99Xp9Jn9Yah0O4eu1WAz/Qea17V/wDtK39ir/DEvp4jtKu7H4beuXyuhY1GIibRAiIgCIiAIiIAiIgFtZ1nme7Os8wSREmIBESZneyfZm3X27FylS47y7GQgPkvq58h9TMZzjBb0nZAjsn2Zt19uxcrUuO8uxkIPQernyH1M7Hw3h1aVjTacd3pUyGcHxXn9YBupBPV/PoJHBtLQKvd9NhdNWSrFTk3PgFhu8wcjLefQcpmlUAYAAA5ADkAPhODisTKtK2kVw+/X5F8f7Wf6vl17+XLv0sm4bjnXdfX/RDixflssDAD5YnjUUXFdrpptQn8llasn6Hep/CZEzG6zj+lqdK3vrFlhUIgJctvYop8OcDcCMnlyPpNaMW3l6DtpP4rPvWfn8XqafXquF1ak17NRwzWDwHu/Cp3AEDFe+plIIPiXHSa77T+IG2yqsWi2usNsIGBz25+Z5Y5cuU2H2hcJX3mrU9DtIPL7ZXcOfy3L900jiGis1GpSisZYqB8F55LN6ADE36E6faRqN2UYtu70ss83wtnmbywm5gnWebk0orLz53ya1z15GP4Hwx9RcqKMgsq58ssfCD9x+gPpOt0cLfSKK6kr7sfqECo5PUh1GGJ+Iz8ZR7L8HrosCr9iiou7kc3usypY/JEPLyBEt6e19ys5IWyssSFbOVBOQAQfzzOXiqlLatNOpC8HnFPW3CXNXWfROz634bCV93do2uknK/Fy0XhFX1Wr6HnU8K09jF34cHsY+JjVpTuPqW3fjOd9peE+72soUrWT4VJyUxzC7vPl0P7wZ1Je2SZH+rgcxk7wSB548Iyfulzx/gFOurDKdykZVl5lfp5jPl1HOTsyhTwE26d7PJptvLounP7lWMpVYpLEQUb6NZ59bN5NePFaWOGxNn4t2J1FO5k22VrkkhgpAHrma0wwcek9TTrQqK8Xc5k6coq705rNc/lweaPMy9HaC1NFbw4LX3Nti2M5D7wymtgAc4x+iXy8zMS7YBPkBmbVZ2B1Y1i6Etpu/ao2g95b3ewErzbu87uR5Y+sVHBW3318uPgVlv2b7X3aGqyhKtNbXa+9lurezJwoxgMBjwg8xPb9srfeqNYun0dVlAsCpXU1aP3iMhLgNkkBjjmJjxwC/3v3AhU1Hed34iQuT0O4AnaRgg46Ecpe6PsZq7dVdo07o2UfxtpsZaq+WQS5XPPn+rnkfSVSjQTcnbNXb6PLu6aDM98H7WX0PqXCUuurLm6l1dqyXZicAMCPtMOvQyhp+O2Jo7dAFr7m60WMxDlww7vAU7sY/RL1B6mXPHeyGo0VIvZqLqCcd9TYbFB8gcgYzgjPMS07RcCt0Ni03Gsu1a2Du2ZhtZmUZLKOeUP4TKHYyacbZ/+ftl/ILziPa/U3ppq7NhXSsjJybNjJtCtZz5nAI5Y+0ZY9oOM2a29tTYEV2CghAwXwjAwCSfxmQu7G6lbtNpy1HeapS1RD2bQAu7xnZkHHoDL+/2caxQxVtJcyZzVVezWcuo2sg5/DMxVTDws00tbeLz9bjM1CJc8L4fZqLk09YHeWNtUNkAHqS3LIAAJPLyMu+0fZ+/QWim7YWZA4ZGZlIJI5FlByCPT0mw5xUt1vPkQYuJmtf2W1NOkr1rd21FoUgqzFqw4yveAqAM9ORPMj1lBuA2jRjX5r7g2d2F3Nv3ZI+ztxjl6zFVIPNPjbx5CxjIm0cI7B6vUVLfmiipvsG+xqzYD0IAU8j8cTH8Y7M6nS3JRcig2MBXYG3VvkheTYzyJGQRn4SFWpyluqSuLGHibhqfZxqq877+HqQMlTqbAcYz0Nc04GTTqwqfA7gmIiZgpWiU5XccpRgkiJMQCJmezvELkLadLXrqt/jEGP0mAeWeq5HLkRymHnumwowYdQeUwqQ3oNfn5cspSjGpGU1dJptc1xOpdluOLpiyOCUbbzX9U9M48xjH3TGdpe3urW16qTVXWCdli1lmdfJsvkdPhyOZgeEcUN1tdLBVNjqofJABY4GRz5ZxM5x7hZ05WvUbMPnZ4uTbcZwfIjI9DznFhB0KlqsL+viehxNHB4+TqUqu7N88r+DtbvV+5m3aspr+E95ZvIalbH7sKz76vE4UEgEkow546zTtMUt0tL6TRPqXptepDaXtKBv0yuVp2rt3lxzOBjrzm0+z+8JS2nwTWhLKcg4Fhzsx89x+s2HV8a09Hhe2tSP1AcsPTwLzH3TCOJVNuMc1e6za87dMtTiVcHWp1OylH3umfy/z0MJ26Y+4rqHQh6zWzJyJU2YVl+jMvP4TmvZnjy06pr7QQjoUO0btnNSDjqQNvl6zc+2fbjTtVbpFqtc21kbztrVd2QGGckkEZxgdJyqbNDA08Rh5060Xaatrwy05Wa9BPEV6UVReW627Pg+p2/wB530WdyyMLa8BwRggg+fyJH1mlNWQduDuzjbjnn0x6zOditaX4a4QA20MWwRnKYGf7ln3T2+q3L73VhLUIV0IB3Buh/wA+k8xhMNicDUeHfvU8916OLvo1yfBpeWdvT4CruqW6tWs9M3FNX6NNWMWvB7z/AOE4/aUr/exMpwzSauk+BwgPVS2VPzXBH1lovaK7OTtb4FTgfLEzfANU+o3s4VKkHis8WM9cc/Qczz5cvWYYue1FJqjGDjwzz8m1x6F2Kq1oUm6qju8ePhZ691iO1eotfR7FVXvI8bKNoCqpJ25OTnAH0M4tOh8X7bU4upVLCSrqj+EDJBCkjqPIznuJ6L2eWO7Kf9ZBReVrcVZ5u0n9OPh5TGOEWoR4N36N2+1ulvF07/sN+yfyneNV/wB4Kf8A4B/xHnCnTII9Rj75t1nb/UnWLr+70/fLSagm23YVLFskbs55nznVxVGdS27yl62NO5uXDVXid9GsXaut0WpFeoTkO+oDsEs+nM/1x6TGW8XOn4hxNX0t2p0d3h1PdoxNSCtubMOSgq1nUr0znlNK4J2hu0mpOrq27yX3IQSjhzkqQDnGcHr1Al9ou2Wqq1d2sTug1/8AG0lWatwBgDBOeXPnnzMqeGkm0leNrLO3FO3S3DkDMcb4PU3DrNVw/Vak6NHAt0lrMAjEp0HIEgtWeefXPKT7YVxq6X/VOkrAbyO2y4nHy3L94mK472vu1VI0wr0+n0+7caqa9gdgc5bn68+WOcu+F+0DU01JS1en1C1/xTW1szV46cwRnAwPX4zOMKqana7TeV1eztq7ZvLXuBuXERjiXCFPJhQ2R5j9Eeo+h+6eqdHpNJfreL12X6iyqy5baFVF7t2Ybs5wSoyPF0xk88TnR7ValtYmvcpZcn2VIIRRtZQoUHIUbievWVeHdsL6b9RqFWlved3e0srmttxJ6bs8ssOvRjKnhalkk/02eevvNtd2evOwubF7LtI9t+q4h3e961fu6xgB7rdzFVJPLAGOf85LjtpwzUWcL0+o1NbLq9MxS3JRi1bttDZUkdRUf6006rtLcmkOiqCVVtZ3jOhtWxjkEAtu6ABR64UfGTw3tRqKar6CRdXqE2uLWtfZyYZQ7htPi/ASyVGp2naK2TVlxsla19M7t27hc6IvGK6NDw6nUAHS6mg1XZ/UBSva+fIAk/LOfKWnHuCjR8MTT2kNUuvQl/5dLOTk/HYefxBmg8V7QWajT6fTOtYTTLtQqG3MMKPFkkfqjoBLjXdq9Rfo00Nmxq6ypWzDd4QmdoJzggA46eQmMcNOLi1zu/N2a65/IXM37Yi/vqh89z3K9yP1cZO/b5ZzjPw2/CYqizXFdH33f+599R3BdfB9rw7CRkjbn6Svwrt7qaalodNPqa0xsF1ZdkA6AMDzA+PP4zH8a7U6nV3V3Wsp7pg1dSqVrTBDchnJzgcycy2nCooqm4qyvne/kuD5+INw9po4d7zd3vvfvndLs29z3W7Ye73Z8WM4zOaTc9X7RLbSTZo+HOxGC7UOzdMdS80sCZYWE4w3ZXy638uRDPUSImwCZRIlaeXgFKJ6wJGIJIiTEAraGzbYjDkQ6kH0wwnRePcaGq2rZRSQhJUsHbBIwep2n5EGc0mf1naTT14yXYnyCH9+JzdoQm5RlC+V9PzvO1sl4RxmsTu5Wa3ut75Xz0XBmas4hbWvgY14xgIe7Uf8CgL+ExNtrOSzMxY9WYlifqZiNV2vqIwtVn1KJ+WZjX7UP5VKvzYt+QE0FRnrY7Utp4GllGS/6x+qX1Ng7Qpla7PofqMj98whl0/EnsrVW24wDgADnj/rKnBtH319VXk7gH9nq39kGdig+woXq6RTb7lmeY2hWp4jEOpSvnbXLPQ6Z2coGkTTMQBW9a1XL5A2nvFY/JmK/JpZcV4FbXc1a1u65ypVHbKk8uY8x0+k2TUUq6MjDKsCCPgZSqt1YQVd9SqqMCwVs9jgdCd3hDYx5GfOdmbdpunL+plaV2+LvvNvgno78srHboVJ0GnTtputO600lknpo+hitJ2aZV73U2JRUOoLKGPw9B+J+Ex/bXtCa6E0+nreqh92LCCht24zyP6viByeZ+Q57EvD03b7C91g6Pa3eFf2V+yv0EwHtH027TJZ5pYM/ssCv57ZvYHbtLEY+lQjD3ZOzby4O2X7ra+RTjK1ScXOUrtZqytFdUtW7aSlpqkmc1iTE+hHnSIkxIBEqIJ4AlUQGTERBAiIgCIiAIiIAiIgCRJkQCYkRAJlsz85cy11FR6jn6iCUN89K3OWuT6GXNNZHM9fSAVIkxAImK411X5H90y8w3GX8YHoPzlVf4CLlhEudJp9wdvJVOP2sf5/CW2M8ppONkmDYtMPAv7I/KZvsxxRNLd3zoz+EgBSAVJxz59eWR1HWYlRgYkzcr4eFejKjU+GSs87Zd6/OBMZOLUlqjrnA+0FOsY11bw4UsVZVXwggHmCR1YTLshGM+ZwOY5nBOPuBnMvZ1ft1yD+Wli/2d//AOJvHbDXdy+jbOF96Xd+ztKnPwAcmeDxnsthY4lUqbmk1fVPg/8Aj0OrSxcnDelbUyWqcVI1lhVUUZZj0Amr9o+N6S7S21i9GYrlR4+bKQyjp6gTK+0QN7jZjpur3fEd4v78TkU2Nk+y+Glu4jtJpxkms4/ps/8AbzK8Ri5L3LLNESJMT3ZzkREmSBIB6USYiCBERAEREAREQBERAERIMA8lpGZS3Rugkq5iUt0QC5iIggiJMQDwRE9zziCbkTXdQ+9yRzyeXx8h+6ZzW2bUY+eMD5nkJjeD6fJ3novT5/8AQfnNet70lFEGSq0+2vZ8Dn4kjnMFo1y6j+kPw5zZMTBcLr/Sj4Z/LH74qx96KQM5EmJshGT7MX93rNO3/uoPo52H+9Nz9q/8VQP6b/3ROeVW7GDjqpDD5qc/unQPaq+U05HQtYfwSczERtjaMv3eib+pfB/2poy9+o974S1nVm05J/3lQ8X9pDOSTo/sy1XeUXaVvI5A/o2qVI+9Sf8AinOmQqdp6jkfmORjAQ7KpVpcE013NfYms95Rl0+R5iTGJ0jXuSBJiIAiIgCIiAIiIAiIgCIiAJBiU7HxAKBQ+k87pW7yW9x5wSet0SlmJIMnERIIEREAgmRvklZ52QC/4Z2T1PE0sGmNW+nYxrezYbA28eDljkR54HMc5jV05p/RMpV0JVlPIhgcNkeucy50OqtocW1WPXYM4dSVIB5EZ9JSfLEsSWYnJYkkknqST1MrjCSm5N5ZW5omx43zLf6A6qjT/wAIltNZp2VW/R2OzothBG4FQMgkAgE4MxO2VA7hSm5ghIYpuIUsOQYr0J+MVISk4tO1n5gp7o3RtjaZYCcmb17Rq7U02gFqlLDW25CRkMEqBBAPrNE2SpqLXsO53d2wBud2c4HQZPkPSU1KO/UhO/w39VYyUmk1zNp9mPeHXBUxtNdneEsFCoMHdz6+IL95mC46VGpvCMrp31u11IKsC5wQR1Ex4U/5+Iwfwk7JKpWqupzSXlxF3aw3z1vE87J62S0xZMmQBJggREQBERAEREAREQBERAEp3V5HxlSRALIUt6fiJce7jHPr6yrJkgt/dV+P3yZWkyAIiIAiIgCRJiAIiIBEmIgERJiARJiIBESYgESYiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAf/9k>
+                </div>
+                <div class=content>
+                    <h3>Term Insurance Plans</h3>
+                    <p>Cheapest Prices, Online Discount Upto 10%*, Free Claim Assistance, 99.4%* Claims Settled.
+                        Compare Quotes from 40+ Insurers @ One Place. Buy Plans from IBG Fincon. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=container1>
+            <div class=card1>
+                <div class=image1>
+                    <img href="#"
+                        src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXTqRlNqVCaAdOrLzPIGJ7T1FfE4d3RcfaPSD7hpi3OA&usqp=CAU&ec=48600112>
+                </div>
+                <div class=content1>
+                    <h3>Health Insurance Plans</h3>
+                    <p>As healthcare costs are mounting, opting for a health cover keeps you worry-free as it covers
+                        various medical expenses that may not be just limited to hospitalization. You can get your
+                        entire family covered under a single policy at an affordable premium. You can buy the family
+                        floater policy online without the need to go through tedious paperwork. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class=container2>
+            <div class=card2>
+                <div class=image2>
+                    <img href="#"
+                        src=data:image/jpeg;base64,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>
+                </div>
+                <div class=content2>
+                    <h3>Retirement Plans</h3>
+                    <p>In today's world, health insurance is required for all age groups, and by paying a standard
+                        manageable premium, you can guard yourself against exorbitant medical bills. Thanks to the
+                        rapid adaptation of internet and mobile technologies, individuals and families can now compare,
+                        access, and purchase multiple products in just a few clicks. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="div10">
+
+
+        <div class="pg-footer">
+            <footer class="footer">
+                <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100"
+                    preserveAspectRatio="none">
+                    <path class="footer-wave-path"
+                        d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
+                    </path>
+                </svg>
+                <div class="footer-content">
+                    <div class="footer-content-column">
+                        <div class="footer-logo">
+                            <a class="footer-logo-link" href="#">
+                                <span class="hidden-link-text">LOGO</span>
+                                <h1>IBG FINCON</h1>
+                            </a>
+                        </div>
+                        <div class="footer-menu">
+                            <h2 class="footer-menu-name"> Get Started</h2>
+                            <ul id="menu-get-started" class="footer-menu-list">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                                    <a href="#">Start</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                                    <a href="#">Documentation</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                                    <a href="#">Installation</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-content-column">
+                        <div class="footer-menu">
+                            <h2 class="footer-menu-name"> Company</h2>
+                            <ul id="menu-company" class="footer-menu-list">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="#">Careers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu">
+                            <h2 class="footer-menu-name"> Legal</h2>
+                            <ul id="menu-legal" class="footer-menu-list">
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                                    <a href="#">Privacy Notice</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="#">Terms of Use</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-content-column">
+                        <div class="footer-menu">
+                            <h2 class="footer-menu-name"> Quick Links</h2>
+                            <ul id="menu-quick-links" class="footer-menu-list">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a target="_blank" rel="noopener noreferrer" href="#">Support Center</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a target="_blank" rel="noopener noreferrer" href="#">Service Status</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="#">Security</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+                                    <a href="#">Customers</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="#">Reviews</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-content-column">
+                        <div class="footer-call-to-action">
+                            <h2 class="footer-call-to-action-title"> Let's Chat</h2>
+                            <p class="footer-call-to-action-description"> Have a support question?</p>
+                            <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
+                        </div>
+                        <div class="footer-call-to-action">
+                            <h2 class="footer-call-to-action-title"> You Call Us</h2>
+                            <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link"
+                                    href="tel:0124-64XXXX" target="_self"> 0124-64XXXX </a></p>
+                        </div>
+                    </div>
+                    <div class="footer-social-links"> <svg class="footer-social-amoeba-svg"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">
+                            <path class="footer-social-amoeba-path"
+                                d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z">
+                            </path>
+                        </svg>
+                        <a class="footer-social-link linkedin" href="#" target="_blank">
+                            <span class="hidden-link-text">Linkedin</span>
+                            <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                <path class="footer-social-icon-path"
+                                    d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="footer-social-link twitter" href="#" target="_blank">
+                            <span class="hidden-link-text">Twitter</span>
+                            <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+                                <path class="footer-social-icon-path"
+                                    d="M 25.855469 5.574219 C 24.914063 5.992188 23.902344 6.273438 22.839844 6.402344 C 23.921875 5.75 24.757813 4.722656 25.148438 3.496094 C 24.132813 4.097656 23.007813 4.535156 21.8125 4.769531 C 20.855469 3.75 19.492188 3.113281 17.980469 3.113281 C 15.082031 3.113281 12.730469 5.464844 12.730469 8.363281 C 12.730469 8.773438 12.777344 9.175781 12.867188 9.558594 C 8.503906 9.339844 4.636719 7.246094 2.046875 4.070313 C 1.59375 4.847656 1.335938 5.75 1.335938 6.714844 C 1.335938 8.535156 2.261719 10.140625 3.671875 11.082031 C 2.808594 11.054688 2 10.820313 1.292969 10.425781 C 1.292969 10.449219 1.292969 10.46875 1.292969 10.492188 C 1.292969 13.035156 3.101563 15.15625 5.503906 15.640625 C 5.0625 15.761719 4.601563 15.824219 4.121094 15.824219 C 3.78125 15.824219 3.453125 15.792969 3.132813 15.730469 C 3.800781 17.8125 5.738281 19.335938 8.035156 19.375 C 6.242188 20.785156 3.976563 21.621094 1.515625 21.621094 C 1.089844 21.621094 0.675781 21.597656 0.265625 21.550781 C 2.585938 23.039063 5.347656 23.90625 8.3125 23.90625 C 17.96875 23.90625 23.25 15.90625 23.25 8.972656 C 23.25 8.742188 23.246094 8.515625 23.234375 8.289063 C 24.261719 7.554688 25.152344 6.628906 25.855469 5.574219 ">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="footer-social-link youtube" href="#" target="_blank">
+                            <span class="hidden-link-text">Youtube</span>
+                            <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                <path class="footer-social-icon-path"
+                                    d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="footer-social-link github" href="#" target="_blank">
+                            <span class="hidden-link-text">Github</span>
+                            <svg class="footer-social-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path class="footer-social-icon-path"
+                                    d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z ">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="footer-copyright-wrapper">
+                        <p class="footer-copyright-text">
+                            <a class="footer-copyright-link" href="#" target="_self"> ©2023. | Designed By: Khushal
+                                Patil. | All rights reserved. </a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

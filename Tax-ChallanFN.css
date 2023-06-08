@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa';
+}
+
+/* nav css */
+.nav {
+    background-color: #3BB161;
+    height: 80px;
+}
+
+.logo {
+    position: absolute;
+    height: 120px;
+    margin-top: -9px;
+    padding: 0px 30px;
+    /* width: 200px; */
+}
+
+.sec {
+    position: absolute;
+    margin-left: 940px;
+    border-radius: 7px;
+    opacity: 0.5;
+    margin-top: 24px;
+    width: 220PX;
+    height: 35PX;
+}
+
+/* .bi-search {
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 30px;
+    
+} */
+
+.sub-nav{
+    background-color: rgb(104, 104, 104);
+    margin-left: 1180px;
+    width: 40px;
+    height: 40px;
+    padding: 6px 5px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.bi-bell-fill {
+    color: white;
+}
+
+.sub-nav1{
+    background-color: rgb(104, 104, 104);
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 5px;
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+.bi-person-circle {
+    /* margin-top: 20px; */
+    color: white;
+}
+
+
+.bi-chevron-down{
+    margin-top: 30px;
+    color: white;
+}
+/* **** Nav Css End ****** */
+
+.main-div {
+    background-color: rgb(221 221 221);
+    width: 100%;
+    margin-top: 0px;
+    height: 600px;
+}
+
+
+/* <!-- ********* 2ND DIV ************* --> */
+
+.div2 {
+    background-color: #ffffff;
+    margin-left: 0PX;
+    margin-top: 0px;
+    width: 250px;
+    height: 600px;
+    font-size: 17px;
+}
+
+.div2 ul {
+    list-style: none;
+}
+
+.div2 ul a {
+    color: #322b75;
+    text-decoration: none;
+}
+
+
+/* .div2 ul a:hover{
+    color: white;
+} */
+
+
+.li1, .li2,  .li6, .li7, .li8, 
+.li9, .li10  {
+    padding: 10px 50px;
+}
+
+.div2 ul li {
+    color: #be0707;
+    width: 250px;
+    height: 60px;
+    line-height: 50px;
+    /* border-left: 3px solid #a0e2b5; */
+}
+
+.li1:hover, .li2:hover, .li6:hover, .li7:hover, 
+.li8:hover, .li9:hover, .li10:hover{
+    background-color: #3BB161;
+    /* border-left: 3px solid yellow; */
+}
+
+.div2 ul ul {
+    position: absolute;
+    display: none;
+    height: 580px;
+    width: 250px;
+    /* padding: 0PX 20px; */
+    font-size: 16px;
+    background-color: rgb(214, 214, 214);
+    margin-left: 200px;
+    margin-top: -120px;
+}
+
+.li3{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.li4{
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.li5{
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.li11{
+    position: absolute;
+    margin-top: -20px;
+    font-size: 16px;
+    /* margin-left: 30px; */
+}
+
+.li12{
+    position: absolute;
+    margin-top: -50px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.li13{
+    position: absolute;
+    margin-top: -67px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+
+.li14{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.li15{
+    position: absolute;
+    margin-top: -90px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.div2 ul li:hover>ul {
+    display: block;
+}
+
+.div1 ul ul{
+    display: none;
+}
+
+/* ******IMOPRTAN HILIGHT***** */
+.div2 ul .li6{
+    background-color: #0F75BB;
+}
+
+/* ******IMOPRTAN HILIGHT***** */
+
+.main-div svg {
+    color: #322b75;
+}
+
+.bi-house {
+    margin-top: -415px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.bi-wallet-fill {
+    margin-top: -353px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.bi-card-list {
+    margin-top: -293px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.bi-file-earmark-arrow-down {
+    margin-top: -233px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.bi-file-check-fill {
+    margin-top: -170px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.bi-patch-check-fill {
+    margin-top: -113px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.bi-person-square {
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+/* <!--****** 2nd Div End **********--> */
+
+
+/* *********Last Div start  *********** */
+.last-div {
+    background-color: rgb(204, 204, 204);
+    font-family: 'Comfortaa';
+    text-align: center;
+    padding: 10px 0px;
+    height: 40px;
+    /* margin-top: 200px; */
+}
+
+/* *********Last Div End  *********** */

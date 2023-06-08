@@ -1,0 +1,2664 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Myriad Pro; */
+    /* font-family: "Myriad pro Semibold"; */
+    font-size: 14px;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+/* nav css */
+.nav {
+    background-color: #3BB161;
+    height: 70px;
+}
+
+.logo {
+    position: absolute;
+    height: 115px;
+    margin-top: -11px;
+    padding: 0px 10px;
+}
+
+
+.div1 input[type=search] {
+    width: 220px;
+    padding: 5px 0px 5px 33px;
+    margin-left: 925px;
+    margin-top: 18px;
+    border-radius: 7px;
+    border: #3e7e52;
+    color: white;
+    background-color: #3e7e52;
+}
+
+.div1 ::placeholder {
+    color: white;
+}
+
+.bi-search {
+    margin-left: -208px;
+    margin-top: -4px;
+    color: white;
+}
+
+.sub-nav {
+    background-color: #3e7e52;
+    margin-left: 1180px;
+    width: 40px;
+    height: 40px;
+    padding: 6px 5px;
+    border-radius: 200px;
+    margin-top: -35px;
+}
+
+.div-cal {
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+.bi-bell-fill {
+    color: white;
+    padding-left: 8px;
+    margin-top: 3px;
+
+}
+
+.sub-nav1 {
+    background-color: #3e7e52;
+    margin-left: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 7px 5px;
+    border-radius: 200px;
+    margin-top: -35px;
+}
+
+.bi-person-fill {
+    color: white;
+    margin-left: 2px;
+}
+
+
+.bi-chevron-down {
+    margin-top: -50px;
+    color: white;
+}
+
+
+/* **** Nav Css End ****** */
+/* .main-div {
+    background-color: #E6E6E6;
+    width: 100%;
+    margin-top: -700px;
+    height: 700px;
+} */
+
+
+/* <!-- ********* 2ND DIV ************* --> */
+
+.div2 {
+    /* font-family: "Myriad Pro"; */
+    position: relative;
+    background-color: #ffffff;
+    margin-left: 0PX;
+    margin-top: -826px;
+    /* color: #36455f; */
+    width: 210px;
+    height: 850px;
+    font-size: 14px;
+}
+
+.div2 ul a {
+    color: #36455f;
+    text-decoration: none;
+}
+
+/* .div2 ul a:hover{
+    font-weight: 700;
+} */
+
+
+/* ********** Overview *********** */
+
+
+.kp span {
+    /* background-color: #dce8f1;
+    color: #3BB161; */
+    list-style: none;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+
+.kp span:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+    /* height: 50px; */
+}
+
+
+.bi-house-fill {
+    margin-top: -3px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+
+/* ********** Overview End *********** */
+
+/* *********** Fees & Payment ******** */
+
+
+.kp1 {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 100px;
+    height: 2px;
+    width: 50px;
+}
+
+
+.kp1 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -2px;
+    width: 180px;
+    height: 55px;
+}
+
+
+.kp1 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.bi-wallet-fill {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.kp1 .li2 ul {
+    margin-top: -78px;
+    margin-left: 180px;
+}
+
+.kp1 .li2 {
+    margin-top: -21px;
+}
+
+
+
+.div2 .kp1 .li2 .item .menu-btn {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    padding: 0px 20px;
+    top: 30px;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.div2 .kp1 .li2 .item .menu-btn:hover {
+    color: #01b83b;
+}
+
+.div2 .kp1 .li2 .item .menu-btn .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp1 .li2 .item .sub-menu {
+    /* background-color: #dce8f1; */
+    font-family: "Myriad Pro";
+    /* overflow: hidden; */
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp1 .li2 .item .sub-menu a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    top: 40px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp1 .li2 .item .sub-menu span:hover {
+    color: #01b83b;
+}
+
+.div2 .kp1 .li2 .item:target .sub-menu {
+    max-height: 500px;
+}
+
+.kp1 .sub-menu hr {
+    margin-top: 50px;
+}
+
+/* *********** Fees & Payment End ******** */
+
+/* *********** Tax Challan **************** */
+
+.kp2 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.kp2 p {
+    background-color: rgb(231, 240, 248);
+    color: #3BB161;
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -13px;
+    margin-top: -2px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+
+.kp2 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.bi-calendar2-range-fill {
+    margin-top: -px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+.kp2 .li6 ul {
+    margin-top: -136px;
+    margin-left: 182px;
+}
+
+.kp2 .li6 {
+    margin-left: -22px;
+    margin-top: -14px;
+}
+
+
+.div2 .kp2 .li6 .item .menu-btn1,
+.div2 .kp2 .li6 .item .menu-btn2,
+.div2 .kp2 .li6 .item .menu-btn3 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    padding: 20px 20px;
+    top: 20px;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.div2 .kp2 .li6 .item .menu-btn1:hover,
+.div2 .kp2 .li6 .item .menu-btn2:hover,
+.div2 .kp2 .li6 .item .menu-btn3:hover {
+    color: #01b83b;
+}
+
+.div2 .kp2 .li6 .item .menu-btn1 .bi-caret-down-fill,
+.div2 .kp2 .li6 .item .menu-btn2 .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp2 .li6 .item .sub-menu1,
+.div2 .kp2 .li6 .item .sub-menu2 {
+    /* background-color: #dce8f1; */
+    font-family: "Myriad Pro";
+    /* overflow: hidden; */
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp2 .li6 .item .sub-menu1 a,
+.div2 .kp2 .li6 .item .sub-menu2 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    top: 10px;
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp2 .li6 .item .sub-menu1 span:hover,
+.div2 .kp2 .li6 .item .sub-menu2 span:hover {
+    color: #01b83b;
+}
+
+.div2 .kp2 .li6 .item:target .sub-menu1 {
+    max-height: 500px;
+}
+
+
+
+/* *********** Tax Challan End **************** */
+
+/* ********  Document ************ */
+.kp3 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 210px;
+    height: 20px;
+    width: 50px;
+}
+
+.kp3 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -13px;
+    margin-top: 0px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+
+.kp3 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.bi-file-earmark-fill {
+    margin-top: -0px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+.kp3 .li7 ul {
+    margin-top: -190px;
+    margin-left: 183px;
+}
+
+.kp3 .li7 {
+    margin-left: -22px;
+}
+
+.kp3 ul .Doc1 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* padding: 12px 20px; */
+}
+
+.kp3 .li7 .Doc1:hover {
+    color: #01b83b;
+}
+
+
+/* ********  Document End ************ */
+
+/* *********Acknowledgement******** */
+.kp4 {
+    position: absolute;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 18px;
+    height: 5px;
+    margin-top: 270px;
+}
+
+
+.kp4 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -3px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+.bi-file-earmark-check-fill {
+    margin-top: -3px;
+    position: absolute;
+    margin-left: -28px;
+}
+
+.kp4 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+
+.kp4 .li8 ul {
+    margin-top: -250px;
+    margin-left: 181px;
+}
+
+.kp4 ul .Ack1 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    /* top: 15px; */
+}
+
+.kp4 ul .Ack2 {
+    display: block;
+    /* color: #fff; */
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    top: 15px;
+}
+
+.kp4 ul .item .sub-menu1 {
+    top: 50px;
+    margin-top: 20px;
+}
+
+.kp4 .li8 .Ack1:hover,
+.kp4 .li8 .Ack2:hover {
+    color: #01b83b;
+}
+
+.div2 .kp4 .li8 .item .Ack2 .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp4 .li8 .item .sub-menu1 {
+    /* background-color: #dce8f1; */
+    font-family: "Myriad Pro";
+    /* overflow: hidden; */
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+
+    transition-property: background, max-height;
+}
+
+.div2 .kp4 .li8 .item .sub-menu1 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp4 .li8 .item .sub-menu1 span:hover {
+    color: #01b83b;
+}
+
+
+
+/* ********* Acknowledgement End ******** */
+
+/* ********Insure & Invest*********** */
+.kp5 {
+    position: absolute;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 18px;
+    height: 5px;
+    margin-top: 328px;
+}
+
+.kp5 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 15px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -4px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+    transition: .1s ease;
+}
+
+.bi-patch-check-fill {
+    margin-top: 0px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.kp5 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+    transition: .1s ease;
+}
+
+.kp5 .li9 ul {
+    margin-top: -308px;
+    margin-left: 180px;
+}
+
+.kp5 ul .Invest {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    top: 15px;
+}
+
+.kp5 ul .item .sub-menu1 {
+    top: 50px;
+    margin-top: 20px;
+}
+
+.kp5 .li9 .Invest:hover,
+.kp5 .li9 .Invest1:hover {
+    color: #01b83b;
+}
+
+.div2 .kp5 .li9 .item .Invest .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp5 .li9 .item .sub-menu1 {
+    font-family: "Myriad Pro";
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp5 .li9 .item .sub-menu1 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp5 .li9 .item .sub-menu1 span:hover {
+    color: #01b83b;
+}
+
+.kp5 .li9 .Invest1 {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+/* ******** Insure & Invest End *********** */
+
+/* *********** My Account ********* */
+.kp6 {
+    position: absolute;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 18px;
+    height: 5px;
+    margin-top: 386px;
+}
+
+.kp6 p {
+    /* background-color: rgb(231, 240, 248);
+    color: #3BB161; */
+    font-size: 14px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 17px 0px 0px 40px;
+    margin-left: -15px;
+    margin-top: -4px;
+    width: 180px;
+    height: 55px;
+    text-decoration: none;
+}
+
+.bi-person-square {
+    margin-top: 2px;
+    position: absolute;
+    margin-left: -30px;
+}
+
+.kp6 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+}
+
+.kp6 .li10 ul {
+    margin-top: -367px;
+    margin-left: 180px;
+}
+
+
+.kp6 p:hover {
+    background-color: rgb(231, 240, 248);
+    color: #01b83b;
+    transition: .1s ease;
+}
+
+.kp6 .li10 ul {
+    margin-top: -367px;
+    margin-left: 180px;
+}
+
+.kp6 ul .Acc {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    top: 15px;
+}
+
+.kp6 ul .item .sub-menu1 {
+    top: 50px;
+    margin-top: 20px;
+}
+
+.kp6 .li10 .Acc:hover {
+    color: #01b83b;
+}
+
+.div2 .kp6 .li10 .item .Acc .bi-caret-down-fill {
+    float: right;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.div2 .kp6 .li10 .item .sub-menu1 {
+    font-family: "Myriad Pro";
+    transition: 0.3s;
+    max-height: 0px;
+    width: 194px;
+    margin-left: 2px;
+    transition-property: background, max-height;
+}
+
+.div2 .kp6 .li10 .item .sub-menu1 a {
+    display: block;
+    position: relative;
+    padding: 0px 20px;
+    /* line-height: 25px; */
+    transition: 0.03s;
+    transition-property: background;
+}
+
+.div2 .kp6 .li10 .item .sub-menu1 span:hover {
+    color: #01b83b;
+}
+
+.kp6 .li10 .Invest1 {
+    display: block;
+    font-family: "Myriad pro Semibold";
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+/* *********** My Account End ********* */
+
+.div2 ul {
+    list-style: none;
+}
+
+.div2 ul li {
+    width: 182px;
+    height: 46px;
+    margin-top: -19px;
+}
+
+.div2 ul ul {
+    position: absolute;
+    display: none;
+    height: 850px;
+    width: 200px;
+    font-size: 14px;
+    background-color: rgb(214, 214, 214);
+    margin-left: 143px;
+    margin-top: -100px;
+}
+
+
+
+/* ************ FN **************** */
+
+.div2 ul li:hover>ul {
+    display: block;
+
+}
+
+.div1 ul ul {
+    display: none;
+}
+
+#opensidebarMenu,
+.sidebarIconToggle,
+.top,
+.middle,
+.bottom {
+    display: none;
+}
+
+
+.sidebarIconToggle {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    /* background-color: #000000; */
+    top: 32px;
+    left: 364px;
+    cursor: pointer;
+}
+
+#opensidebarMenu:checked~.div2 {
+    transform: translateX(0px);
+}
+
+.spinner {
+    height: 3px;
+    background-color: black;
+    transition: all 0.03s;
+}
+
+.spinner.middle,
+.spinner.bottom {
+    margin-top: 3px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.middle {
+    opacity: 0;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+#opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+
+/* <!--****** 2nd Div End **********--> */
+
+
+/* div3 css */
+.div3 {
+    color: #36455f;
+    /* background-color: rgb(243, 243, 243); */
+    margin-left: 210px;
+    margin-top: 0px;
+    height: 1000px;
+}
+
+.div3 h3 {
+    font-size: 23px;
+    margin-top: -5px;
+    padding: 25px 20px;
+}
+
+/* div4 css */
+.div4 {
+    font-style: 14px;
+    margin-top: -933px;
+    color: #36455f;
+    background-color: white;
+    margin-left: 240px;
+    width: 750px;
+    height: 750px;
+    border-radius: 15px;
+}
+
+.div4 h5 {
+    font-family: "Myriad pro Semibold";
+    padding: 30px 20px;
+    font-size: 18px;
+}
+
+.div4 .bi-question-circle {
+    margin-top: -120px;
+    margin-left: 120px;
+    color: #36455f;
+}
+
+.div4 a {
+    color: #01b83b;
+}
+
+.subdiv {
+    font-family: "Myriad pro Semibold";
+    background-color: rgb(233, 227, 227);
+    margin-left: 550px;
+    margin-top: -90PX;
+    width: 170px;
+    height: 40px;
+    padding: 13px 20px;
+}
+
+.bi-question-circle1 {
+    margin-top: -57px;
+    margin-left: 110px;
+    color: #36455f;
+
+}
+
+/* First Row Start */
+
+/* <!-- 1st Card start --> */
+p.groove {
+    font-family: Myriad Pro;
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.subdiv1 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 55px;
+}
+
+.subdiv1 h5 {
+    position: absolute;
+    font-size: 13px;
+    margin-left: -60px;
+    margin-top: -10px;
+    color: #322b75;
+}
+
+/* <!-- 2nd Card start --> */
+p.groove1 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 200px;
+    margin-top: -90px;
+    border-radius: 15px;
+}
+
+.subdiv2 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 260px;
+    margin-top: -65px;
+}
+
+.subdiv2 h5 {
+    position: absolute;
+    font-size: 13px;
+    margin-left: -55px;
+    margin-top: -10px;
+    color: #322b75;
+}
+
+/* <!-- 3nd Card start --> */
+p.groove2 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 380px;
+    margin-top: -89px;
+    border-radius: 15px;
+}
+
+.subdiv3 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 439px;
+    margin-top: -60px;
+}
+
+.subdiv3 h5 {
+    position: absolute;
+    font-size: 13px;
+    margin-left: -45px;
+    margin-top: -5px;
+    color: #322b75;
+}
+
+/* <!-- 4th Card start --> */
+p.groove3 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 560px;
+    margin-top: -94px;
+    border-radius: 15px;
+}
+
+.subdiv4 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 620px;
+    margin-top: -65px;
+}
+
+.subdiv4 h5 {
+    position: absolute;
+    font-size: 13px;
+    margin-left: -56px;
+    margin-top: -5px;
+    color: #322b75;
+}
+
+/* First Row End */
+
+/* <!-- 5th Card start --> */
+p.groove4 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.subdiv5 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 110px;
+}
+
+.subdiv5 h5 {
+    position: absolute;
+    font-size: 14px;
+    margin-left: -72px;
+    margin-top: -10px;
+    color: #322b75;
+}
+
+/* <!-- 6th Card start --> */
+p.groove5 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 200px;
+    margin-top: -90px;
+    border-radius: 15px;
+}
+
+.subdiv6 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 260px;
+    margin-top: -65px;
+}
+
+.subdiv6 h5 {
+    position: absolute;
+    font-size: 14px;
+    margin-left: -70px;
+    margin-top: -10px;
+    color: #322b75;
+}
+
+/* <!-- 7th Card start --> */
+p.groove6 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 380px;
+    margin-top: -89px;
+    border-radius: 15px;
+}
+
+.subdiv7 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 439px;
+    margin-top: -60px;
+}
+
+.subdiv7 h5 {
+    position: absolute;
+    font-size: 13px;
+    margin-left: -60px;
+    margin-top: -5px;
+    color: #322b75;
+}
+
+/* <!-- 8th Card start --> */
+p.groove7 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 560px;
+    margin-top: -94px;
+    border-radius: 15px;
+}
+
+.subdiv8 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 620px;
+    margin-top: -65px;
+}
+
+.subdiv8 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 13px;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+/* 2nd Row end */
+
+/* <!-- 9th Card start --> */
+p.groove8 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.subdiv9 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.subdiv9 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -45px;
+    margin-top: -5px;
+}
+
+/* <!-- 10th Card start --> */
+p.groove9 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 200px;
+    margin-top: -100px;
+    border-radius: 15px;
+}
+
+.subdiv10 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 260px;
+    margin-top: -65px;
+}
+
+.subdiv10 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -45px;
+    margin-top: -5px;
+}
+
+/* <!-- 11th Card start --> */
+p.groove10 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 380px;
+    margin-top: -100px;
+    border-radius: 15px;
+}
+
+.subdiv11 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 439px;
+    margin-top: -65px;
+}
+
+.subdiv11 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -55px;
+    margin-top: -5px;
+}
+
+/* <!-- 12th Card start --> */
+p.groove11 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 560px;
+    margin-top: -100px;
+    border-radius: 15px;
+}
+
+.subdiv12 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 620px;
+    margin-top: -65px;
+}
+
+.subdiv12 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -37px;
+    margin-top: -5px;
+}
+
+/* 3nd Row end */
+
+/* <!-- 13th Card start --> */
+p.groove12 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.subdiv13 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+
+.subdiv13 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -65px;
+    margin-top: -5px;
+}
+
+/* <!-- 14th Card start --> */
+p.groove13 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 170px;
+    margin-left: 200px;
+    margin-top: -100px;
+    border-radius: 15px;
+}
+
+.subdiv14 {
+    background-color: #3BB161;
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 260px;
+    margin-top: -65px;
+}
+
+.subdiv14 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -75px;
+    margin-top: -5px;
+}
+
+.div4 svg {
+    color: white;
+}
+
+.div4 .bi-question-circle {
+    color: black;
+}
+
+.subdiv .bi-question-circle1 {
+    color: black;
+}
+
+/* <!-- 15th Card start 
+p.groove14 {
+    position: absolute;
+    border-style: groove;
+    height: 150px;
+    width: 150px;
+    margin-left: 360px;
+    margin-top: -81px;
+    border-radius: 15px;
+}
+
+.subdiv15{
+    background-color: #3BB161;
+    padding: 12px 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 405px;
+    margin-top: -65px;
+}
+
+.subdiv15 h5{
+    position: absolute;
+    font-size: 13px;
+    margin-left: -60px;
+    margin-top: -10px;
+}
+--> */
+
+
+/* 4th row end */
+
+/* div5 css */
+.div5 {
+    font-family: "Myriad Pro";
+    margin-left: 760px;
+    background-color: white;
+    margin-top: -680px;
+    width: 320px;
+    border-radius: 15px;
+    height: 370px;
+}
+
+.div5 h4 {
+    padding: 32px 18px;
+    font-size: 16px;
+
+}
+
+.div5 .bi-question-circle2 {
+    margin-left: 60px;
+    margin-top: -118px;
+    color: #36455f;
+}
+
+
+/* fist card start */
+p.groove15 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 130px;
+    width: 140px;
+    margin-left: 775px;
+    margin-top: -290px;
+    border-radius: 15px;
+}
+
+.subdiv16 {
+    /* background-color: #9993f5; */
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 815px;
+    margin-top: -270px;
+}
+
+.subdiv16 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -35px;
+    margin-top: -20px;
+}
+
+.subdiv16 svg {
+    color: #322b75;
+}
+
+/* 2nd card start */
+p.groove16 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 130px;
+    width: 140px;
+    margin-left: 925px;
+    margin-top: -85px;
+    border-radius: 15px;
+}
+
+.subdiv17 {
+    /* background-color: #9993f5; */
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 965px;
+    margin-top: -65px;
+}
+
+.subdiv17 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+.subdiv17 svg {
+    color: #322b75;
+}
+
+
+/* 3th card start */
+p.groove17 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 130px;
+    width: 140px;
+    margin-left: 775px;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.subdiv18 {
+    /* background-color: #9993f5; */
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 815px;
+    margin-top: 100px;
+}
+
+.subdiv18 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.subdiv18 svg {
+    color: #322b75;
+}
+
+/* 4th card start */
+p.groove18 {
+    font-family: "Myriad Pro";
+    position: absolute;
+    border-style: groove;
+    height: 130px;
+    width: 140px;
+    margin-left: 925px;
+    margin-top: -90px;
+    border-radius: 15px;
+}
+
+.subdiv19 {
+    /* background-color: #9993f5; */
+    padding: 13px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 965px;
+    margin-top: -65px;
+}
+
+.subdiv19 h5 {
+    color: #322b75;
+    position: absolute;
+    font-size: 14px;
+    margin-left: -45px;
+    margin-top: -20px;
+}
+
+.subdiv19 svg {
+    color: #322b75;
+}
+
+
+/* div6 css */
+.div6 {
+    font-family: "Myriad Pro";
+    margin-left: 760px;
+    background-color: white;
+    margin-top: 89px;
+    width: 320px;
+    border-radius: 15px;
+    height: 360px;
+}
+
+.div6 h4 {
+    padding: 30px 30px;
+    font-size: 17px;
+}
+
+.div6 svg {
+    margin-left: 120px;
+    margin-top: -116px;
+    color: #36455f;
+}
+
+.subdiv20 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    margin-left: 260px;
+    margin-top: -82PX;
+    width: 40px;
+    height: 20px;
+    padding: 13px 20px;
+}
+
+.subdiv20 svg {
+    font-family: "Myriad Pro";
+    margin-left: -10px;
+    margin-top: -23px;
+}
+
+/* Main sub-div */
+.sub-div {
+    font-family: "Myriad Pro";
+    position: relative;
+    padding: 25px 45px;
+}
+
+.sub-div hr {
+    margin-top: 5px;
+}
+
+/* 1st sub-div */
+.sub-div1 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    height: 20px;
+}
+
+.sub-div1 h6 {
+    font-size: 10px;
+    padding: 4px 5px;
+}
+
+
+/* 2nd sub-div */
+.sub-div2 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    margin-top: -5px;
+    height: 20px;
+}
+
+.sub-div2 h6 {
+    font-size: 9px;
+    padding: 6px 3px;
+}
+
+/* 3rd sub-div */
+.sub-div3 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px
+}
+
+.sub-div3 h6 {
+    font-size: 9px;
+    padding: 6px 3px;
+}
+
+/* 4th sub-div */
+.sub-div4 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px
+}
+
+.sub-div4 h6 {
+    font-size: 9px;
+    padding: 6px 3px;
+}
+
+/* 5th sub-div */
+.sub-div5 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px
+}
+
+.sub-div5 h6 {
+    font-size: 9px;
+    padding: 6px 4px;
+}
+
+/* 6th sub-div */
+.sub-div6 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px
+}
+
+.sub-div6 h6 {
+    font-size: 9px;
+    padding: 6px 4px;
+}
+
+/* 7th sub-div */
+.sub-div7 {
+    font-family: "Myriad Pro";
+    background-color: rgb(199, 224, 248);
+    text-align: center;
+    border-radius: 70px;
+    width: 20px;
+    height: 20px;
+    margin-top: -5px
+}
+
+.sub-div7 h6 {
+    font-size: 9px;
+    padding: 6px 3px;
+}
+
+/* Main sub-div end */
+.div7 {
+    padding: 104px 80px;
+    margin-top: -380px;
+}
+
+.div7 h6 {
+    padding: 5px 0px;
+    color: #322b75;
+}
+
+
+/* *********Last Div start  *********** */
+.last-div {
+    background-color: rgb(204, 204, 204);
+    font-family: "Myriad Pro";
+    text-align: center;
+    padding: 10px 0px;
+    height: 40px;
+    margin-left: -240px;
+    margin-top: 0px;
+
+}
+
+/* *********Last Div End  *********** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        width: 768px;
+    }
+
+    .sec {
+        margin-left: 352px;
+    }
+
+
+    .bi-search {
+        margin-left: 545px;
+    }
+
+    .sidebarIconToggle {
+        left: 685px;
+    }
+
+
+    .bi-chevron-down {
+        margin-top: -63px;
+        color: white;
+        margin-left: 713px;
+    }
+
+
+    .sub-nav {
+        margin-left: 582px;
+    }
+
+    .div2 {
+        height: 1440px;
+        margin-top: -799px;
+        transform: translateX(-210px);
+        transition: transform 250ms ease-in-out
+    }
+
+    .div2 ul ul {
+        height: 1440px;
+    }
+
+    .sidebarIconToggle,
+    .top,
+    .middle,
+    .bottom {
+        display: block;
+    }
+
+    .subdiv {
+        margin-top: -100PX;
+    }
+
+    .div3 {
+        margin-left: -2px;
+        margin-top: -13px;
+        height: 1000px;
+    }
+
+    .div4 {
+        margin-left: 7px;
+        height: 731px;
+    }
+
+    .div5 {
+        margin-left: 61px;
+        margin-top: 89px;
+        height: 202px;
+        width: 618px;
+    }
+
+    p.groove15 {
+        margin-left: 70px;
+        margin-top: -151px;
+    }
+
+    .subdiv16 {
+        margin-left: 115px;
+        margin-top: -124px;
+    }
+
+    .subdiv16 h5 {
+        margin-left: -35px;
+        margin-top: -9px;
+    }
+
+    p.groove16 {
+        margin-left: 221px;
+        margin-top: -91px;
+    }
+
+    p.groove17 {
+        margin-left: 375px;
+        margin-top: -92px;
+    }
+
+    .subdiv17 {
+        margin-left: 261px;
+        margin-top: -64px;
+    }
+
+    p.groove18 {
+        margin-left: 527px;
+        margin-top: -91px;
+    }
+
+    .subdiv18 {
+        margin-left: 418px;
+        margin-top: -66px;
+    }
+
+    .subdiv19 {
+        margin-left: 572px;
+        margin-top: -65px;
+    }
+
+    .subdiv20 {
+        margin-left: 533px;
+    }
+
+    .div6 {
+        margin-left: 61px;
+        margin-top: 91px;
+        width: 621px;
+        height: 402px;
+    }
+
+    .div7 {
+        padding: 43px 136px;
+        margin-top: -380px;
+    }
+
+    .sub-div {
+        font-family: "Myriad Pro";
+        position: relative;
+        padding: 29px 95px;
+    }
+
+    .last-div {
+        width: 768px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav {
+        width: 576px;
+    }
+
+    .sec {
+        margin-left: 252px;
+        width: 157PX;
+    }
+
+    .bi-search {
+        margin-left: 383px;
+    }
+
+    .sub-nav {
+        margin-left: 419px;
+    }
+
+    .sidebarIconToggle {
+        left: 508px;
+    }
+
+    .div2 {
+        margin-left: -21PX;
+        margin-top: -943px;
+        height: 1610px;
+    }
+
+    .div2 ul ul {
+        height: 1609px;
+    }
+
+    .subdiv {
+        margin-top: -100PX;
+        margin-left: 363px;
+    }
+
+    .div4 {
+        margin-left: 7px;
+        height: 875px;
+        width: 547px;
+    }
+
+    p.groove {
+        margin-left: 16px;
+    }
+
+    .subdiv1 {
+        margin-left: 77px;
+    }
+
+    p.groove1 {
+        margin-left: 194px;
+    }
+
+    .subdiv2 {
+        margin-left: 253px;
+    }
+
+    p.groove2 {
+        margin-left: 371px;
+    }
+
+    .subdiv3 {
+        margin-left: 432px;
+    }
+
+    p.groove3 {
+        margin-left: 15px;
+        margin-top: 64px;
+    }
+
+    p.groove4 {
+        margin-left: 194px;
+        margin-top: -89px;
+    }
+
+    .subdiv4 {
+        margin-left: 75px;
+        margin-top: 104px;
+    }
+
+    .subdiv5 {
+        margin-left: 255px;
+        margin-top: -62px;
+    }
+
+    .subdiv6 {
+        margin-left: 435px;
+        margin-top: -65px;
+    }
+
+    p.groove7 {
+        margin-left: 195px;
+        margin-top: -89px;
+    }
+
+    .subdiv7 {
+        margin-left: 73px;
+        margin-top: 107px;
+    }
+
+    p.groove6 {
+        margin-left: 16px;
+        margin-top: 67px;
+    }
+
+    p.groove5 {
+        margin-left: 371px;
+        margin-top: -90px;
+    }
+
+    .subdiv8 {
+        margin-left: 255px;
+        margin-top: -58px;
+    }
+
+    p.groove8 {
+        margin-left: 372px;
+        margin-top: -94px;
+    }
+
+    .subdiv9 {
+        margin-left: 436px;
+        margin-top: -56px;
+    }
+
+    p.groove9 {
+        margin-left: 15px;
+        margin-top: 56px;
+    }
+
+    .subdiv10 {
+        margin-left: 71px;
+        margin-top: 100px;
+    }
+
+
+    p.groove10 {
+        margin-left: 194px;
+        margin-top: -95px;
+    }
+
+    .subdiv11 {
+        margin-left: 252px;
+        margin-top: -65px;
+    }
+
+    p.groove11 {
+        margin-left: 370px;
+        margin-top: -94px;
+    }
+
+    .subdiv12 {
+        margin-left: 428px;
+        margin-top: -65px;
+    }
+
+    p.groove12 {
+        margin-left: 14px;
+        margin-top: 68px;
+    }
+
+    .subdiv13 {
+        margin-left: 70px;
+        margin-top: 114px;
+    }
+
+    p.groove13 {
+        margin-left: 194px;
+        margin-top: -96px;
+    }
+
+    .subdiv14 {
+        margin-left: 250px;
+        margin-top: -64px;
+    }
+
+    .sub-nav1 {
+        margin-left: 3px;
+    }
+
+
+    .div5 {
+        margin-left: -1px;
+        margin-top: 89px;
+        height: 202px;
+        width: 554px;
+    }
+
+    p.groove15 {
+        margin-left: 12px;
+        margin-top: -151px;
+        width: 130px;
+    }
+
+    .subdiv16 {
+        margin-left: 52px;
+        margin-top: -131px;
+    }
+
+    p.groove16 {
+        margin-left: 146px;
+        margin-top: -85px;
+        width: 130px;
+    }
+
+    .subdiv17 {
+        margin-left: 186px;
+        margin-top: -64px;
+    }
+
+    p.groove17 {
+        margin-left: 280px;
+        margin-top: -86px;
+        width: 130px;
+    }
+
+    .subdiv18 {
+        margin-left: 318px;
+        margin-top: -61px;
+    }
+
+    p.groove18 {
+        margin-left: 413px;
+        margin-top: -91px;
+        width: 130px;
+    }
+
+    .subdiv19 {
+        margin-left: 450px;
+        margin-top: -65px;
+    }
+
+
+    .div6 {
+        margin-left: 0px;
+        margin-top: 91px;
+        width: 546px;
+        height: 402px;
+    }
+
+    .subdiv20 {
+        margin-left: 478px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -63px;
+        color: white;
+        margin-left: 528px;
+    }
+
+    .last-div {
+        width: 576px;
+    }
+}
+
+
+@media(max-width: 425px) {
+
+    /* .div2 {
+        display: none;
+    } */
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+    .nav {
+        width: 425px;
+    }
+
+    .sidebarIconToggle {
+        left: 374px;
+    }
+
+    .div2 {
+        margin-left: -21PX;
+        margin-top: -774px;
+        height: 1610px;
+    }
+
+    .div3 {
+        margin-left: -2px;
+        margin-top: -13px;
+        height: 1644px;
+    }
+
+
+    .div3 h3 {
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 12px 14px;
+        margin-left: -7px;
+        position: absolute;
+    }
+
+    .bi-question-circle {
+        margin-top: -73px;
+        width: 17px;
+        margin-left: 107px;
+    }
+
+    .subdiv {
+        margin-left: 284px;
+        margin-top: -60PX;
+        width: 120px;
+        height: 25px;
+        padding: 4px 10px;
+    }
+
+    .bi-question-circle1 {
+        margin-top: -54px;
+        width: 17px;
+        margin-left: 89px;
+    }
+
+    .div4 {
+        font-family: "Myriad pro Semibold";
+        font-style: 14px;
+        margin-top: -1593px;
+        background-color: white;
+        margin-left: 4px;
+        width: 416px;
+        height: 722px;
+        border-radius: 16px;
+    }
+
+    .div4 h5 {
+        padding: 9px 8px;
+    }
+
+
+
+    /* <!-- 1st Card start --> */
+    p.groove {
+        height: 126px;
+        width: 125px;
+        margin-left: 11px;
+        margin-top: 9px;
+    }
+
+    .subdiv1 {
+        margin-left: 48px;
+        margin-top: 20px;
+    }
+
+    .subdiv1 h5 {
+        font-size: 14px;
+        margin-left: -41px;
+        margin-top: 20px;
+    }
+
+    /* <!-- 2nd Card start --> */
+    p.groove1 {
+        height: 126px;
+        width: 125px;
+        margin-left: 148px;
+        margin-top: -75px;
+    }
+
+    .subdiv2 {
+        margin-left: 186px;
+        margin-top: -61px;
+    }
+
+    .subdiv2 h5 {
+        font-size: 14px;
+        margin-left: -41px;
+        margin-top: 20px;
+    }
+
+    /* <!-- 3rd Card start --> */
+    p.groove2 {
+        height: 126px;
+        width: 125px;
+        margin-left: 284px;
+        margin-top: -78px;
+    }
+
+    .subdiv3 {
+        margin-left: 323px;
+        margin-top: -64px;
+    }
+
+    .subdiv3 h5 {
+        font-size: 14px;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    /* <!-- 4th Card start --> */
+    p.groove3 {
+        height: 126px;
+        width: 125px;
+        margin-left: 11px;
+        margin-top: 55px;
+    }
+
+    .subdiv4 {
+        margin-left: 48px;
+        margin-top: 82px;
+    }
+
+    .subdiv4 h5 {
+        font-size: 14px;
+        margin-left: -43px;
+        margin-top: 13px;
+    }
+
+    /* <!-- 5th Card start --> */
+    p.groove4 {
+        height: 126px;
+        width: 125px;
+        margin-left: 148px;
+        margin-top: -77px;
+    }
+
+    .subdiv5 {
+        margin-left: 185px;
+        margin-top: -63px;
+    }
+
+    .subdiv5 h5 {
+        font-size: 12px;
+        margin-left: -53px;
+        margin-top: 15px;
+    }
+
+    /* <!-- 6th Card start --> */
+    p.groove5 {
+        height: 128px;
+        width: 127px;
+        margin-left: 282px;
+        margin-top: -78px;
+    }
+
+    .subdiv6 {
+        margin-left: 320px;
+        margin-top: -64px;
+    }
+
+    .subdiv6 h5 {
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: 15px;
+    }
+
+    /* <!-- 7th Card start --> */
+    p.groove6 {
+        height: 126px;
+        width: 124px;
+        margin-left: 11px;
+        margin-top: 56px;
+    }
+
+    .subdiv7 {
+        margin-left: 48px;
+        margin-top: 83px;
+    }
+
+    .subdiv7 h5 {
+        font-size: 14px;
+        margin-left: -51px;
+        margin-top: 14px;
+    }
+
+    /* <!-- 8th Card start --> */
+
+    p.groove7 {
+        height: 126px;
+        width: 124px;
+        margin-left: 150px;
+        margin-top: -77px;
+    }
+
+    .subdiv8 {
+        border-radius: 50px;
+        margin-left: 188px;
+    }
+
+    .subdiv8 h5 {
+        font-size: 14px;
+        margin-left: -27px;
+        margin-top: 12px;
+    }
+
+    /* <!-- 9th Card start --> */
+
+    p.groove8 {
+        height: 126px;
+        width: 124px;
+        margin-left: 283px;
+        margin-top: -82px;
+    }
+
+    .subdiv9 {
+        margin-left: 322px;
+        margin-top: -64px;
+    }
+
+    .subdiv9 h5 {
+        font-size: 13px;
+        margin-left: -31px;
+        margin-top: 12px;
+    }
+
+
+    /* <!-- 10th Card start --> */
+
+    p.groove9 {
+        height: 126px;
+        width: 124px;
+        margin-left: 11px;
+        margin-top: 51px;
+    }
+
+    .subdiv10 {
+        width: 50px;
+        height: 50px;
+        margin-left: 48px;
+        margin-top: 82px;
+    }
+
+    .subdiv10 h5 {
+        margin-left: -31px;
+        margin-top: 15px;
+    }
+
+    /* <!-- 11th Card start --> */
+
+    p.groove10 {
+        height: 125px;
+        width: 124px;
+        margin-left: 150px;
+        margin-top: -81px;
+    }
+
+    .subdiv11 {
+        border-radius: 50px;
+        margin-left: 186px;
+        margin-top: -65px;
+    }
+
+    .subdiv11 h5 {
+        margin-left: -43px;
+        margin-top: 15px;
+    }
+
+    /* <!-- 12th Card start --> */
+
+    p.groove11 {
+        height: 123px;
+        width: 124px;
+        margin-left: 284px;
+        margin-top: -79px;
+    }
+
+    .subdiv12 {
+        margin-left: 323px;
+        margin-top: -63px;
+    }
+
+    .subdiv12 h5 {
+        margin-left: -19px;
+        margin-top: 14px;
+    }
+
+    /* <!-- 13th Card start --> */
+    p.groove12 {
+        height: 126px;
+        width: 124px;
+        margin-left: 11px;
+        margin-top: 57px;
+    }
+
+    .subdiv13 {
+        margin-left: 49px;
+        margin-top: 87px;
+    }
+
+    .subdiv13 h5 {
+        margin-left: -52px;
+        margin-top: 22px;
+    }
+
+    /* <!-- 14th Card start --> */
+    p.groove13 {
+        height: 126px;
+        width: 124px;
+        margin-left: 151px;
+        margin-top: -80px;
+    }
+
+    .subdiv14 {
+        margin-left: 188px;
+        margin-top: -62px;
+    }
+
+    .subdiv14 h5 {
+        margin-left: -55px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    /* div5 */
+
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: 0px;
+        margin-top: 82px;
+        width: 412px;
+        border-radius: 16px;
+        height: 350px;
+    }
+
+    .div5 h4 {
+        padding: 7px 15px;
+    }
+
+    .div5 .bi-question-circle2 {
+        margin-left: 65px;
+        margin-top: -71px;
+        color: black;
+    }
+
+    .div5 svg {
+        margin-left: 55px;
+        margin-top: -70px;
+        width: 16px;
+    }
+
+    /* <!-- 1th Card start --> */
+    p.groove15 {
+        height: 142px;
+        width: 125px;
+        margin-left: 9px;
+        margin-top: -316px;
+    }
+
+    .subdiv16 {
+        margin-left: 48px;
+        margin-top: -291px;
+    }
+
+    .subdiv16 h5 {
+        font-size: 14px;
+        margin-left: -23px;
+        margin-top: 23px;
+    }
+
+    /* <!-- 2th Card start --> */
+    p.groove16 {
+        height: 142px;
+        width: 125px;
+        margin-left: 146px;
+        margin-top: -90px;
+    }
+
+    .subdiv17 {
+        font-size: 14px;
+        margin-left: 184px;
+        margin-top: -65px;
+    }
+
+    .subdiv17 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -28px;
+        margin-top: 12px;
+    }
+
+    /* <!-- 3th Card start --> */
+    p.groove17 {
+        height: 142px;
+        width: 125px;
+        margin-left: 282px;
+        margin-top: -89px;
+    }
+
+    .subdiv18 {
+        margin-left: 321px;
+        margin-top: -60px;
+    }
+
+    .subdiv18 h5 {
+        font-size: 14px;
+        margin-left: -14px;
+        margin-top: 12px;
+    }
+
+    /* <!-- 4th Card start --> */
+    p.groove18 {
+        height: 142px;
+        width: 125px;
+        margin-left: 9px;
+        margin-top: 60px;
+    }
+
+    .subdiv19 {
+        margin-left: 48px;
+        margin-top: 98px;
+    }
+
+    .subdiv19 h5 {
+        font-size: 14px;
+        margin-left: -34px;
+        margin-top: 18px;
+    }
+
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 18px;
+        background-color: white;
+        margin-top: 104px;
+        width: 378px;
+        border-radius: 16px;
+        height: 390px;
+    }
+
+    .div6 h4 {
+        padding: 18px 20px;
+        font-size: 18px;
+    }
+
+    .div6 .bi-question-circle2 {
+        margin-left: 116px;
+        margin-top: -92px;
+    }
+
+    .subdiv20 {
+        margin-left: 315px;
+        margin-top: -67PX;
+    }
+
+
+    .sub-div {
+        font-family: "Myriad Pro";
+        position: relative;
+        padding: 29px 59px;
+    }
+
+    .div7 {
+        padding: 9px 102px;
+        margin-top: -346px;
+    }
+
+    .h6,
+    h6 {
+        font-size: 14px;
+    }
+
+    .bi-sort-alpha-down {
+        margin-left: -8px;
+        margin-top: -28px;
+        width: 20px;
+    }
+
+    .last-div {
+        padding: 10px 97px;
+        height: 40px;
+        width: 574px;
+        margin-left: -152px;
+        margin-top: 0px;
+    }
+
+    p {
+        margin-top: 0px;
+        margin-left: 118px;
+        margin-bottom: 1rem;
+    }
+}
