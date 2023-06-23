@@ -4,31 +4,33 @@
     /* font-family: Myriad Pro; */
     /* font-family: "Myriad pro Semibold"; */
     font-size: 14px;
-}
-
-body {
-    background-color: #E6E6E6;
+    box-sizing: border-box;
 }
 
 /* nav css */
 .nav {
     background-color: #3BB161;
-    height: 70px;
+    height: 100px;
 }
 
 .logo {
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
     position: absolute;
-    height: 115px;
+    margin-left: 183px;
     margin-top: -11px;
     padding: 0px 10px;
 }
 
 
 .div1 input[type=search] {
-    width: 220px;
-    padding: 5px 0px 5px 33px;
-    margin-left: 925px;
-    margin-top: 18px;
+    width: 239px;
+    height: 47px;
+    padding: 5px 0px 5px 40px;
+    margin-left: 1138px;
+    margin-top: 26px;
     border-radius: 7px;
     border: #3e7e52;
     color: white;
@@ -37,750 +39,506 @@ body {
 
 .div1 ::placeholder {
     color: white;
+    font-size: 16.2px;
 }
 
 .bi-search {
-    margin-left: -208px;
+    margin-left: -227px;
     margin-top: -4px;
     color: white;
 }
 
 .sub-nav {
     background-color: #3e7e52;
-    margin-left: 1180px;
-    width: 40px;
-    height: 40px;
+    margin-left: 1396px;
+    width: 55px;
+    height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .div-cal {
     background-color: red;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border-radius: 30px;
-    margin-top: -30px;
-    margin-left: -10px;
+    margin-top: -47px;
+    margin-left: -14px;
 }
 
 .bi-bell-fill {
     color: white;
-    padding-left: 8px;
-    margin-top: 3px;
-
+    padding-left: 7px;
+    margin-top: -1px;
+    margin-left: 4px;
 }
 
 .sub-nav1 {
     background-color: #3e7e52;
     margin-left: 8px;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .bi-person-fill {
     color: white;
-    margin-left: 2px;
+    padding-left: 5px;
+    margin-left: 6px;
+    margin-top: -2px;
 }
 
 
 .bi-chevron-down {
-    margin-top: -50px;
+    margin-top: -71px;
+    margin-left: 6px;
     color: white;
+
+}
+
+body {
+    background-color: #e6e6e6;
 }
 
 
 /* **** Nav Css End ****** */
-/* .main-div {
-    background-color: #E6E6E6;
+.main-div {
+    background-color: #0f75bb;
+    position: relative;
     width: 100%;
-    margin-top: -700px;
-    height: 700px;
-} */
+    margin-top: 0px;
+    height: 3px;
+}
 
 
 /* <!-- ********* 2ND DIV ************* --> */
 
-.div2 {
-    /* font-family: "Myriad Pro"; */
-    position: relative;
-    background-color: #ffffff;
-    margin-left: 0PX;
-    margin-top: -826px;
-    /* color: #36455f; */
-    width: 210px;
-    height: 850px;
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 85%;
+    width: 220px;
+    position: absolute;
+    z-index: 1;
+    top: 103px;
+    left: 367px;
+    background-color: white;
+    overflow-x: hidde n;
+    padding-top: 10px;
+    line-height: 50px;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); */
+}
+
+.sidenav b {
+    margin-left: 30px;
+
+}
+
+
+.sidenav a {
     font-size: 14px;
+    margin-left: -10px;
+    color: #42526E;
+    outline: none;
+    display: block;
+    border: none;
 }
 
-.div2 ul a {
-    color: #36455f;
+
+
+button {
+    border: none;
+}
+
+.sidenav a:hover {
+    background: rgb(231, 240, 248);
+    color: #349753;
+    width: 200px;
+    margin-left: 9px;
+    border-radius: 12px;
+}
+
+.dropdown-btn {
+    line-height: 50px;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-file-arrow-up-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-file-person-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-file-bar-graph-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-check-circle-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.fa-caret-down {
+    margin-top: 16px;
+    /* margin-left: 10px; */
+}
+
+
+.sidenav .dropdown-container1 a:active {
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+/* ******************************************* */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+    outline: none;
+    border: none;
+    display: block;
+}
+
+.dropdown-btn:hover {
+    outline: none;
+    border: none;
+    display: block;
+
+}
+
+a {
+    display: block;
+    outline: none;
+    border: none;
+}
+
+
+.dropdown-container1 {
+    display: block;
+    padding-left: 2px;
+    /* color: black; */
+
+}
+
+.sidenav .dropdown-container1 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: 30px;
+    height: 21px;
+}
+
+.dropdown-container2 {
+    margin-left: 65px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container2 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -25px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container3 {
+    margin-left: 55px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container3 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -7px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container4 {
+    margin-left: 55px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container4 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -36px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container5 {
+    margin-left: 75px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container5 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -30px;
+    height: 21px;
+}
+
+.dropdown-container6 {
+    margin-left: 65px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container6 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -20px;
+    height: 21px;
+    width: 300px;
+}
+
+/* ************************************** */
+
+
+
+.dropdown-btn i {
+    margin-left: -23px;
+
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 0px 8px 6px 16px;
     text-decoration: none;
+    background-color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+
 }
 
-/* .div2 ul a:hover{
-    font-weight: 700;
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+
+}
+
+.sidenav a i:hover {
+    color: #349753;
+
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    /* background-color: rgb(180, 180, 180); */
+    color: #42526E;
+}
+
+.active :hover {
+    /* background: rgb(231, 240, 248); */
+    color: #349753;
+    width: 200px;
+    margin-left: 9px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+.dropdown-btn a:hover {
+    margin: inherit;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container1 {
+    display: none;
+    padding-left: 10px;
+    position: relative;
+}
+
+.dropdown-container2 {
+    display: none;
+    padding-left: 8px;
+
+}
+
+.dropdown-container3 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container4 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container5 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container6 {
+    display: none;
+    padding-left: 8px;
+}
+
+
+
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -39px;
+}
+
+.sidenav .bi-house-door-fill {
+    /* color: #42526E; */
+    margin-left: 18px;
+    font-size: 14px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-alipay {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-alipay:hover {
+    color: #349753;
+
+}
+
+.sidenav .bi-file {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-file:hover {
+    color: #349753;
+}
+
+.sidenav .bi-upload {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+/* 
+a {
+    display: none;
 } */
 
-
-/* ********** Overview *********** */
-
-
-.kp span {
-    /* background-color: #dce8f1;
-    color: #3BB161; */
-    list-style: none;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: 15px;
-    margin-top: 20px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+.dropdown-btn .bi-upload:hover {
+    color: #349753;
 }
 
-
-.kp span:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    /* height: 50px; */
-}
-
-
-.bi-house-fill {
-    margin-top: -3px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-
-/* ********** Overview End *********** */
-
-/* *********** Fees & Payment ******** */
-
-
-.kp1 {
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 100px;
-    height: 2px;
-    width: 50px;
-}
-
-
-.kp1 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
+.sidenav .bi-browser-chrome {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -2px;
-    width: 180px;
-    height: 55px;
+    color: #42526E;
+    margin-left: 0px;
+
 }
 
-
-.kp1 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+.dropdown-btn .bi-browser-chrome:hover {
+    color: #349753;
 }
 
-.bi-wallet-fill {
-    margin-top: 0px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp1 .li2 ul {
-    margin-top: -78px;
-    margin-left: 180px;
-}
-
-.kp1 .li2 {
-    margin-top: -21px;
-}
-
-
-
-.div2 .kp1 .li2 .item .menu-btn {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    padding: 0px 20px;
-    top: 30px;
-    transition: 0.3s;
-    transition-property: color;
-}
-
-.div2 .kp1 .li2 .item .menu-btn:hover {
-    color: #01b83b;
-}
-
-.div2 .kp1 .li2 .item .menu-btn .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp1 .li2 .item .sub-menu {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp1 .li2 .item .sub-menu a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    top: 40px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp1 .li2 .item .sub-menu span:hover {
-    color: #01b83b;
-}
-
-.div2 .kp1 .li2 .item:target .sub-menu {
-    max-height: 500px;
-}
-
-.kp1 .sub-menu hr {
-    margin-top: 50px;
-}
-
-/* *********** Fees & Payment End ******** */
-
-/* *********** Tax Challan **************** */
-
-.kp2 {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 150px;
-}
-
-.kp2 p {
-    background-color: rgb(231, 240, 248);
-    color: #3BB161;
+.sidenav .bi-receipt {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -13px;
-    margin-top: -2px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+    color: #42526E;
+    margin-left: 0px;
 }
 
-
-.kp2 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+.dropdown-btn .bi-receipt:hover {
+    color: #349753;
 }
 
-.bi-calendar2-range-fill {
-    margin-top: -px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-.kp2 .li6 ul {
-    margin-top: -136px;
-    margin-left: 182px;
-}
-
-.kp2 .li6 {
-    margin-left: -22px;
-    margin-top: -14px;
-}
-
-
-.div2 .kp2 .li6 .item .menu-btn1,
-.div2 .kp2 .li6 .item .menu-btn2,
-.div2 .kp2 .li6 .item .menu-btn3 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    padding: 20px 20px;
-    top: 20px;
-    transition: 0.3s;
-    transition-property: color;
-}
-
-.div2 .kp2 .li6 .item .menu-btn1:hover,
-.div2 .kp2 .li6 .item .menu-btn2:hover,
-.div2 .kp2 .li6 .item .menu-btn3:hover {
-    color: #01b83b;
-}
-
-.div2 .kp2 .li6 .item .menu-btn1 .bi-caret-down-fill,
-.div2 .kp2 .li6 .item .menu-btn2 .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1,
-.div2 .kp2 .li6 .item .sub-menu2 {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1 a,
-.div2 .kp2 .li6 .item .sub-menu2 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    top: 10px;
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1 span:hover,
-.div2 .kp2 .li6 .item .sub-menu2 span:hover {
-    color: #01b83b;
-}
-
-.div2 .kp2 .li6 .item:target .sub-menu1 {
-    max-height: 500px;
-}
-
-
-
-/* *********** Tax Challan End **************** */
-
-/* ********  Document ************ */
-.kp3 {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 210px;
-    height: 20px;
-    width: 50px;
-}
-
-.kp3 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
+.sidenav .bi-person-circle {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -13px;
-    margin-top: 0px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-person-circle:hover {
+    color: #349753;
 }
 
 
-.kp3 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+.sidenav .dropdown-container1 a:hover {
+    background: none;
 }
 
-.bi-file-earmark-fill {
-    margin-top: -0px;
-    position: absolute;
-    margin-left: -28px;
+.sidenav .dropdown-container2 a:hover {
+    background: none;
 }
 
-.kp3 .li7 ul {
-    margin-top: -190px;
-    margin-left: 183px;
+.sidenav .dropdown-container3 a:hover {
+    background: none;
 }
 
-.kp3 .li7 {
-    margin-left: -22px;
+.sidenav .dropdown-container4 a:hover {
+    background: none;
 }
 
-.kp3 ul .Doc1 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 10px;
-    /* padding: 12px 20px; */
+.sidenav .dropdown-container5 a:hover {
+    background: none;
 }
 
-.kp3 .li7 .Doc1:hover {
-    color: #01b83b;
-}
-
-
-/* ********  Document End ************ */
-
-/* *********Acknowledgement******** */
-.kp4 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 270px;
-}
-
-
-.kp4 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -3px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-.bi-file-earmark-check-fill {
-    margin-top: -3px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-.kp4 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-
-.kp4 .li8 ul {
-    margin-top: -250px;
-    margin-left: 181px;
-}
-
-.kp4 ul .Ack1 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    /* top: 15px; */
-}
-
-.kp4 ul .Ack2 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp4 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp4 .li8 .Ack1:hover,
-.kp4 .li8 .Ack2:hover {
-    color: #01b83b;
-}
-
-.div2 .kp4 .li8 .item .Ack2 .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-
-    transition-property: background, max-height;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-
-
-/* ********* Acknowledgement End ******** */
-
-/* ********Insure & Invest*********** */
-.kp5 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 328px;
-}
-
-.kp5 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -4px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-    transition: .1s ease;
-}
-
-.bi-patch-check-fill {
-    margin-top: 0px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp5 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    transition: .1s ease;
-}
-
-.kp5 .li9 ul {
-    margin-top: -308px;
-    margin-left: 180px;
-}
-
-.kp5 ul .Invest {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp5 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp5 .li9 .Invest:hover,
-.kp5 .li9 .Invest1:hover {
-    color: #01b83b;
-}
-
-.div2 .kp5 .li9 .item .Invest .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 {
-    font-family: "Myriad Pro";
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-.kp5 .li9 .Invest1 {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
+.sidenav .dropdown-container6 a:hover {
+    background: none;
 }
 
 
 
 
-/* ******** Insure & Invest End *********** */
-
-/* *********** My Account ********* */
-.kp6 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 386px;
-}
-
-.kp6 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 17px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -4px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-.bi-person-square {
-    margin-top: 2px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp6 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-.kp6 .li10 ul {
-    margin-top: -367px;
-    margin-left: 180px;
-}
-
-
-.kp6 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    transition: .1s ease;
-}
-
-.kp6 .li10 ul {
-    margin-top: -367px;
-    margin-left: 180px;
-}
-
-.kp6 ul .Acc {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp6 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp6 .li10 .Acc:hover {
-    color: #01b83b;
-}
-
-.div2 .kp6 .li10 .item .Acc .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 {
-    font-family: "Myriad Pro";
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-.kp6 .li10 .Invest1 {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-
-/* *********** My Account End ********* */
-
-.div2 ul {
-    list-style: none;
-}
-
-.div2 ul li {
-    width: 182px;
-    height: 46px;
-    margin-top: -19px;
-}
-
-.div2 ul ul {
-    position: absolute;
-    display: none;
-    height: 850px;
-    width: 200px;
-    font-size: 14px;
-    background-color: rgb(214, 214, 214);
-    margin-left: 143px;
-    margin-top: -100px;
-}
-
-
+/* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
 
-.div2 ul li:hover>ul {
+.sidenav ul li:hover>ul {
     display: block;
 
-}
-
-.div1 ul ul {
-    display: none;
 }
 
 #opensidebarMenu,
@@ -796,13 +554,12 @@ body {
     position: absolute;
     height: 22px;
     width: 22px;
-    /* background-color: #000000; */
     top: 32px;
     left: 364px;
     cursor: pointer;
 }
 
-#opensidebarMenu:checked~.div2 {
+#opensidebarMenu:checked~.sidenav {
     transform: translateX(0px);
 }
 
@@ -835,13 +592,15 @@ body {
 /* <!--****** 2nd Div End **********--> */
 
 
+
 /* div3 css */
 .div3 {
+    position: absolute;
     color: #36455f;
     /* background-color: rgb(243, 243, 243); */
-    margin-left: 210px;
+    margin-left: 580px;
     margin-top: 0px;
-    height: 1000px;
+    height: 0px;
 }
 
 .div3 h3 {
@@ -852,12 +611,13 @@ body {
 
 /* div4 css */
 .div4 {
+    position: absolute;
     font-style: 14px;
-    margin-top: -933px;
+    margin-top: 65px;
     color: #36455f;
     background-color: white;
-    margin-left: 240px;
-    width: 750px;
+    margin-left: 600px;
+    width: 652px;
     height: 750px;
     border-radius: 15px;
 }
@@ -881,16 +641,16 @@ body {
 .subdiv {
     font-family: "Myriad pro Semibold";
     background-color: rgb(233, 227, 227);
-    margin-left: 550px;
+    margin-left: 509px;
     margin-top: -90PX;
-    width: 170px;
-    height: 40px;
-    padding: 13px 20px;
+    width: 130px;
+    height: 38px;
+    padding: 13px 10px;
 }
 
 .bi-question-circle1 {
     margin-top: -57px;
-    margin-left: 110px;
+    margin-left: 91px;
     color: #36455f;
 
 }
@@ -903,8 +663,8 @@ p.groove {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 20px;
+    width: 155px;
+    margin-left: 11px;
     margin-top: 30px;
     border-radius: 15px;
 }
@@ -915,7 +675,7 @@ p.groove {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-top: 55px;
 }
 
@@ -924,7 +684,7 @@ p.groove {
     font-size: 13px;
     margin-left: -60px;
     margin-top: -10px;
-    color: #322b75;
+    /* color: #322b75; */
 }
 
 /* <!-- 2nd Card start --> */
@@ -933,8 +693,8 @@ p.groove1 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 200px;
+    width: 155px;
+    margin-left: 171px;
     margin-top: -90px;
     border-radius: 15px;
 }
@@ -945,7 +705,7 @@ p.groove1 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 260px;
+    margin-left: 223px;
     margin-top: -65px;
 }
 
@@ -963,8 +723,8 @@ p.groove2 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 380px;
+    width: 155px;
+    margin-left: 332px;
     margin-top: -89px;
     border-radius: 15px;
 }
@@ -975,7 +735,7 @@ p.groove2 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 439px;
+    margin-left: 387px;
     margin-top: -60px;
 }
 
@@ -993,8 +753,8 @@ p.groove3 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 560px;
+    width: 155px;
+    margin-left: 492px;
     margin-top: -94px;
     border-radius: 15px;
 }
@@ -1005,7 +765,7 @@ p.groove3 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 620px;
+    margin-left: 542px;
     margin-top: -65px;
 }
 
@@ -1025,8 +785,8 @@ p.groove4 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 20px;
+    width: 155px;
+    margin-left: 11px;
     margin-top: 70px;
     border-radius: 15px;
 }
@@ -1037,7 +797,7 @@ p.groove4 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-top: 110px;
 }
 
@@ -1055,8 +815,8 @@ p.groove5 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 200px;
+    width: 155px;
+    margin-left: 171px;
     margin-top: -90px;
     border-radius: 15px;
 }
@@ -1067,7 +827,7 @@ p.groove5 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 260px;
+    margin-left: 223px;
     margin-top: -65px;
 }
 
@@ -1085,8 +845,8 @@ p.groove6 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 380px;
+    width: 155px;
+    margin-left: 332px;
     margin-top: -89px;
     border-radius: 15px;
 }
@@ -1097,7 +857,7 @@ p.groove6 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 439px;
+    margin-left: 387px;
     margin-top: -60px;
 }
 
@@ -1115,8 +875,8 @@ p.groove7 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 560px;
+    width: 155px;
+    margin-left: 492px;
     margin-top: -94px;
     border-radius: 15px;
 }
@@ -1127,7 +887,7 @@ p.groove7 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 620px;
+    margin-left: 542px;
     margin-top: -65px;
 }
 
@@ -1147,8 +907,8 @@ p.groove8 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 20px;
+    width: 155px;
+    margin-left: 11px;
     margin-top: 70px;
     border-radius: 15px;
 }
@@ -1159,12 +919,12 @@ p.groove8 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-top: 120px;
 }
 
 .subdiv9 h5 {
-    color: #322b75;
+    /* color: #322b75; */
     position: absolute;
     font-size: 14px;
     margin-left: -45px;
@@ -1177,8 +937,8 @@ p.groove9 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 200px;
+    width: 155px;
+    margin-left: 171px;
     margin-top: -100px;
     border-radius: 15px;
 }
@@ -1189,7 +949,7 @@ p.groove9 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 260px;
+    margin-left: 223px;
     margin-top: -65px;
 }
 
@@ -1207,8 +967,8 @@ p.groove10 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 380px;
+    width: 155px;
+    margin-left: 332px;
     margin-top: -100px;
     border-radius: 15px;
 }
@@ -1219,7 +979,7 @@ p.groove10 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 439px;
+    margin-left: 387px;
     margin-top: -65px;
 }
 
@@ -1237,8 +997,8 @@ p.groove11 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 560px;
+    width: 155px;
+    margin-left: 492px;
     margin-top: -100px;
     border-radius: 15px;
 }
@@ -1249,7 +1009,7 @@ p.groove11 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 620px;
+    margin-left: 542px;
     margin-top: -65px;
 }
 
@@ -1269,8 +1029,8 @@ p.groove12 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 20px;
+    width: 155px;
+    margin-left: 11px;
     margin-top: 70px;
     border-radius: 15px;
 }
@@ -1281,7 +1041,7 @@ p.groove12 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 80px;
+    margin-left: 65px;
     margin-top: 120px;
 }
 
@@ -1299,8 +1059,8 @@ p.groove13 {
     position: absolute;
     border-style: groove;
     height: 150px;
-    width: 170px;
-    margin-left: 200px;
+    width: 155px;
+    margin-left: 171px;
     margin-top: -100px;
     border-radius: 15px;
 }
@@ -1311,7 +1071,7 @@ p.groove13 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 260px;
+    margin-left: 223px;
     margin-top: -65px;
 }
 
@@ -1370,10 +1130,10 @@ p.groove14 {
 /* div5 css */
 .div5 {
     font-family: "Myriad Pro";
-    margin-left: 760px;
+    margin-left: 664px;
     background-color: white;
     margin-top: -680px;
-    width: 320px;
+    width: 274px;
     border-radius: 15px;
     height: 370px;
 }
@@ -1397,9 +1157,9 @@ p.groove15 {
     position: absolute;
     border-style: groove;
     height: 130px;
-    width: 140px;
-    margin-left: 775px;
-    margin-top: -290px;
+    width: 130px;
+    margin-left: 670px;
+    margin-top: -287px;
     border-radius: 15px;
 }
 
@@ -1409,7 +1169,7 @@ p.groove15 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 815px;
+    margin-left: 708px;
     margin-top: -270px;
 }
 
@@ -1417,8 +1177,9 @@ p.groove15 {
     color: #322b75;
     position: absolute;
     font-size: 14px;
-    margin-left: -35px;
-    margin-top: -20px;
+    width: 97px;
+    margin-left: -33px;
+    margin-top: -14px;
 }
 
 .subdiv16 svg {
@@ -1431,9 +1192,9 @@ p.groove16 {
     position: absolute;
     border-style: groove;
     height: 130px;
-    width: 140px;
-    margin-left: 925px;
-    margin-top: -85px;
+    width: 130px;
+    margin-left: 805px;
+    margin-top: -82px;
     border-radius: 15px;
 }
 
@@ -1443,7 +1204,7 @@ p.groove16 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 965px;
+    margin-left: 842px;
     margin-top: -65px;
 }
 
@@ -1466,8 +1227,8 @@ p.groove17 {
     position: absolute;
     border-style: groove;
     height: 130px;
-    width: 140px;
-    margin-left: 775px;
+    width: 130px;
+    margin-left: 670px;
     margin-top: 60px;
     border-radius: 15px;
 }
@@ -1478,7 +1239,7 @@ p.groove17 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 815px;
+    margin-left: 708px;
     margin-top: 100px;
 }
 
@@ -1500,8 +1261,8 @@ p.groove18 {
     position: absolute;
     border-style: groove;
     height: 130px;
-    width: 140px;
-    margin-left: 925px;
+    width: 130px;
+    margin-left: 805px;
     margin-top: -90px;
     border-radius: 15px;
 }
@@ -1512,7 +1273,7 @@ p.groove18 {
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    margin-left: 965px;
+    margin-left: 842px;
     margin-top: -65px;
 }
 
@@ -1520,8 +1281,9 @@ p.groove18 {
     color: #322b75;
     position: absolute;
     font-size: 14px;
+    width: 121px;
     margin-left: -45px;
-    margin-top: -20px;
+    margin-top: -16px;
 }
 
 .subdiv19 svg {
@@ -1532,10 +1294,10 @@ p.groove18 {
 /* div6 css */
 .div6 {
     font-family: "Myriad Pro";
-    margin-left: 760px;
+    margin-left: 665px;
     background-color: white;
     margin-top: 89px;
-    width: 320px;
+    width: 274px;
     border-radius: 15px;
     height: 360px;
 }
@@ -1554,7 +1316,7 @@ p.groove18 {
 .subdiv20 {
     font-family: "Myriad Pro";
     background-color: rgb(199, 224, 248);
-    margin-left: 260px;
+    margin-left: 222px;
     margin-top: -82PX;
     width: 40px;
     height: 20px;
@@ -1701,23 +1463,2031 @@ p.groove18 {
     color: #322b75;
 }
 
-
 /* *********Last Div start  *********** */
 .last-div {
-    background-color: rgb(204, 204, 204);
+    background-color: #3BB161;
+    color: white;
     font-family: "Myriad Pro";
     text-align: center;
     padding: 10px 0px;
     height: 40px;
-    margin-left: -240px;
-    margin-top: 0px;
+    margin-top: 825px;
+}
 
+p {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 /* *********Last Div End  *********** */
 
 
 
+@media only screen and (max-width: 1440px) {
+
+    .nav {
+        background-color: #3BB161;
+        height: 82px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        width: 144px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 1015px;
+        height: 36px;
+        margin-top: 24px;
+    }
+
+    .sub-nav {
+        width: 45px;
+        height: 45px;
+        padding: 6px 5px;
+        margin-top: -44px;
+        margin-left: 1268px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 12px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .div-cal {
+        background-color: red;
+        width: 9px;
+        height: 9px;
+        border-radius: 30px;
+        margin-top: -41px;
+        margin-left: -14px;
+    }
+
+    .sub-nav1 {
+        background-color: #3e7e52;
+        margin-left: 8px;
+        width: 45px;
+        height: 45px;
+        padding: 7px 5px;
+        border-radius: 200px;
+        margin-top: -43px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+        margin-left: 6px;
+        color: white;
+    }
+
+    .sidenav {
+        top: 85px;
+        left: 0px;
+        height: 96%;
+    }
+
+    .last-div {
+        margin-top: 839px;
+    }
+
+    /* ***************** Dis *********************** */
+    .div3 {
+        position: absolute;
+        color: #36455f;
+        /* background-color: rgb(243, 243, 243); */
+        margin-left: 209px;
+        margin-top: 0px;
+        height: 1000px;
+    }
+
+    .div3 h3 {
+        font-size: 23px;
+        margin-top: -5px;
+        padding: 25px 20px;
+    }
+
+    /* div4 css */
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 263px;
+        width: 750px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    .div4 h5 {
+        font-family: "Myriad pro Semibold";
+        padding: 30px 20px;
+        font-size: 18px;
+    }
+
+    .div4 .bi-question-circle {
+        margin-top: -120px;
+        margin-left: 120px;
+        color: #36455f;
+    }
+
+    .div4 a {
+        color: #01b83b;
+    }
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 550px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+    .bi-question-circle1 {
+        margin-top: -57px;
+        margin-left: 110px;
+        color: #36455f;
+
+    }
+
+    /* First Row Start */
+
+    /* <!-- 1st Card start --> */
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 80px;
+        margin-top: 55px;
+    }
+
+    .subdiv1 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -60px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    /* <!-- 2nd Card start --> */
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 200px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 260px;
+        margin-top: -65px;
+    }
+
+    .subdiv2 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -55px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    /* <!-- 3nd Card start --> */
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 380px;
+        margin-top: -89px;
+        border-radius: 15px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 439px;
+        margin-top: -60px;
+    }
+
+    .subdiv3 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -45px;
+        margin-top: -5px;
+        color: #322b75;
+    }
+
+    /* <!-- 4th Card start --> */
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 560px;
+        margin-top: -94px;
+        border-radius: 15px;
+    }
+
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 620px;
+        margin-top: -65px;
+    }
+
+    .subdiv4 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -56px;
+        margin-top: -5px;
+        color: #322b75;
+    }
+
+    /* First Row End */
+
+    /* <!-- 5th Card start --> */
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 80px;
+        margin-top: 110px;
+    }
+
+    .subdiv5 h5 {
+        position: absolute;
+        font-size: 14px;
+        margin-left: -72px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    /* <!-- 6th Card start --> */
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 200px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 260px;
+        margin-top: -65px;
+    }
+
+    .subdiv6 h5 {
+        position: absolute;
+        font-size: 14px;
+        margin-left: -70px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    /* <!-- 7th Card start --> */
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 380px;
+        margin-top: -89px;
+        border-radius: 15px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 439px;
+        margin-top: -60px;
+    }
+
+    .subdiv7 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -60px;
+        margin-top: -5px;
+        color: #322b75;
+    }
+
+    /* <!-- 8th Card start --> */
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 560px;
+        margin-top: -94px;
+        border-radius: 15px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 620px;
+        margin-top: -65px;
+    }
+
+    .subdiv8 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -40px;
+        margin-top: -5px;
+    }
+
+    /* 2nd Row end */
+
+    /* <!-- 9th Card start --> */
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv9 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 80px;
+        margin-top: 120px;
+    }
+
+    .subdiv9 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -45px;
+        margin-top: -5px;
+    }
+
+    /* <!-- 10th Card start --> */
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 200px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 260px;
+        margin-top: -65px;
+    }
+
+    .subdiv10 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -45px;
+        margin-top: -5px;
+    }
+
+    /* <!-- 11th Card start --> */
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 380px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 439px;
+        margin-top: -65px;
+    }
+
+    .subdiv11 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -55px;
+        margin-top: -5px;
+    }
+
+    /* <!-- 12th Card start --> */
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 560px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 620px;
+        margin-top: -65px;
+    }
+
+    .subdiv12 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -37px;
+        margin-top: -5px;
+    }
+
+    /* 3nd Row end */
+
+    /* <!-- 13th Card start --> */
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 80px;
+        margin-top: 120px;
+    }
+
+    .subdiv13 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -65px;
+        margin-top: -5px;
+    }
+
+    /* <!-- 14th Card start --> */
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 170px;
+        margin-left: 200px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 260px;
+        margin-top: -65px;
+    }
+
+    .subdiv14 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -75px;
+        margin-top: -5px;
+    }
+
+    .div4 svg {
+        color: white;
+    }
+
+    .div4 .bi-question-circle {
+        color: black;
+    }
+
+    .subdiv .bi-question-circle1 {
+        color: black;
+    }
+
+    /* <!-- 15th Card start 
+    p.groove14 {
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 150px;
+        margin-left: 360px;
+        margin-top: -81px;
+        border-radius: 15px;
+    }
+    
+    .subdiv15{
+        background-color: #3BB161;
+        padding: 12px 12px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 405px;
+        margin-top: -65px;
+    }
+    
+    .subdiv15 h5{
+        position: absolute;
+        font-size: 13px;
+        margin-left: -60px;
+        margin-top: -10px;
+    }
+    --> */
+
+
+    /* 4th row end */
+
+    /* div5 css */
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: 760px;
+        background-color: white;
+        margin-top: -680px;
+        width: 320px;
+        border-radius: 15px;
+        height: 370px;
+    }
+
+    .div5 h4 {
+        padding: 32px 18px;
+        font-size: 16px;
+
+    }
+
+    .div5 .bi-question-circle2 {
+        margin-left: 60px;
+        margin-top: -118px;
+        color: #36455f;
+    }
+
+
+    /* fist card start */
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 140px;
+        margin-left: 775px;
+        margin-top: -290px;
+        border-radius: 15px;
+    }
+
+    .subdiv16 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 815px;
+        margin-top: -270px;
+    }
+
+    .subdiv16 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -35px;
+        margin-top: -20px;
+    }
+
+    .subdiv16 svg {
+        color: #322b75;
+    }
+
+    /* 2nd card start */
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 140px;
+        margin-left: 925px;
+        margin-top: -85px;
+        border-radius: 15px;
+    }
+
+    .subdiv17 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 965px;
+        margin-top: -65px;
+    }
+
+    .subdiv17 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+
+    .subdiv17 svg {
+        color: #322b75;
+    }
+
+
+    /* 3th card start */
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 140px;
+        margin-left: 775px;
+        margin-top: 60px;
+        border-radius: 15px;
+    }
+
+    .subdiv18 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 815px;
+        margin-top: 100px;
+    }
+
+    .subdiv18 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -30px;
+        margin-top: -20px;
+    }
+
+    .subdiv18 svg {
+        color: #322b75;
+    }
+
+    /* 4th card start */
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 140px;
+        margin-left: 925px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv19 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 965px;
+        margin-top: -65px;
+    }
+
+    .subdiv19 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -45px;
+        margin-top: -20px;
+    }
+
+    .subdiv19 svg {
+        color: #322b75;
+    }
+
+
+    /* div6 css */
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 760px;
+        background-color: white;
+        margin-top: 89px;
+        width: 320px;
+        border-radius: 15px;
+        height: 360px;
+    }
+
+    .div6 h4 {
+        padding: 30px 30px;
+        font-size: 17px;
+    }
+
+    .div6 svg {
+        margin-left: 120px;
+        margin-top: -116px;
+        color: #36455f;
+    }
+
+    .subdiv20 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        margin-left: 260px;
+        margin-top: -82PX;
+        width: 40px;
+        height: 20px;
+        padding: 13px 20px;
+    }
+
+    .subdiv20 svg {
+        font-family: "Myriad Pro";
+        margin-left: -10px;
+        margin-top: -23px;
+    }
+
+    /* Main sub-div */
+    .sub-div {
+        font-family: "Myriad Pro";
+        position: relative;
+        padding: 25px 45px;
+    }
+
+    .sub-div hr {
+        margin-top: 5px;
+    }
+
+    /* 1st sub-div */
+    .sub-div1 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .sub-div1 h6 {
+        font-size: 10px;
+        padding: 4px 5px;
+    }
+
+
+    /* 2nd sub-div */
+    .sub-div2 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        margin-top: -5px;
+        height: 20px;
+    }
+
+    .sub-div2 h6 {
+        font-size: 9px;
+        padding: 6px 3px;
+    }
+
+    /* 3rd sub-div */
+    .sub-div3 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        height: 20px;
+        margin-top: -5px
+    }
+
+    .sub-div3 h6 {
+        font-size: 9px;
+        padding: 6px 3px;
+    }
+
+    /* 4th sub-div */
+    .sub-div4 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        height: 20px;
+        margin-top: -5px
+    }
+
+    .sub-div4 h6 {
+        font-size: 9px;
+        padding: 6px 3px;
+    }
+
+    /* 5th sub-div */
+    .sub-div5 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        height: 20px;
+        margin-top: -5px
+    }
+
+    .sub-div5 h6 {
+        font-size: 9px;
+        padding: 6px 4px;
+    }
+
+    /* 6th sub-div */
+    .sub-div6 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        height: 20px;
+        margin-top: -5px
+    }
+
+    .sub-div6 h6 {
+        font-size: 9px;
+        padding: 6px 4px;
+    }
+
+    /* 7th sub-div */
+    .sub-div7 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        text-align: center;
+        border-radius: 70px;
+        width: 20px;
+        height: 20px;
+        margin-top: -5px
+    }
+
+    .sub-div7 h6 {
+        font-size: 9px;
+        padding: 6px 3px;
+    }
+
+    /* Main sub-div end */
+    .div7 {
+        padding: 104px 80px;
+        margin-top: -380px;
+    }
+
+    .div7 h6 {
+        padding: 5px 0px;
+        color: #322b75;
+    }
+
+
+    /* ****************** dis end ******************* */
+
+}
+
+@media (max-width: 1366px) {
+    .div1 input[type=search] {
+        margin-left: 947px;
+    }
+
+    .sub-nav {
+        margin-left: 1197px;
+    }
+
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 243px;
+        width: 750px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    /* ************************************* */
+
+
+    .sidenav {
+        top: 85px;
+        left: 0px;
+        /* height: 128%; */
+    }
+
+
+
+}
+
+@media (max-width: 1199px) {
+    .div1 input[type=search] {
+        margin-left: 785px;
+    }
+
+    .sub-nav {
+        margin-left: 1042px;
+    }
+
+    /* ************************************* */
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 236px;
+        width: 647px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 142px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .subdiv1 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -55px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 66px;
+        margin-top: 55px;
+    }
+
+    .subdiv5 h5 {
+        position: absolute;
+        font-size: 14px;
+        margin-left: -75px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 66px;
+        margin-top: 110px;
+    }
+
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 142px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv9 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -45px;
+        margin-top: -5px;
+    }
+
+    .subdiv9 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 65px;
+        margin-top: 120px;
+    }
+
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 20px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 65px;
+        margin-top: 120px;
+    }
+
+    .subdiv13 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 14px;
+        margin-left: -61px;
+        margin-top: -5px;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 173px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 219px;
+        margin-top: -65px;
+    }
+
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 174px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 219px;
+        margin-top: -65px;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 174px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 222px;
+        margin-top: -65px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 175px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 221px;
+        margin-top: -65px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 328px;
+        margin-top: -89px;
+        border-radius: 15px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 375px;
+        margin-top: -60px;
+    }
+
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 328px;
+        margin-top: -89px;
+        border-radius: 15px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 375px;
+        margin-top: -60px;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 329px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 373px;
+        margin-top: -65px;
+    }
+
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 482px;
+        margin-top: -94px;
+        border-radius: 15px;
+    }
+
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 530px;
+        margin-top: -65px;
+    }
+
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 482px;
+        margin-top: -94px;
+        border-radius: 15px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 530px;
+        margin-top: -65px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 143px;
+        margin-left: 484px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 530px;
+        margin-top: -65px;
+    }
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 451px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: 659px;
+        background-color: white;
+        margin-top: -680px;
+        width: 272px;
+        border-radius: 15px;
+        height: 370px;
+    }
+
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 120px;
+        margin-left: 668px;
+        margin-top: -290px;
+        border-radius: 15px;
+    }
+
+    .subdiv16 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 702px;
+        margin-top: -270px;
+    }
+
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 120px;
+        margin-left: 801px;
+        margin-top: -85px;
+        border-radius: 15px;
+    }
+
+    .subdiv17 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 836px;
+        margin-top: -65px;
+    }
+
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 120px;
+        margin-left: 669px;
+        margin-top: 60px;
+        border-radius: 15px;
+    }
+
+    .subdiv18 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 702px;
+        margin-top: 100px;
+    }
+
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 120px;
+        margin-left: 802px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv19 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 839px;
+        margin-top: -65px;
+    }
+
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 658px;
+        background-color: white;
+        margin-top: 89px;
+        width: 274px;
+        border-radius: 15px;
+        height: 360px;
+    }
+
+    .subdiv20 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        margin-left: 212px;
+        margin-top: -82PX;
+        width: 40px;
+        height: 20px;
+        padding: 13px 20px;
+    }
+
+    .last-div {
+        margin-top: 834px;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        background-color: #3BB161;
+        height: 80px;
+    }
+
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 678px;
+        margin-top: 23px;
+    }
+
+    .bi-search {
+        margin-left: -178px;
+        padding-left: 6px;
+        margin-top: -4px;
+        color: white;
+    }
+
+    .sub-nav {
+        margin-left: 863px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .div-cal {
+        width: 8px;
+        height: 8px;
+        margin-top: -37px;
+        margin-left: -11px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 11px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .sub-nav1 {
+        margin-left: 8px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+    }
+
+    .logo {
+        width: 147px;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+        height: 105%;
+    }
+
+    .last-div {
+        margin-top: 852px;
+    }
+
+    /* ***************************************** */
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 22px;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 55px;
+        margin-top: 55px;
+    }
+
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 20px;
+        margin-top: 62px;
+        border-radius: 22px;
+    }
+
+    .subdiv5 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -45px;
+        margin-top: -10px;
+        color: #322b75;
+        width: 161px;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 53px;
+        margin-top: 98px;
+    }
+
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 20px;
+        margin-top: 65px;
+        border-radius: 22px;
+    }
+
+    .subdiv9 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 55px;
+        margin-top: 108px;
+    }
+
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 20px;
+        margin-top: 64px;
+        border-radius: 22px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 52px;
+        margin-top: 106px;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 148px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 186px;
+        margin-top: -65px;
+    }
+
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 149px;
+        margin-top: -86px;
+        border-radius: 22px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 187px;
+        margin-top: -61px;
+    }
+
+    .subdiv6 h5 {
+        position: absolute;
+        font-size: 13px;
+        margin-left: -70px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 148px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 184px;
+        margin-top: -65px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 149px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 183px;
+        margin-top: -65px;
+    }
+
+    .subdiv14 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -43px;
+        margin-top: -5px;
+        width: 113px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 277px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 314px;
+        margin-top: -60px;
+    }
+
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 278px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 313px;
+        margin-top: -60px;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 277px;
+        margin-top: -93px;
+        border-radius: 22px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 311px;
+        margin-top: -65px;
+    }
+
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 406px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 443px;
+        margin-top: -65px;
+    }
+
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 406px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 441px;
+        margin-top: -65px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 119px;
+        margin-left: 408px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 443px;
+        margin-top: -65px;
+    }
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 349px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 229px;
+        width: 548px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: 557px;
+        background-color: white;
+        margin-top: -643px;
+        width: 214px;
+        border-radius: 15px;
+        height: 370px;
+    }
+
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 115px;
+        width: 98px;
+        margin-left: 562px;
+        margin-top: -283px;
+        border-radius: 22px;
+    }
+
+    .subdiv16 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 585px;
+        margin-top: -267px;
+    }
+
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 115px;
+        width: 98px;
+        margin-left: 667px;
+        margin-top: -81px;
+        border-radius: 22px;
+    }
+
+    .subdiv17 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 691px;
+        margin-top: -64px;
+    }
+
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 115px;
+        width: 98px;
+        margin-left: 564px;
+        margin-top: 50px;
+        border-radius: 22px;
+    }
+
+    .subdiv18 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 590px;
+        margin-top: 83px;
+    }
+
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 115px;
+        width: 98px;
+        margin-left: 668px;
+        margin-top: -83px;
+        border-radius: 22px;
+    }
+
+    .subdiv19 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 691px;
+        margin-top: -65px;
+    }
+
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 556px;
+        background-color: white;
+        margin-top: 101px;
+        width: 216px;
+        border-radius: 15px;
+        height: 360px;
+    }
+
+    .subdiv20 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        margin-left: 149px;
+        margin-top: -82PX;
+        width: 40px;
+        height: 20px;
+        padding: 13px 20px;
+    }
+
+    .sub-div {
+        font-family: "Myriad Pro";
+        position: relative;
+        padding: 25px 45px;
+        margin-left: -16px;
+    }
+
+    .div7 {
+        padding: 104px 80px;
+        margin-top: -380px;
+        margin-left: -21px;
+    }
 
 
 
@@ -1726,47 +3496,1067 @@ p.groove18 {
 
 
 
+}
 
+@media only screen and (max-width: 923px) {
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 565px;
+        margin-top: 23px;
+    }
+
+    .sub-nav {
+        margin-left: 758px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    /* **************************************** */
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 106px;
+        margin-left: 9px;
+        margin-top: 30px;
+        border-radius: 22px;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 40px;
+        margin-top: 55px;
+    }
+
+    .subdiv1 h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: -55px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 9px;
+        margin-top: 55px;
+        border-radius: 22px;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 39px;
+        margin-top: 93px;
+    }
+
+    .subdiv5 h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: -45px;
+        margin-top: -10px;
+        color: #322b75;
+        width: 143px;
+    }
+
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 9px;
+        margin-top: 58px;
+        border-radius: 22px;
+    }
+
+    .subdiv9 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 37px;
+        margin-top: 98px;
+    }
+
+    .subdiv9 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -40px;
+        margin-top: -5px;
+    }
+
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 9px;
+        margin-top: 60px;
+        border-radius: 22px;
+    }
+
+    .subdiv13 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -61px;
+        margin-top: -5px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 41px;
+        margin-top: 100px;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 121px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 152px;
+        margin-top: -64px;
+    }
+
+    .subdiv2 h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: -55px;
+        margin-top: -6px;
+        color: #322b75;
+    }
+
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 122px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 152px;
+        margin-top: -65px;
+    }
+
+    .subdiv6 h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: -41px;
+        margin-top: -5px;
+        color: #322b75;
+        width: 92px;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 123px;
+        margin-top: -91px;
+        border-radius: 22px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 152px;
+        margin-top: -65px;
+    }
+
+    .subdiv10 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -38px;
+        margin-top: -5px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 124px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv14 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -43px;
+        margin-top: -5px;
+        width: 113px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 152px;
+        margin-top: -65px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 235px;
+        margin-top: -91px;
+        border-radius: 22px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 264px;
+        margin-top: -60px;
+    }
+
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 236px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 265px;
+        margin-top: -60px;
+    }
+
+    .subdiv7 h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: -58px;
+        margin-top: -5px;
+        color: #322b75;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 237px;
+        margin-top: -91px;
+        border-radius: 22px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 265px;
+        margin-top: -65px;
+    }
+
+    .subdiv11 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: -5px;
+    }
+
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 349px;
+        margin-top: -96px;
+        border-radius: 22px;
+    }
+
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 377px;
+        margin-top: -65px;
+    }
+
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 350px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 378px;
+        margin-top: -65px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 135px;
+        width: 107px;
+        margin-left: 351px;
+        margin-top: -91px;
+        border-radius: 22px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 381px;
+        margin-top: -65px;
+    }
+
+    .subdiv12 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 13px;
+        margin-left: -37px;
+        margin-top: -5px;
+    }
+
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 228px;
+        width: 466px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 272px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: 474px;
+        background-color: white;
+        margin-top: -620px;
+        width: 198px;
+        border-radius: 15px;
+        height: 370px;
+    }
+
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 110px;
+        width: 90px;
+        margin-left: 480px;
+        margin-top: -284px;
+        border-radius: 22px;
+    }
+
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 110px;
+        width: 90px;
+        margin-left: 576px;
+        margin-top: -80px;
+        border-radius: 22px;
+    }
+
+    .subdiv16 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 500px;
+        margin-top: -269px;
+    }
+
+    .subdiv17 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 596px;
+        margin-top: -65px;
+    }
+
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 110px;
+        width: 90px;
+        margin-left: 480px;
+        margin-top: 51px;
+        border-radius: 22px;
+    }
+
+    .subdiv18 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 499px;
+        margin-top: 80px;
+    }
+
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 110px;
+        width: 90px;
+        margin-left: 576px;
+        margin-top: -79px;
+        border-radius: 22px;
+    }
+
+    .subdiv19 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 595px;
+        margin-top: -65px;
+    }
+
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 473px;
+        background-color: white;
+        margin-top: 96px;
+        width: 201px;
+        border-radius: 15px;
+        height: 368px;
+    }
+
+    .subdiv20 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        margin-left: 141px;
+        margin-top: -82PX;
+        width: 40px;
+        height: 20px;
+        padding: 13px 20px;
+    }
+
+    .div7 {
+        padding: 104px 80px;
+        margin-top: -380px;
+        margin-left: -37px;
+    }
+
+    .div6 h4 {
+        padding: 30px 30px;
+        font-size: 17px;
+        margin-left: -14px;
+    }
+
+    .sub-div {
+        font-family: "Myriad Pro";
+        position: relative;
+        padding: 25px 45px;
+        margin-left: -31px;
+    }
+
+
+
+}
 
 @media only screen and (max-width: 768px) {
     .nav {
         width: 768px;
     }
 
-    .sec {
-        margin-left: 352px;
+    .div1 input[type=search] {
+        margin-left: 439px;
     }
-
 
     .bi-search {
-        margin-left: 545px;
+        margin-left: 442px;
+        margin-top: -62px;
     }
-
-    .sidebarIconToggle {
-        left: 685px;
-    }
-
-
-    .bi-chevron-down {
-        margin-top: -63px;
-        color: white;
-        margin-left: 713px;
-    }
-
 
     .sub-nav {
-        margin-left: 582px;
+        margin-left: 629px;
+        margin-top: -60px;
     }
 
-    .div2 {
-        height: 1440px;
-        margin-top: -799px;
-        transform: translateX(-210px);
-        transition: transform 250ms ease-in-out
+    .sub-nav1 {
+        margin-top: -60px;
     }
 
-    .div2 ul ul {
-        height: 1440px;
+    .div-cal {
+        margin-top: -57px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -100px;
+        margin-left: 727px;
+    }
+
+    /* *************************************** */
+
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 235px;
+        width: 503px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: -1px;
+        background-color: white;
+        margin-top: 146px;
+        width: 242px;
+        border-radius: 15px;
+        height: 370px;
+    }
+
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 125px;
+        width: 105px;
+        margin-left: 11px;
+        margin-top: -290px;
+        border-radius: 22px;
+    }
+
+    .subdiv16 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 37px;
+        margin-top: -270px;
+    }
+
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 125px;
+        width: 105px;
+        margin-left: 125px;
+        margin-top: -85px;
+        border-radius: 22px;
+    }
+
+    .subdiv17 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 152px;
+        margin-top: -65px;
+    }
+
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 125px;
+        width: 105px;
+        margin-left: 11px;
+        margin-top: 60px;
+        border-radius: 22px;
+    }
+
+    .subdiv18 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 39px;
+        margin-top: 100px;
+    }
+
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 125px;
+        width: 105px;
+        margin-left: 125px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv19 {
+        /* background-color: #9993f5; */
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 151px;
+        margin-top: -65px;
+    }
+
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 257px;
+        background-color: white;
+        margin-top: -312px;
+        width: 248px;
+        border-radius: 15px;
+        height: 365px;
+    }
+
+    .subdiv20 {
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        margin-left: 191px;
+        margin-top: -82PX;
+        width: 40px;
+        height: 20px;
+        padding: 13px 20px;
+    }
+
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 315px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 377px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 408px;
+        margin-top: -65px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 256px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 287px;
+        margin-top: -60px;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 138px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 171px;
+        margin-top: -64px;
+    }
+
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 18px;
+        margin-top: 30px;
+        border-radius: 22px;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 50px;
+        margin-top: 55px;
+    }
+
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 377px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 406px;
+        margin-top: -65px;
+    }
+
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 257px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 285px;
+        margin-top: -60px;
+    }
+
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 137px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 166px;
+        margin-top: -65px;
+    }
+
+    .subdiv6 h5 {
+        position: absolute;
+        font-size: 12px;
+        margin-left: -37px;
+        margin-top: -5px;
+        color: #322b75;
+        width: -42px;
+    }
+
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 18px;
+        margin-top: 63px;
+        border-radius: 22px;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 49px;
+        margin-top: 102px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 377px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 408px;
+        margin-top: -65px;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 256px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 284px;
+        margin-top: -65px;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 136px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 164px;
+        margin-top: -65px;
+    }
+
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 18px;
+        margin-top: 64px;
+        border-radius: 22px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 136px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 165px;
+        margin-top: -65px;
+    }
+
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 110px;
+        margin-left: 18px;
+        margin-top: 66px;
+        border-radius: 22px;
+    }
+
+    .subdiv13 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 12px;
+        margin-left: -58px;
+        margin-top: -5px;
+    }
+
+    .div3 h3 {
+        font-size: 23px;
+        margin-top: -5px;
+        padding: 25px 20px;
+        margin-left: 10px;
+    }
+
+    .last-div {
+        margin-top: 1208px;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+        height: 149%;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    
+    .nav {
+        width: 563px;
+        height: 95px;
+    }
+
+    .div1 input[type=search],
+    .bi-search,
+    .sub-nav,
+    .sub-nav1,
+    .div-cal,
+    .bi-chevron-down,
+    .bi-chevron-down {
+        display: none;
     }
 
     .sidebarIconToggle,
@@ -1776,889 +4566,1780 @@ p.groove18 {
         display: block;
     }
 
-    .subdiv {
-        margin-top: -100PX;
+    .sidebarIconToggle {
+        top: 27px;
+        left: 363px;
+        width: 23px;
     }
 
-    .div3 {
-        margin-left: -2px;
+    .spinner {
+        height: 5px;
+    }
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -12px;
+    }
+
+    .sidenav {
+        transform: translateX(-220px);
+        transition: transform 250ms ease-in-out
+    }
+
+    .logo {
+        width: 184px;
+        margin-top: -17px;
+        max-width: 100%;
+    }
+
+    .logoHide {
+        width: 553px;
+        position: absolute;
+        height: 25px;
+        margin-top: 10px;
+        background-color: #e5e5e5;
+    }
+
+    .main-div {
+        width: 565px;
+        height: 10px;
+    }
+
+    .sidenav {
+        top: 105px;
+        left: 0px;
+        height: 147%;
+    }
+
+
+    .sidebarIconToggle {
+        top: 37px;
+        left: 500px;
+        width: 27px;
+    }
+
+    .last-div {
+        width: 568px;
+        margin-top: 167px;
+    }
+
+    .div4 {
+        margin-left: -6px;
+    }
+
+    /* ****************************************** */
+
+    .div3 h3 {
+        font-size: 23px;
+        margin-top: -5px;
+        padding: 25px 20px;
+        margin-left: -208px;
+    }
+
+    .div4 {
+        margin-left: 20px;
+        width: 519px;
+    }
+
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 18px;
+        margin-top: 30px;
+        border-radius: 22px;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 53px;
+        margin-top: 55px;
+    }
+
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 18px;
+        margin-top: 63px;
+        border-radius: 22px;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 52px;
+        margin-top: 102px;
+    }
+
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 18px;
+        margin-top: 64px;
+        border-radius: 22px;
+    }
+
+    .subdiv9 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 50px;
+        margin-top: 106px;
+    }
+
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 18px;
+        margin-top: 66px;
+        border-radius: 22px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 52px;
+        margin-top: 105px;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 142px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 176px;
+        margin-top: -64px;
+    }
+
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 142px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 173px;
+        margin-top: -65px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 265px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 297px;
+        margin-top: -60px;
+    }
+
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 387px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 419px;
+        margin-top: -65px;
+    }
+
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 265px;
+        margin-top: -89px;
+        border-radius: 22px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 297px;
+        margin-top: -60px;
+    }
+
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 388px;
+        margin-top: -94px;
+        border-radius: 22px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 420px;
+        margin-top: -65px;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 142px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 173px;
+        margin-top: -65px;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 266px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 297px;
+        margin-top: -65px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 389px;
+        margin-top: -92px;
+        border-radius: 22px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 420px;
+        margin-top: -65px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 142px;
+        width: 115px;
+        margin-left: 142px;
+        margin-top: -90px;
+        border-radius: 22px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 174px;
+        margin-top: -65px;
+    }
+
+    .div6 {
+        font-family: "Myriad Pro";
+        margin-left: 265px;
+        background-color: white;
+        margin-top: -312px;
+        width: 250px;
+        border-radius: 15px;
+        height: 365px;
+    }
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: -1px;
+        background-color: white;
+        margin-top: 133px;
+        width: 250px;
+        border-radius: 15px;
+        height: 370px;
+    }
+
+    .last-div {
+        width: 568px;
+        margin-top: 1196px;
+    }
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 327px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+
+}
+
+
+
+@media (max-width: 425px) {
+    /* 
+    .nav {
+        width: 425px;
+        height: 93px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 107px;
+        margin-top: -7px;
+        padding: 0px 10px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 237px;
+        width: 170px;
+    }
+
+    .bi-search {
+        margin-left: 239px;
+        margin-top: -64px;
+    }
+
+    .sub-nav {
+        margin-left: 251px;
+        margin-top: -16px;
+        width: 32px;
+        height: 29px;
+    }
+    .bi-bell-fill {
+        padding-left: 16px;
+        margin-left: -11px;
         margin-top: -13px;
+    }
+
+    .div-cal {
+        margin-top: -14px;
+        margin-left: -7px;
+        width: 5px;
+        height: 6px;
+    }
+
+    .sub-nav1 {
+        margin-left: 293px;
+        margin-top: -29px;
+        width: 32px;
+        height: 29px;
+    }
+
+    .bi-person-fill {
+        color: white;
+        margin-left: 1px;
+        width: 17px;
+        height: 16px;
+        margin-top: -14px;
+        padding-left: 3px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -51px;
+        margin-left: 335px;
+    }
+
+    .sidebarIconToggle {
+        top: 66px;
+        left: 369px;
+        width: 18px;
+    } */
+
+
+
+    /*.nav {
+        width: 425px;
+        height: 77px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 101px;
+        width: 128px;
+        margin-top: -9px;
+    }
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sidebarIconToggle {
+        top: 27px;
+        left: 363px;
+        width: 23px;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -12px;
+    }
+
+
+    .sidenav {
+        transform: translateX(-220px);
+        transition: transform 250ms ease-in-out
+    }
+
+    .sidebarIconToggle,
+    .top,
+    .middle,
+    .bottom {
+        display: block;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+    }
+
+    .main-div {
+        height: 6px;
+    }
+
+    /* ***************************************** 
+   
+    .div3 {
+        position: absolute;
+        color: #36455f;
+        /* background-color: rgb(243, 243, 243);
+        margin-left: -22px;
+        margin-top: 0px;
         height: 1000px;
     }
 
     .div4 {
-        margin-left: 7px;
-        height: 731px;
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 4px;
+        width: 400px;
+        height: 750px;
+        border-radius: 15px;
+    }
+    .div4 h5 {
+        font-family: "Myriad pro Semibold";
+        padding: 30px 20px;
+        font-size: 18px;
+        margin-left: -10px;
     }
 
     .div5 {
-        margin-left: 61px;
-        margin-top: 89px;
-        height: 202px;
-        width: 618px;
-    }
-
-    p.groove15 {
-        margin-left: 70px;
-        margin-top: -151px;
-    }
-
-    .subdiv16 {
-        margin-left: 115px;
-        margin-top: -124px;
-    }
-
-    .subdiv16 h5 {
-        margin-left: -35px;
-        margin-top: -9px;
-    }
-
-    p.groove16 {
-        margin-left: 221px;
-        margin-top: -91px;
-    }
-
-    p.groove17 {
-        margin-left: 375px;
-        margin-top: -92px;
-    }
-
-    .subdiv17 {
-        margin-left: 261px;
-        margin-top: -64px;
-    }
-
-    p.groove18 {
-        margin-left: 527px;
-        margin-top: -91px;
-    }
-
-    .subdiv18 {
-        margin-left: 418px;
-        margin-top: -66px;
-    }
-
-    .subdiv19 {
-        margin-left: 572px;
-        margin-top: -65px;
-    }
-
-    .subdiv20 {
-        margin-left: 533px;
+        font-family: "Myriad Pro";
+        margin-left: -1px;
+        background-color: white;
+        margin-top: 100px;
+        width: 193px;
+        border-radius: 15px;
+        height: 370px;
     }
 
     .div6 {
-        margin-left: 61px;
-        margin-top: 91px;
-        width: 621px;
-        height: 402px;
-    }
-
-    .div7 {
-        padding: 43px 136px;
-        margin-top: -380px;
-    }
-
-    .sub-div {
         font-family: "Myriad Pro";
-        position: relative;
-        padding: 29px 95px;
+        margin-left: 200px;
+        background-color: white;
+        margin-top: -312px;
+        width: 193px;
+        border-radius: 15px;
+        height: 365px;
     }
 
-    .last-div {
-        width: 768px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-}
-
-@media (max-width: 576px) {
-    .nav {
-        width: 576px;
-    }
-
-    .sec {
-        margin-left: 252px;
-        width: 157PX;
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 86px;
+        margin-left: 10px;
+        margin-top: -290px;
+        border-radius: 15px;
     }
 
-    .bi-search {
-        margin-left: 383px;
+    .subdiv16 {
+        /* background-color: #9993f5; 
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 26px;
+        margin-top: -270px;
     }
 
-    .sub-nav {
-        margin-left: 419px;
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 86px;
+        margin-left: 102px;
+        margin-top: -85px;
+        border-radius: 15px;
     }
 
-    .sidebarIconToggle {
-        left: 508px;
-    }
-
-    .div2 {
-        margin-left: -21PX;
-        margin-top: -943px;
-        height: 1610px;
-    }
-
-    .div2 ul ul {
-        height: 1609px;
-    }
-
-    .subdiv {
-        margin-top: -100PX;
-        margin-left: 363px;
-    }
-
-    .div4 {
-        margin-left: 7px;
-        height: 875px;
-        width: 547px;
-    }
-
-    p.groove {
-        margin-left: 16px;
-    }
-
-    .subdiv1 {
-        margin-left: 77px;
-    }
-
-    p.groove1 {
-        margin-left: 194px;
-    }
-
-    .subdiv2 {
-        margin-left: 253px;
-    }
-
-    p.groove2 {
-        margin-left: 371px;
-    }
-
-    .subdiv3 {
-        margin-left: 432px;
-    }
-
-    p.groove3 {
-        margin-left: 15px;
-        margin-top: 64px;
-    }
-
-    p.groove4 {
-        margin-left: 194px;
-        margin-top: -89px;
-    }
-
-    .subdiv4 {
-        margin-left: 75px;
-        margin-top: 104px;
-    }
-
-    .subdiv5 {
-        margin-left: 255px;
-        margin-top: -62px;
-    }
-
-    .subdiv6 {
-        margin-left: 435px;
+    .subdiv17 {
+        /* background-color: #9993f5; 
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 121px;
         margin-top: -65px;
     }
 
-    p.groove7 {
-        margin-left: 195px;
-        margin-top: -89px;
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 88px;
+        margin-left: 10px;
+        margin-top: 60px;
+        border-radius: 15px;
     }
 
-    .subdiv7 {
-        margin-left: 73px;
-        margin-top: 107px;
-    }
-
-    p.groove6 {
-        margin-left: 16px;
-        margin-top: 67px;
-    }
-
-    p.groove5 {
-        margin-left: 371px;
-        margin-top: -90px;
-    }
-
-    .subdiv8 {
-        margin-left: 255px;
-        margin-top: -58px;
-    }
-
-    p.groove8 {
-        margin-left: 372px;
-        margin-top: -94px;
-    }
-
-    .subdiv9 {
-        margin-left: 436px;
-        margin-top: -56px;
-    }
-
-    p.groove9 {
-        margin-left: 15px;
-        margin-top: 56px;
-    }
-
-    .subdiv10 {
-        margin-left: 71px;
+    .subdiv18 {
+        /* background-color: #9993f5; 
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 27px;
         margin-top: 100px;
     }
 
-
-    p.groove10 {
-        margin-left: 194px;
-        margin-top: -95px;
-    }
-
-    .subdiv11 {
-        margin-left: 252px;
-        margin-top: -65px;
-    }
-
-    p.groove11 {
-        margin-left: 370px;
-        margin-top: -94px;
-    }
-
-    .subdiv12 {
-        margin-left: 428px;
-        margin-top: -65px;
-    }
-
-    p.groove12 {
-        margin-left: 14px;
-        margin-top: 68px;
-    }
-
-    .subdiv13 {
-        margin-left: 70px;
-        margin-top: 114px;
-    }
-
-    p.groove13 {
-        margin-left: 194px;
-        margin-top: -96px;
-    }
-
-    .subdiv14 {
-        margin-left: 250px;
-        margin-top: -64px;
-    }
-
-    .sub-nav1 {
-        margin-left: 3px;
-    }
-
-
-    .div5 {
-        margin-left: -1px;
-        margin-top: 89px;
-        height: 202px;
-        width: 554px;
-    }
-
-    p.groove15 {
-        margin-left: 12px;
-        margin-top: -151px;
-        width: 130px;
-    }
-
-    .subdiv16 {
-        margin-left: 52px;
-        margin-top: -131px;
-    }
-
-    p.groove16 {
-        margin-left: 146px;
-        margin-top: -85px;
-        width: 130px;
-    }
-
-    .subdiv17 {
-        margin-left: 186px;
-        margin-top: -64px;
-    }
-
-    p.groove17 {
-        margin-left: 280px;
-        margin-top: -86px;
-        width: 130px;
-    }
-
-    .subdiv18 {
-        margin-left: 318px;
-        margin-top: -61px;
-    }
-
     p.groove18 {
-        margin-left: 413px;
-        margin-top: -91px;
-        width: 130px;
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 88px;
+        margin-left: 102px;
+        margin-top: -90px;
+        border-radius: 15px;
     }
 
     .subdiv19 {
-        margin-left: 450px;
+        /* background-color: #9993f5;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 120px;
         margin-top: -65px;
     }
 
-
-    .div6 {
-        margin-left: 0px;
-        margin-top: 91px;
-        width: 546px;
-        height: 402px;
-    }
-
     .subdiv20 {
-        margin-left: 478px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -63px;
-        color: white;
-        margin-left: 528px;
-    }
-
-    .last-div {
-        width: 576px;
-    }
-}
-
-
-@media(max-width: 425px) {
-
-    /* .div2 {
-        display: none;
-    } */
-
-    .bi-search {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sec {
-        display: none;
-    }
-
-    .nav {
-        width: 425px;
-    }
-
-    .sidebarIconToggle {
-        left: 374px;
-    }
-
-    .div2 {
-        margin-left: -21PX;
-        margin-top: -774px;
-        height: 1610px;
-    }
-
-    .div3 {
-        margin-left: -2px;
-        margin-top: -13px;
-        height: 1644px;
-    }
-
-
-    .div3 h3 {
-        margin-top: 10px;
-        font-size: 16px;
-        padding: 12px 14px;
-        margin-left: -7px;
-        position: absolute;
-    }
-
-    .bi-question-circle {
-        margin-top: -73px;
-        width: 17px;
-        margin-left: 107px;
+        font-family: "Myriad Pro";
+        background-color: rgb(199, 224, 248);
+        margin-left: 144px;
+        margin-top: -82PX;
+        width: 40px;
+        height: 20px;
+        padding: 13px 20px;
     }
 
     .subdiv {
-        margin-left: 284px;
-        margin-top: -60PX;
-        width: 120px;
-        height: 25px;
-        padding: 4px 10px;
-    }
-
-    .bi-question-circle1 {
-        margin-top: -54px;
-        width: 17px;
-        margin-left: 89px;
-    }
-
-    .div4 {
         font-family: "Myriad pro Semibold";
-        font-style: 14px;
-        margin-top: -1593px;
-        background-color: white;
-        margin-left: 4px;
-        width: 416px;
-        height: 722px;
-        border-radius: 16px;
+        background-color: rgb(233, 227, 227);
+        margin-left: 206px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
     }
 
-    .div4 h5 {
-        padding: 9px 8px;
-    }
-
-
-
-    /* <!-- 1st Card start --> */
     p.groove {
-        height: 126px;
-        width: 125px;
-        margin-left: 11px;
-        margin-top: 9px;
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 7px;
+        margin-top: 30px;
+        border-radius: 15px;
     }
 
     .subdiv1 {
-        margin-left: 48px;
-        margin-top: 20px;
-    }
-
-    .subdiv1 h5 {
-        font-size: 14px;
-        margin-left: -41px;
-        margin-top: 20px;
-    }
-
-    /* <!-- 2nd Card start --> */
-    p.groove1 {
-        height: 126px;
-        width: 125px;
-        margin-left: 148px;
-        margin-top: -75px;
-    }
-
-    .subdiv2 {
-        margin-left: 186px;
-        margin-top: -61px;
-    }
-
-    .subdiv2 h5 {
-        font-size: 14px;
-        margin-left: -41px;
-        margin-top: 20px;
-    }
-
-    /* <!-- 3rd Card start --> */
-    p.groove2 {
-        height: 126px;
-        width: 125px;
-        margin-left: 284px;
-        margin-top: -78px;
-    }
-
-    .subdiv3 {
-        margin-left: 323px;
-        margin-top: -64px;
-    }
-
-    .subdiv3 h5 {
-        font-size: 14px;
-        margin-left: -30px;
-        margin-top: 20px;
-    }
-
-    /* <!-- 4th Card start --> */
-    p.groove3 {
-        height: 126px;
-        width: 125px;
-        margin-left: 11px;
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 28px;
         margin-top: 55px;
     }
 
+    .subdiv1 h5 {
+        position: absolute;
+        font-size: 10px;
+        margin-left: -45px;
+        margin-top: -10px;
+        color: #322b75;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 103px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv2 h5 {
+        position: absolute;
+        font-size: 10px;
+        margin-left: -47px;
+        margin-top: -6px;
+        color: #322b75;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 124px;
+        margin-top: -64px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 198px;
+        margin-top: -89px;
+        border-radius: 15px;
+    }
+
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 292px;
+        margin-top: -94px;
+        border-radius: 15px;
+    }
+
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 219px;
+        margin-top: -60px;
+    }
+
+    .subdiv3 h5 {
+        position: absolute;
+        font-size: 10px;
+        margin-left: -36px;
+        margin-top: -5px;
+        color: #322b75;
+    }
+
     .subdiv4 {
-        margin-left: 48px;
-        margin-top: 82px;
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 311px;
+        margin-top: -65px;
     }
 
     .subdiv4 h5 {
-        font-size: 14px;
-        margin-left: -43px;
-        margin-top: 13px;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -46px;
+        margin-top: -5px;
+        color: #322b75;
     }
 
-    /* <!-- 5th Card start --> */
     p.groove4 {
-        height: 126px;
-        width: 125px;
-        margin-left: 148px;
-        margin-top: -77px;
-    }
-
-    .subdiv5 {
-        margin-left: 185px;
-        margin-top: -63px;
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 7px;
+        margin-top: 70px;
+        border-radius: 15px;
     }
 
     .subdiv5 h5 {
-        font-size: 12px;
-        margin-left: -53px;
-        margin-top: 15px;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -34px;
+        margin-top: -10px;
+        color: #322b75;
+        width: 119px;
     }
 
-    /* <!-- 6th Card start --> */
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 28px;
+        margin-top: 110px;
+    }
+
     p.groove5 {
-        height: 128px;
-        width: 127px;
-        margin-left: 282px;
-        margin-top: -78px;
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 103px;
+        margin-top: -90px;
+        border-radius: 15px;
     }
 
     .subdiv6 {
-        margin-left: 320px;
-        margin-top: -64px;
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 124px;
+        margin-top: -65px;
     }
 
     .subdiv6 h5 {
-        font-size: 12px;
-        margin-left: -50px;
-        margin-top: 15px;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -33px;
+        margin-top: -5px;
+        color: #322b75;
+        width: -42px;
     }
 
-    /* <!-- 7th Card start --> */
     p.groove6 {
-        height: 126px;
-        width: 124px;
-        margin-left: 11px;
-        margin-top: 56px;
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 198px;
+        margin-top: -89px;
+        border-radius: 15px;
     }
 
     .subdiv7 {
-        margin-left: 48px;
-        margin-top: 83px;
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 219px;
+        margin-top: -60px;
     }
 
     .subdiv7 h5 {
-        font-size: 14px;
-        margin-left: -51px;
-        margin-top: 14px;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -52px;
+        margin-top: -5px;
+        color: #322b75;
     }
 
-    /* <!-- 8th Card start --> */
-
     p.groove7 {
-        height: 126px;
-        width: 124px;
-        margin-left: 150px;
-        margin-top: -77px;
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 293px;
+        margin-top: -94px;
+        border-radius: 15px;
     }
 
     .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
         border-radius: 50px;
-        margin-left: 188px;
+        margin-left: 313px;
+        margin-top: -65px;
     }
 
     .subdiv8 h5 {
-        font-size: 14px;
-        margin-left: -27px;
-        margin-top: 12px;
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -32px;
+        margin-top: -5px;
     }
 
-    /* <!-- 9th Card start --> */
-
     p.groove8 {
-        height: 126px;
-        width: 124px;
-        margin-left: 283px;
-        margin-top: -82px;
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 7px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 102px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 198px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 293px;
+        margin-top: -100px;
+        border-radius: 15px;
     }
 
     .subdiv9 {
-        margin-left: 322px;
-        margin-top: -64px;
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 29px;
+        margin-top: 120px;
     }
 
     .subdiv9 h5 {
-        font-size: 13px;
-        margin-left: -31px;
-        margin-top: 12px;
-    }
-
-
-    /* <!-- 10th Card start --> */
-
-    p.groove9 {
-        height: 126px;
-        width: 124px;
-        margin-left: 11px;
-        margin-top: 51px;
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -36px;
+        margin-top: -5px;
     }
 
     .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
         width: 50px;
         height: 50px;
-        margin-left: 48px;
-        margin-top: 82px;
+        border-radius: 50px;
+        margin-left: 123px;
+        margin-top: -65px;
     }
 
     .subdiv10 h5 {
-        margin-left: -31px;
-        margin-top: 15px;
-    }
-
-    /* <!-- 11th Card start --> */
-
-    p.groove10 {
-        height: 125px;
-        width: 124px;
-        margin-left: 150px;
-        margin-top: -81px;
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -33px;
+        margin-top: -5px;
     }
 
     .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
         border-radius: 50px;
-        margin-left: 186px;
+        margin-left: 218px;
         margin-top: -65px;
     }
 
     .subdiv11 h5 {
-        margin-left: -43px;
-        margin-top: 15px;
-    }
-
-    /* <!-- 12th Card start --> */
-
-    p.groove11 {
-        height: 123px;
-        width: 124px;
-        margin-left: 284px;
-        margin-top: -79px;
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -44px;
+        margin-top: -5px;
     }
 
     .subdiv12 {
-        margin-left: 323px;
-        margin-top: -63px;
-    }
-
-    .subdiv12 h5 {
-        margin-left: -19px;
-        margin-top: 14px;
-    }
-
-    /* <!-- 13th Card start --> */
-    p.groove12 {
-        height: 126px;
-        width: 124px;
-        margin-left: 11px;
-        margin-top: 57px;
-    }
-
-    .subdiv13 {
-        margin-left: 49px;
-        margin-top: 87px;
-    }
-
-    .subdiv13 h5 {
-        margin-left: -52px;
-        margin-top: 22px;
-    }
-
-    /* <!-- 14th Card start --> */
-    p.groove13 {
-        height: 126px;
-        width: 124px;
-        margin-left: 151px;
-        margin-top: -80px;
-    }
-
-    .subdiv14 {
-        margin-left: 188px;
-        margin-top: -62px;
-    }
-
-    .subdiv14 h5 {
-        margin-left: -55px;
-        font-size: 12px;
-        margin-top: 20px;
-    }
-
-    /* div5 */
-
-
-    .div5 {
-        font-family: "Myriad Pro";
-        margin-left: 0px;
-        margin-top: 82px;
-        width: 412px;
-        border-radius: 16px;
-        height: 350px;
-    }
-
-    .div5 h4 {
-        padding: 7px 15px;
-    }
-
-    .div5 .bi-question-circle2 {
-        margin-left: 65px;
-        margin-top: -71px;
-        color: black;
-    }
-
-    .div5 svg {
-        margin-left: 55px;
-        margin-top: -70px;
-        width: 16px;
-    }
-
-    /* <!-- 1th Card start --> */
-    p.groove15 {
-        height: 142px;
-        width: 125px;
-        margin-left: 9px;
-        margin-top: -316px;
-    }
-
-    .subdiv16 {
-        margin-left: 48px;
-        margin-top: -291px;
-    }
-
-    .subdiv16 h5 {
-        font-size: 14px;
-        margin-left: -23px;
-        margin-top: 23px;
-    }
-
-    /* <!-- 2th Card start --> */
-    p.groove16 {
-        height: 142px;
-        width: 125px;
-        margin-left: 146px;
-        margin-top: -90px;
-    }
-
-    .subdiv17 {
-        font-size: 14px;
-        margin-left: 184px;
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 314px;
         margin-top: -65px;
     }
 
-    .subdiv17 h5 {
+    .subdiv12 h5 {
         color: #322b75;
         position: absolute;
-        font-size: 13px;
+        font-size: 10px;
         margin-left: -28px;
-        margin-top: 12px;
+        margin-top: -5px;
     }
 
-    /* <!-- 3th Card start --> */
-    p.groove17 {
-        height: 142px;
-        width: 125px;
-        margin-left: 282px;
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 9px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 29px;
+        margin-top: 120px;
+    }
+
+    .subdiv13 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -50px;
+        margin-top: -5px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 125px;
+        margin-top: -65px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 90px;
+        margin-left: 104px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv14 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
+        margin-left: -46px;
+        margin-top: -5px;
+        width: 113px;
+    }
+
+    .div3 h3 {
+        font-size: 23px;
+        margin-top: -5px;
+        padding: 25px 20px;
+        margin-left: 9px;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    /* .div2 {
+        display: none;
+    }
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 375px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } 
+
+
+
+    .spinner {
+        height: 5px;
+    }
+
+
+    .sidebarIconToggle {
+        top: 25px;
+        left: 319px;
+        width: 24px;
+    }
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -13px;
+    }
+
+    /* ***************************************** 
+
+    .div4 {
+        position: absolute;
+        font-style: 14px;
+        margin-top: 65px;
+        color: #36455f;
+        background-color: white;
+        margin-left: 10px;
+        width: 341px;
+        height: 750px;
+        border-radius: 15px;
+    }
+
+    .subdiv {
+        font-family: "Myriad pro Semibold";
+        background-color: rgb(233, 227, 227);
+        margin-left: 159px;
+        margin-top: -90PX;
+        width: 170px;
+        height: 40px;
+        padding: 13px 20px;
+    }
+
+    p.groove {
+        font-family: Myriad Pro;
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 7px;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+
+    .subdiv1 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 21px;
+        margin-top: 55px;
+    }
+
+    p.groove1 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 91px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv2 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 109px;
+        margin-top: -64px;
+    }
+
+    p.groove2 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 175px;
         margin-top: -89px;
+        border-radius: 15px;
     }
 
-    .subdiv18 {
-        margin-left: 321px;
+    .subdiv3 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 192px;
         margin-top: -60px;
     }
 
-    .subdiv18 h5 {
-        font-size: 14px;
-        margin-left: -14px;
-        margin-top: 12px;
+    .subdiv4 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 276px;
+        margin-top: -65px;
     }
 
-    /* <!-- 4th Card start --> */
-    p.groove18 {
-        height: 142px;
-        width: 125px;
-        margin-left: 9px;
-        margin-top: 60px;
+    p.groove3 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 258px;
+        margin-top: -94px;
+        border-radius: 15px;
     }
 
-    .subdiv19 {
-        margin-left: 48px;
-        margin-top: 98px;
+    .subdiv4 h5 {
+        position: absolute;
+        font-size: 10px;
+        margin-left: -35px;
+        margin-top: -5px;
+        color: #322b75;
     }
 
-    .subdiv19 h5 {
-        font-size: 14px;
+    p.groove4 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 7px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv5 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 19px;
+        margin-top: 110px;
+    }
+
+    p.groove5 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 92px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 108px;
+        margin-top: -65px;
+    }
+
+    .subdiv6 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 108px;
+        margin-top: -65px;
+    }
+
+    p.groove6 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 177px;
+        margin-top: -89px;
+        border-radius: 15px;
+    }
+
+    .subdiv7 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 194px;
+        margin-top: -60px;
+    }
+
+    p.groove7 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 260px;
+        margin-top: -94px;
+        border-radius: 15px;
+    }
+
+    .subdiv8 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 276px;
+        margin-top: -65px;
+    }
+
+    .subdiv8 h5 {
+        color: #322b75;
+        position: absolute;
+        font-size: 10px;
         margin-left: -34px;
-        margin-top: 18px;
+        margin-top: -5px;
+    }
+
+    p.groove8 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 5px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv9 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 19px;
+        margin-top: 120px;
+    }
+
+    p.groove9 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 89px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv10 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 104px;
+        margin-top: -65px;
+    }
+
+    p.groove10 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 174px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv11 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 188px;
+        margin-top: -65px;
+    }
+
+    p.groove11 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 258px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv12 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 275px;
+        margin-top: -65px;
+    }
+
+    p.groove12 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 7px;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .subdiv13 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 22px;
+        margin-top: 120px;
+    }
+
+    p.groove13 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 150px;
+        width: 80px;
+        margin-left: 91px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    .subdiv14 {
+        background-color: #3BB161;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 106px;
+        margin-top: -65px;
+    }
+
+    .div5 {
+        font-family: "Myriad Pro";
+        margin-left: -1px;
+        background-color: white;
+        margin-top: 100px;
+        width: 184px;
+        border-radius: 15px;
+        height: 370px;
     }
 
     .div6 {
         font-family: "Myriad Pro";
-        margin-left: 18px;
+        margin-left: 189px;
         background-color: white;
-        margin-top: 104px;
-        width: 378px;
-        border-radius: 16px;
-        height: 390px;
+        margin-top: -312px;
+        width: 155px;
+        border-radius: 15px;
+        height: 365px;
+    }
+
+    p.groove15 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 86px;
+        margin-left: 3px;
+        margin-top: -290px;
+        border-radius: 15px;
+    }
+
+    .subdiv16 {
+        /* background-color: #9993f5; 
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-top: -270px;
+    }
+
+    p.groove16 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 86px;
+        margin-left: 92px;
+        margin-top: -85px;
+        border-radius: 15px;
+    }
+
+    .subdiv17 {
+        /* background-color: #9993f5;
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 108px;
+        margin-top: -65px;
+    }
+
+    p.groove17 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 88px;
+        margin-left: 4px;
+        margin-top: 60px;
+        border-radius: 15px;
+    }
+
+    .subdiv18 {
+        /* background-color: #9993f5; 
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 88px;
+        margin-left: 94px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    p.groove18 {
+        font-family: "Myriad Pro";
+        position: absolute;
+        border-style: groove;
+        height: 130px;
+        width: 88px;
+        margin-left: 94px;
+        margin-top: -90px;
+        border-radius: 15px;
+    }
+
+    .subdiv19 {
+        /* background-color: #9993f5; 
+        padding: 13px 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 111px;
+        margin-top: -65px;
     }
 
     .div6 h4 {
-        padding: 18px 20px;
-        font-size: 18px;
+        padding: 30px 30px;
+        font-size: 17px;
+        margin-left: -21px;
     }
 
-    .div6 .bi-question-circle2 {
-        margin-left: 116px;
-        margin-top: -92px;
+    .div6 svg {
+        margin-left: 96px;
+        margin-top: -116px;
+        color: #36455f;
     }
 
     .subdiv20 {
-        margin-left: 315px;
-        margin-top: -67PX;
+        display: none;
     }
 
+
+    .div6 svg {
+        margin-left: 93px;
+        margin-top: -117px;
+        color: #36455f;
+    }
 
     .sub-div {
         font-family: "Myriad Pro";
         position: relative;
-        padding: 29px 59px;
+        padding: 25px 45px;
+        margin-left: -20px;
+        margin-top: -54px;
     }
 
     .div7 {
-        padding: 9px 102px;
-        margin-top: -346px;
-    }
-
-    .h6,
-    h6 {
-        font-size: 14px;
+        padding: 104px 80px;
+        margin-top: -380px;
+        margin-left: -26px;
     }
 
     .bi-sort-alpha-down {
-        margin-left: -8px;
-        margin-top: -28px;
-        width: 20px;
+
+        margin-top: -26px;
+        margin-left: -10px;
+
     }
 
-    .last-div {
-        padding: 10px 97px;
-        height: 40px;
-        width: 574px;
-        margin-left: -152px;
-        margin-top: 0px;
+
+
+}
+
+
+@media (max-width: 320px) {
+
+    /* .div2 {
+        display: none;
+    } 
+
+    .bi-search {
+        display: none;
     }
 
-    p {
-        margin-top: 0px;
-        margin-left: 118px;
-        margin-bottom: 1rem;
+    .sub-nav1 {
+        display: none;
     }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 320px;
+    }
+
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } 
+
+
+    .sidebarIconToggle {
+        top: 25px;
+        left: 277px;
+        width: 24px;
+    }*/
+
+
 }

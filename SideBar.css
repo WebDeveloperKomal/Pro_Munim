@@ -101,6 +101,9 @@
 
 body {
     background-color: #e6e6e6;
+    outline: none;
+    border: none;
+    display: block;
 }
 
 
@@ -109,7 +112,7 @@ body {
     background-color: #0f75bb;
     position: relative;
     width: 100%;
-    margin-top: 0px;
+    margin-top: -3px;
     height: 3px;
 }
 
@@ -118,24 +121,22 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 83%;
+    height: 100%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 103px;
-    left: 367px;
+    top: 82px;
+    left: -3px;
     background-color: white;
-    overflow-x: hidde n;
+    overflow-x: hidden;
     padding-top: 10px;
     line-height: 50px;
     /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); */
 }
 
 .sidenav b {
-    margin-left: 30px;
-
+    margin-left: -2px;
 }
-
 
 .sidenav a {
     font-size: 14px;
@@ -146,11 +147,10 @@ body {
     border: none;
 }
 
-
-
 button {
     border: none;
 }
+
 
 .sidenav a:hover {
     background: rgb(231, 240, 248);
@@ -161,28 +161,42 @@ button {
 }
 
 .dropdown-btn {
-    line-height: 50px;
+    line-height: 40px;
     margin-left: 0px;
+    margin-top: 5px;
 }
 
 .dropdown-btn .bi-file-arrow-up-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 24px;
+    margin-top: -10px;
 }
+
 
 .dropdown-btn .bi-file-person-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 23px;
+
 }
+
+#F_P {
+    margin-top: -34px;
+}
+
 
 .dropdown-btn .bi-file-bar-graph-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 24px;
+    margin-top: -40px;
 }
 
 .dropdown-btn .bi-check-circle-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 22px;
 }
 
 .fa-caret-down {
@@ -196,7 +210,185 @@ button {
     border: none;
 }
 
+.dropdown-btn p {
+    margin-top: -43px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
 
+.dropdown-btn #p1 {
+    margin-top: -45px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.dropdown-btn #p2 {
+    margin-top: -45px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.dropdown-btn #p3 {
+    margin-top: -44px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+
+
+.dropdown-btn #p4 {
+    margin-top: -44px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+p .fa-caret-down {
+    margin-top: -10px;
+    position: absolute;
+}
+
+/* *************************************** */
+
+.dropdown-container1 #di {
+    margin-top: 5px;
+
+}
+
+.dropdown-container1 #di1 {
+    margin-top: 5px;
+}
+
+/* **************************************** */
+
+.dropdown-container2 #di2 {
+    margin-top: 5px;
+}
+
+.dropdown-container2 #di3 {
+    margin-top: 5px;
+}
+
+.dropdown-container2 #di4 {
+    margin-top: 5px;
+}
+
+.dropdown-container2 #di5 {
+    margin-top: 5px;
+}
+
+.dropdown-container2 #di6 {
+    margin-top: 5px;
+}
+
+.dropdown-container2 #di7 {
+    margin-top: 5px;
+}
+
+/* **************************************** */
+.dropdown-container3 #di8 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di9 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di10 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di11 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di12 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di13 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di14 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di15 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di16 {
+    margin-top: 5px;
+}
+
+.dropdown-container3 #di17 {
+    margin-top: 5px;
+}
+
+/* *******************************************/
+
+.dropdown-container4 #di18 {
+    margin-top: 5px;
+}
+
+.dropdown-container4 #di19 {
+    margin-top: 5px;
+}
+
+.dropdown-container4 #di20 {
+    margin-top: 5px;
+}
+
+.dropdown-container4 #di21 {
+    margin-top: 5px;
+}
+
+.dropdown-container4 #di22 {
+    margin-top: 5px;
+}
+
+.dropdown-container4 #di23 {
+    margin-top: 5px;
+}
+
+/* *************************************** */
+.dropdown-container5 #di24 {
+    margin-top: 5px;
+}
+
+.dropdown-container5 #di25 {
+    margin-top: 5px;
+}
+
+/* **************************************** */
+.dropdown-container6 #di26 {
+    margin-top: 5px;
+}
+
+.dropdown-container6 #di27 {
+    margin-top: 5px;
+}
+
+.dropdown-container6 #di28 {
+    margin-top: 5px;
+}
+
+.dropdown-container6 #di29 {
+    margin-top: 5px;
+}
+
+.dropdown-container6 #di30 {
+    margin-top: 5px;
+}
+
+.dropdown-container6 #di31 {
+    margin-top: 5px;
+}
 
 
 
@@ -216,6 +408,7 @@ button {
 
 }
 
+
 a {
     display: block;
     outline: none;
@@ -224,11 +417,32 @@ a {
 
 
 .dropdown-container1 {
-    display: block;
-    padding-left: 2px;
-    /* color: black; */
-
+    display: none;
+    margin-left: -11px;
+    position: relative;
+    margin-top: -20px;
 }
+
+.dropdown-container1 #i3 {
+    margin-top: 3px;
+}
+
+.dropdown-container2 #i4 {
+    margin-top: 3px;
+}
+
+.dropdown-container3 #i5 {
+    margin-top: 3px;
+}
+
+.dropdown-container4 #i6 {
+    margin-top: 3px;
+}
+
+.dropdown-container5 #i7 {
+    margin-top: 3px;
+}
+
 
 .sidenav .dropdown-container1 a {
     color: #42526E;
@@ -238,10 +452,9 @@ a {
 }
 
 .dropdown-container2 {
-    margin-left: 65px;
-    font-size: 14px;
-
-
+    display: none;
+    margin-left: 54px;
+    margin-top: -20px;
 }
 
 .sidenav .dropdown-container2 a {
@@ -253,10 +466,9 @@ a {
 }
 
 .dropdown-container3 {
-    margin-left: 55px;
+    margin-left: 35px;
     font-size: 14px;
-
-
+    margin-top: -19px;
 }
 
 .sidenav .dropdown-container3 a {
@@ -270,7 +482,7 @@ a {
 .dropdown-container4 {
     margin-left: 55px;
     font-size: 14px;
-
+    margin-top: -18px;
 }
 
 .sidenav .dropdown-container4 a {
@@ -282,10 +494,9 @@ a {
 }
 
 .dropdown-container5 {
-    margin-left: 75px;
+    margin-left: 58px;
     font-size: 14px;
-
-
+    margin-top: -20px;
 }
 
 .sidenav .dropdown-container5 a {
@@ -296,10 +507,9 @@ a {
 }
 
 .dropdown-container6 {
-    margin-left: 65px;
+    margin-left: 46px;
     font-size: 14px;
-
-
+    margin-top: -20px;
 }
 
 .sidenav .dropdown-container6 a {
@@ -313,10 +523,13 @@ a {
 /* ************************************** */
 
 
-
 .dropdown-btn i {
     margin-left: -23px;
+    margin-top: -45px;
+}
 
+.dropdown-btn i .bi-file-bar-graph-fill {
+    margin-top: -10px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -334,12 +547,14 @@ a {
     outline: none;
     font-size: 14px;
 
+
 }
 
 /* On mouse-over */
 .sidenav a:hover,
 .dropdown-btn:hover {
     color: #349753;
+
 
 }
 
@@ -370,7 +585,7 @@ a {
     /* background: rgb(231, 240, 248); */
     color: #349753;
     width: 200px;
-    margin-left: 9px;
+    margin-left: 28px;
     border-radius: 12px;
     border: none;
     outline: none;
@@ -379,42 +594,51 @@ a {
 
 .dropdown-btn a:hover {
     margin: inherit;
+    height: 55px;
 }
 
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/* Dropdown container (hidden by default). 
+Optional: add a lighter background color and 
+some left padding to change the design of the 
+dropdown content */
 
 .dropdown-container1 {
     display: none;
     padding-left: 10px;
     position: relative;
+    margin-top: -19px;
 }
 
 .dropdown-container2 {
     display: none;
     padding-left: 8px;
+    margin-top: -20px;
 
 }
 
 .dropdown-container3 {
     display: none;
     padding-left: 8px;
+    margin-top: -19px;
 }
 
 .dropdown-container4 {
     display: none;
     padding-left: 8px;
+    margin-top: -18px;
 }
 
 .dropdown-container5 {
     display: none;
     padding-left: 8px;
+    margin-top: -18px;
 }
 
 .dropdown-container6 {
     display: none;
     padding-left: 8px;
+    margin-top: -18px;
 }
-
 
 
 
@@ -430,14 +654,14 @@ a {
 .sidenav .bi-house-door-fill {
     /* color: #42526E; */
     margin-left: 18px;
-    font-size: 14px;
+    font-size: 22px;
     color: #42526E;
 }
 
 .dropdown-btn .bi-alipay {
-    font-size: 14px;
+    font-size: 20px;
     color: #42526E;
-    margin-left: 0px;
+    margin-left: 1px;
 }
 
 .dropdown-btn .bi-alipay:hover {
@@ -472,10 +696,9 @@ a {
 }
 
 .sidenav .bi-browser-chrome {
-    font-size: 14px;
+    font-size: 23px;
     color: #42526E;
     margin-left: 0px;
-
 }
 
 .dropdown-btn .bi-browser-chrome:hover {
@@ -528,16 +751,21 @@ a {
     background: none;
 }
 
-
-
+.sidenav .bi-file-arrow-up-fill {
+    margin-top: -10px;
+}
 
 /* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
 
-.sidenav ul li:hover>ul {
+.div2 ul li:hover>ul {
     display: block;
 
+}
+
+.div1 ul ul {
+    display: none;
 }
 
 #opensidebarMenu,
@@ -558,7 +786,7 @@ a {
     cursor: pointer;
 }
 
-#opensidebarMenu:checked~.sidenav {
+#opensidebarMenu:checked~.div2 {
     transform: translateX(0px);
 }
 
@@ -591,89 +819,15 @@ a {
 /* <!--****** 2nd Div End **********--> */
 
 
-
-/* ******** REGISTER FOR STATEMENT ******** */
-
-.div4 {
-    font-family: "Myriad pro Semibold";
-    padding: 50px 40px;
-    margin-left: 570px;
-    margin-top: -10px;
-    color: #36455f;
-}
-
-.btn1 {
-    font-family: Myriad Pro;
-    font-size: 14px;
-    width: 300px;
-    height: 50px;
-    margin-top: 30px;
-    border: none;
-    color: #36455f;
-    background-color: rgb(218, 217, 217);
-}
-
-.btn2 {
-    font-family: Myriad Pro;
-    font-size: 14px;
-    width: 300px;
-    height: 50px;
-    padding: 10px 10px;
-    margin-top: 30px;
-    margin-left: 10px;
-    border: none;
-    color: #36455f;
-    background-color: rgb(218, 217, 217);
-}
-
-.bi-x-lg {
-    margin-left: 860px;
-    margin-top: -450px;
-    color: red;
-}
-
-.btn3 {
-    font-family: Myriad Pro;
-    margin-left: 600px;
-    width: 150px;
-    height: 40px;
-    background-color: #3BB161;
-    color: white;
-}
-
-.btn4 {
-    font-family: Myriad Pro;
-    /* margin-left: 620px; */
-    background-color: #3BB161;
-    color: white;
-    width: 150px;
-    height: 40px;
-}
-
-.btn3:hover,
-.btn4:hover {
-    background-color: #0F75BB;
-}
-
-select {
-    width: 618px;
-    font-family: Myriad Pro;
-    height: 40px;
-    color: #36455f;
-    background-color: rgb(218, 218, 218);
-}
-
-/* ********REGISTER FOR STATEMENT Css end ******** */
-
 /* *********Last Div start  *********** */
 .last-div {
     background-color: #3BB161;
-    color: #fff;
+    color: white;
     font-family: "Myriad Pro";
     text-align: center;
     padding: 10px 0px;
     height: 40px;
-    margin-top: 430px;
+    margin-top: 1453px;
 }
 
 p {
@@ -749,45 +903,261 @@ p {
         color: white;
     }
 
-    .sidenav {
-        top: 85px;
-        left: 0px;
-        height: 89%
+    .div2 {
+        margin-left: 0PX;
+        height: 918px;
     }
+
+    .div2 ul ul {
+        height: 918px;
+    }
+
+    .main-div {
+        margin-top: -919px;
+    }
+
 
     /* ***************** Dis *********************** */
+
+
+
     .div4 {
-        margin-left: 201px;
-        margin-top: -3px;
+        margin-left: 210px;
+        /* margin-top: -950px; */
     }
 
-    .btn3 {
-        margin-left: 622px;
+    .div4 h5 {
+        padding: 30px 20px;
+        font-size: 25px;
+        font-family: "Myriad pro Semibold";
+        color: #42526E;
     }
 
-    .bi-x-lg {
-        margin-left: 1085px;
+    .sub-div01 {
+        position: relative;
+        background-color: white;
+        margin-left: 45px;
+        margin-top: -20px;
+        height: 250px;
+        width: 1146px;
+        border-radius: 16px;
     }
 
-    .btn1,
-    .btn2 {
-        width: 431px;
+    /* 1st div  */
+
+    .subdiv1 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        margin-left: 20px;
     }
 
-    select {
-        width: 871px;
+    .bi-file-ruled-fill {
+        color: white;
     }
 
-    .btn3 {
-        margin-left: 661px;
-        width: 210px;
+    .subdiv1 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 81px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
     }
 
-    .btn4 {
-        width: 209px;
+
+    /* 2nd div  */
+    .subdiv2 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        margin-left: 350px;
+    }
+
+    .bi-ui-checks-grid {
+        color: white;
+    }
+
+    .subdiv2 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 81px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
+    }
+
+    /* 3rd div  */
+    .subdiv3 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 30px;
+        border-radius: 50px;
+        margin-left: 700px;
+    }
+
+    .bi-currency-exchange {
+        color: white;
+    }
+
+    .subdiv3 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 124px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
+    }
+
+    /* 4th div  */
+    .subdiv4 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 100px;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+
+    .bi-shield-plus {
+        color: white;
+    }
+
+    .subdiv4 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 95px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
+    }
+
+
+    /* 5th div  */
+    .subdiv5 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 100px;
+        border-radius: 50px;
+        margin-left: 350px;
+    }
+
+    .bi-cash-stack {
+        color: white;
+    }
+
+    .subdiv5 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 81px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
+    }
+
+
+    /* 6th div  */
+    .subdiv6 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 100px;
+        border-radius: 50px;
+        margin-left: 700px;
+    }
+
+    .bi-person-fill-gear {
+        color: white;
+    }
+
+    .subdiv6 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 156px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
+    }
+
+
+    /* 7th div  */
+    .subdiv7 {
+
+        background-color: #3BB161;
+        padding: 7px 10px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 170px;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+
+    .bi-file-earmark-richtext-fill {
+        color: white;
+    }
+
+    .subdiv7 p {
+        font-family: Myriad Pro;
+        font-size: 14px;
+        width: 81px;
+        margin-left: 40px;
+        margin-top: -20px;
+        color: #42526E;
+    }
+
+
+
+    .sub-div02 {
+        position: relative;
+        background-color: white;
+        margin-left: 43px;
+        margin-top: 20px;
+        height: 590px;
+        width: 1147px;
+        border-radius: 16px;
+    }
+
+    .sub-div02 h5 {
+        padding: 20px 15px;
+        font-size: 18px;
+        font-family: "Myriad pro Semibold";
+        color: #42526E;
+    }
+
+    .sub-div02 .bi-question-circle {
+        margin-left: 90px;
+        margin-top: -100px;
     }
 
     /* ****************** dis end ******************* */
+    .last-div {
+        margin-top: 917px;
+    }
 }
 
 @media (max-width: 1366px) {
@@ -799,18 +1169,41 @@ p {
         margin-left: 1197px;
     }
 
-    .bi-x-lg {
-        margin-left: 1012px;
+    .main-div {
+        margin-top: -629px;
     }
 
-    .btn3 {
-        margin-left: 665px;
-        width: 202px;
+    .div2 {
+        height: 810px;
     }
 
-    .btn4 {
-        width: 200px;
+    .div2 ul ul {
+        height: 810px;
     }
+
+    .main-div {
+        margin-top: -811px;
+    }
+
+    .sub-div01 {
+        margin-left: 24px;
+        width: 1090px;
+    }
+
+    .sub-div02 {
+        margin-left: 27px;
+        width: 1090px;
+    }
+
+    .last-div {
+        margin-top: 1448px;
+    }
+
+    .sidenav {
+        height: 97%;
+
+    }
+
 }
 
 @media (max-width: 1199px) {
@@ -823,14 +1216,6 @@ p {
     }
 
 
-    .btn3 {
-        margin-left: 469px;
-        width: 202px;
-    }
-
-    .bi-x-lg {
-        margin-left: 853px;
-    }
 }
 
 @media (max-width: 1024px) {
@@ -891,38 +1276,27 @@ p {
         margin-top: -62px;
     }
 
+    .main-div {
+        margin-top: -600px;
+
+    }
+
     .logo {
         width: 147px;
     }
 
-    .div4 {
-        margin-left: 195px;
+    .div2 {
+        height: 600px;
+        margin-top: -14px;
     }
 
-    .sidenav {
-        top: 83px;
-        left: 0px;
-        height: 89%;
+    .div2 ul ul {
+        height: 600px;
     }
 
-    .bi-x-lg {
-        margin-left: 680px;
+    .last-div {
+        margin-top: 598px;
     }
-
-    .btn1,
-    .btn2 {
-        width: 355px;
-    }
-
-    select {
-        width: 725px;
-    }
-
-    .btn3 {
-        margin-left: 319px;
-        width: 202px;
-    }
-
 }
 
 @media only screen and (max-width: 923px) {
@@ -940,31 +1314,7 @@ p {
         height: 44px;
         margin-top: -41px;
     }
-
-    .last-div {
-        margin-top: 434px;
-    }
-
-    .btn1,
-    .btn2 {
-        width: 310px;
-    }
-
-    select {
-        width: 640px;
-    }
-
-    .btn3 {
-        margin-left: 220px;
-        width: 202px;
-    }
-
-    .bi-x-lg {
-        margin-left: 582px;
-    }
-
 }
-
 
 @media only screen and (max-width: 768px) {
     .nav {
@@ -998,44 +1348,13 @@ p {
         margin-left: 727px;
     }
 
-
     .main-div {
-        width: 768px;
-    }
-
-    .div4 {
-        margin-left: 212px;
-    }
-
-    .btn1,
-    .btn2 {
-        width: 470px;
-    }
-
-    .btn2 {
-        margin-left: 1px;
-    }
-
-    select {
-        width: 470px;
-    }
-
-    .btn3 {
-        margin-left: 115px;
-        width: 171px;
-    }
-
-    .btn4 {
-        width: 171px;
-    }
-
-    .bi-x-lg {
-        margin-top: -632px;
-        margin-left: 449px;
+        /* margin-top: -600px; */
+        display: none;
     }
 
     .last-div {
-        margin-top: 340px;
+        width: 768px;
     }
 }
 
@@ -1075,55 +1394,125 @@ p {
         color: white;
         margin-left: 536px;
     }
-    .sidenav {
-        top: 74px;
-        left: 0px;
-    }
-  
-    .main-div{
-        width: 575px;
+
+    .div2 {
+        margin-left: -10PX;
+        width: 182px;
     }
 
-    .last-div{
-       width:  575px;
+    .div2 ul ul {
+        width: 187px;
     }
 
-    .sidenav {
-        top: 76px;
-        left: 0px;
-    }
-    .div4 {
-        margin-left: 193px;
+    .kp1 .li2 ul {
+        margin-top: -79px;
+        margin-left: 153px;
     }
 
-    .btn1, .btn2 {
-        width: 318px;
-    }
-    select {
-        width: 315px;
+    .kp2 .li6 ul {
+        margin-top: -136px;
+        margin-left: 154px;
     }
 
-    .btn3 {
-        margin-left: 2px;
-        width: 132px;
+    .kp3 .li7 ul {
+        margin-top: -191px;
+        margin-left: 154px;
     }
 
-    .btn4 {
-        width: 132px;
+    .kp4 .li8 ul {
+        margin-top: -251px;
+        margin-left: 153px;
     }
 
-    .bi-x-lg {
-        margin-top: -632px;
-        margin-left: 274px;
+    .kp5 .li9 ul {
+        margin-top: -309px;
+        margin-left: 152px;
     }
 
+    .kp6 .li10 ul {
+        margin-top: -367px;
+        margin-left: 153px;
+    }
+
+    .last-div {
+        width: 576px;
+    }
 }
 
 
 
 @media (max-width: 425px) {
+    /* 
+    .nav {
+        width: 425px;
+        height: 93px;
+    }
 
-    
+    .logo {
+        position: absolute;
+        height: 107px;
+        margin-top: -7px;
+        padding: 0px 10px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 237px;
+        width: 170px;
+    }
+
+    .bi-search {
+        margin-left: 239px;
+        margin-top: -64px;
+    }
+
+    .sub-nav {
+        margin-left: 251px;
+        margin-top: -16px;
+        width: 32px;
+        height: 29px;
+    }
+    .bi-bell-fill {
+        padding-left: 16px;
+        margin-left: -11px;
+        margin-top: -13px;
+    }
+
+    .div-cal {
+        margin-top: -14px;
+        margin-left: -7px;
+        width: 5px;
+        height: 6px;
+    }
+
+    .sub-nav1 {
+        margin-left: 293px;
+        margin-top: -29px;
+        width: 32px;
+        height: 29px;
+    }
+
+    .bi-person-fill {
+        color: white;
+        margin-left: 1px;
+        width: 17px;
+        height: 16px;
+        margin-top: -14px;
+        padding-left: 3px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -51px;
+        margin-left: 335px;
+    }
+
+    .sidebarIconToggle {
+        top: 66px;
+        left: 369px;
+        width: 18px;
+    } */
+
+
+
     .nav {
         width: 425px;
         height: 77px;
@@ -1157,17 +1546,37 @@ p {
         left: 363px;
         width: 23px;
     }
+
+    .main-div {
+        display: block;
+        width: 425px;
+        height: 6px;
+        margin-top: -600px;
+    }
+
+
+
+
+
     .spinner {
         height: 5px;
     }
+
+
+    /* .sidebarIconToggle {
+        top: 62px;
+        left: 363px;
+        width: 23px;
+    }   */
 
     #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
         transform: rotate(-135deg);
         margin-top: -12px;
     }
 
-    .sidenav {
-        transform: translateX(-220px);
+
+    .div2 {
+        transform: translateX(-210px);
         transition: transform 250ms ease-in-out
     }
 
@@ -1177,51 +1586,21 @@ p {
     .bottom {
         display: block;
     }
-    .sidenav {
-        top: 83px;
-        left: 0px;
-    }
-    .main-div {
-        height: 6px;
-        margin-top: 0px;
-    }
-    .main-div{
-        width: 425px;
-    }
-
-    .last-div{
-       width:  425px;
-    }
-    .div4 {
-        margin-left: -22px;
-        MARGIN-TOP: -28PX;
-    }
-    .btn1, .btn2 {
-        width: 376px;
-    }
-
-    select {
-        width: 367px;
-    }
-
-    .btn3 {
-        MARGIN-TOP: 10PX;
-    }
 
     .last-div {
         width: 425px;
-        margin-top: 275px;
+        margin-top: 595px;
     }
 
-    .bi-x-lg {
-        margin-top: -632px;
-        margin-left: 337px;
-    }
 }
 
 
 
 @media (max-width: 375px) {
+
+    /* .div2 {
+        display: none;
+    } */
 
     .div1 input[type=search] {
         display: none;
@@ -1252,6 +1631,32 @@ p {
         width: 375px;
     }
 
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
+    }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
 
     .main-div {
         width: 375px;
@@ -1275,24 +1680,82 @@ p {
 
     .last-div {
         width: 375px;
-
+        margin-top: px;
     }
 
-    .div4 {
-        margin-left: -22px;
-        MARGIN-TOP: -10PX;
+}
+
+
+@media (max-width: 320px) {
+
+    /* .div2 {
+        display: none;
+    } */
+
+    .bi-search {
+        display: none;
     }
-    .bi-x-lg {
-        margin-top: -632px;
-        margin-left: 296px;
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
     }
 
 
-    .btn1, .btn2 {
-        width: 327px;
+    .nav {
+        width: 320px;
     }
 
-    select {
-        width: 326px;
+    /* 
+    .logo {
+        height: 114px;
+        margin-top: -10px;
+        margin-left: -5px;
+        width: 133px;
     }
+
+    .sec {
+        margin-left: 159px;
+        width: 129px;
+    }
+
+    .bi-search {
+        margin-left: 261px;
+    }
+
+    .bi-chevron-down {
+        margin-top: 30px;
+        color: white;
+        margin-left: -3px;
+    }
+
+    .sub-nav {
+        margin-left: 295px;
+    } */
+
+    .main-div {
+        width: 320px;
+    }
+
+    .sidebarIconToggle {
+        top: 25px;
+        left: 277px;
+        width: 24px;
+    }
+
+    .last-div {
+        width: 320px;
+    }
+
 }
