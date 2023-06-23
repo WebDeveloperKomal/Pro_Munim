@@ -4,26 +4,33 @@
     /* font-family: Myriad Pro; */
     /* font-family: "Myriad pro Semibold"; */
     font-size: 14px;
+    box-sizing: border-box;
 }
+
 /* nav css */
 .nav {
     background-color: #3BB161;
-    height: 70px;
+    height: 100px;
 }
 
 .logo {
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
     position: absolute;
-    height: 115px;
+    margin-left: 183px;
     margin-top: -11px;
     padding: 0px 10px;
 }
 
 
 .div1 input[type=search] {
-    width: 220px;
-    padding: 5px 0px 5px 33px;
-    margin-left: 925px;
-    margin-top: 18px;
+    width: 239px;
+    height: 47px;
+    padding: 5px 0px 5px 40px;
+    margin-left: 1138px;
+    margin-top: 26px;
     border-radius: 7px;
     border: #3e7e52;
     color: white;
@@ -32,750 +39,505 @@
 
 .div1 ::placeholder {
     color: white;
+    font-size: 16.2px;
 }
 
 .bi-search {
-    margin-left: -208px;
+    margin-left: -227px;
     margin-top: -4px;
     color: white;
 }
 
 .sub-nav {
     background-color: #3e7e52;
-    margin-left: 1180px;
-    width: 40px;
-    height: 40px;
+    margin-left: 1396px;
+    width: 55px;
+    height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .div-cal {
     background-color: red;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     border-radius: 30px;
-    margin-top: -30px;
-    margin-left: -10px;
+    margin-top: -47px;
+    margin-left: -14px;
 }
 
 .bi-bell-fill {
     color: white;
-    padding-left: 8px;
-    margin-top: 3px;
-
+    padding-left: 7px;
+    margin-top: -1px;
+    margin-left: 4px;
 }
 
 .sub-nav1 {
     background-color: #3e7e52;
     margin-left: 8px;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -35px;
+    margin-top: -52px;
 }
 
 .bi-person-fill {
     color: white;
-    margin-left: 2px;
+    padding-left: 5px;
+    margin-left: 6px;
+    margin-top: -2px;
 }
 
 
 .bi-chevron-down {
-    margin-top: -50px;
+    margin-top: -71px;
+    margin-left: 6px;
     color: white;
+
+}
+
+body {
+    background-color: #e6e6e6;
 }
 
 
 /* **** Nav Css End ****** */
 .main-div {
-    background-color: #E6E6E6;
-    width: 100%;
-    margin-top: -600px;
-    height: 600px;
-}
-
-
-/* <!-- ********* 2ND DIV ************* --> */
-
-.div2 {
-    /* font-family: "Myriad Pro"; */
+    background-color: #0f75bb;
     position: relative;
-    background-color: #ffffff;
-    margin-left: 0PX;
-    margin-top: -14px;
-    /* color: #36455f; */
-    width: 210px;
-    height: 600px;
+    width: 100%;
+    margin-top: 0px;
+    height: 3px;
+}
+
+
+/* <!-- ********* Side Bar ************* --> */
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 83%;
+    width: 220px;
+    position: absolute;
+    z-index: 1;
+    top: 103px;
+    left: 367px;
+    background-color: white;
+    overflow-x: hidde n;
+    padding-top: 10px;
+    line-height: 50px;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); */
+}
+
+.sidenav b {
+    margin-left: 30px;
+
+}
+
+
+.sidenav a {
     font-size: 14px;
+    margin-left: -10px;
+    color: #42526E;
+    outline: none;
+    display: block;
+    border: none;
 }
 
-.div2 ul a {
-    color: #36455f;
+
+
+button {
+    border: none;
+}
+
+.sidenav a:hover {
+    background: rgb(231, 240, 248);
+    color: #349753;
+    width: 200px;
+    margin-left: 9px;
+    border-radius: 12px;
+}
+
+.dropdown-btn {
+    line-height: 50px;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-file-arrow-up-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-file-person-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-file-bar-graph-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-check-circle-fill {
+    margin-left: 0px;
+    color: #42526E;
+}
+
+.fa-caret-down {
+    margin-top: 16px;
+    /* margin-left: 10px; */
+}
+
+
+.sidenav .dropdown-container1 a:active {
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+/* ******************************************* */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+    outline: none;
+    border: none;
+    display: block;
+}
+
+.dropdown-btn:hover {
+    outline: none;
+    border: none;
+    display: block;
+
+}
+
+a {
+    display: block;
+    outline: none;
+    border: none;
+}
+
+
+.dropdown-container1 {
+    display: block;
+    padding-left: 2px;
+    /* color: black; */
+
+}
+
+.sidenav .dropdown-container1 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: 30px;
+    height: 21px;
+}
+
+.dropdown-container2 {
+    margin-left: 65px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container2 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -25px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container3 {
+    margin-left: 55px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container3 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -7px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container4 {
+    margin-left: 55px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container4 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -36px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container5 {
+    margin-left: 75px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container5 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -30px;
+    height: 21px;
+}
+
+.dropdown-container6 {
+    margin-left: 65px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container6 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -20px;
+    height: 21px;
+    width: 300px;
+}
+
+/* ************************************** */
+
+
+
+.dropdown-btn i {
+    margin-left: -23px;
+
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 0px 8px 6px 16px;
     text-decoration: none;
+    background-color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+
 }
 
-/* .div2 ul a:hover{
-    font-weight: 700;
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+
+}
+
+.sidenav a i:hover {
+    color: #349753;
+
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    /* background-color: rgb(180, 180, 180); */
+    color: #42526E;
+}
+
+.active :hover {
+    /* background: rgb(231, 240, 248); */
+    color: #349753;
+    width: 200px;
+    margin-left: 9px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    display: block;
+}
+
+.dropdown-btn a:hover {
+    margin: inherit;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container1 {
+    display: none;
+    padding-left: 10px;
+    position: relative;
+}
+
+.dropdown-container2 {
+    display: none;
+    padding-left: 8px;
+
+}
+
+.dropdown-container3 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container4 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container5 {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-container6 {
+    display: none;
+    padding-left: 8px;
+}
+
+
+
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -39px;
+}
+
+.sidenav .bi-house-door-fill {
+    /* color: #42526E; */
+    margin-left: 18px;
+    font-size: 14px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-alipay {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-alipay:hover {
+    color: #349753;
+
+}
+
+.sidenav .bi-file {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-file:hover {
+    color: #349753;
+}
+
+.sidenav .bi-upload {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+/* 
+a {
+    display: none;
 } */
 
-
-/* ********** Overview *********** */
-
-
-.kp span {
-    /* background-color: #dce8f1;
-    color: #3BB161; */
-    list-style: none;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: 15px;
-    margin-top: 20px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+.dropdown-btn .bi-upload:hover {
+    color: #349753;
 }
 
-
-.kp span:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    /* height: 50px; */
-}
-
-
-.bi-house-fill {
-    margin-top: -3px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-
-/* ********** Overview End *********** */
-
-/* *********** Fees & Payment ******** */
-
-
-.kp1 {
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 100px;
-    height: 2px;
-    width: 50px;
-}
-
-
-.kp1 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
+.sidenav .bi-browser-chrome {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -2px;
-    width: 180px;
-    height: 55px;
+    color: #42526E;
+    margin-left: 0px;
+
 }
 
-
-.kp1 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+.dropdown-btn .bi-browser-chrome:hover {
+    color: #349753;
 }
 
-.bi-wallet-fill {
-    margin-top: 0px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp1 .li2 ul {
-    margin-top: -78px;
-    margin-left: 180px;
-}
-
-.kp1 .li2 {
-    margin-top: -21px;
-}
-
-
-
-.div2 .kp1 .li2 .item .menu-btn {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    padding: 0px 20px;
-    top: 30px;
-    transition: 0.3s;
-    transition-property: color;
-}
-
-.div2 .kp1 .li2 .item .menu-btn:hover {
-    color: #01b83b;
-}
-
-.div2 .kp1 .li2 .item .menu-btn .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp1 .li2 .item .sub-menu {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp1 .li2 .item .sub-menu a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    top: 40px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp1 .li2 .item .sub-menu span:hover {
-    color: #01b83b;
-}
-
-.div2 .kp1 .li2 .item:target .sub-menu {
-    max-height: 500px;
-}
-
-.kp1 .sub-menu hr {
-    margin-top: 50px;
-}
-
-/* *********** Fees & Payment End ******** */
-
-/* *********** Tax Challan **************** */
-
-.kp2 {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 150px;
-}
-
-.kp2 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
+.sidenav .bi-receipt {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -13px;
-    margin-top: -2px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+    color: #42526E;
+    margin-left: 0px;
 }
 
-
-.kp2 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+.dropdown-btn .bi-receipt:hover {
+    color: #349753;
 }
 
-.bi-calendar2-range-fill {
-    margin-top: -px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-.kp2 .li6 ul {
-    margin-top: -136px;
-    margin-left: 182px;
-}
-
-.kp2 .li6 {
-    margin-left: -22px;
-    margin-top: -14px;
-}
-
-
-.div2 .kp2 .li6 .item .menu-btn1,
-.div2 .kp2 .li6 .item .menu-btn2,
-.div2 .kp2 .li6 .item .menu-btn3 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    padding: 20px 20px;
-    top: 20px;
-    transition: 0.3s;
-    transition-property: color;
-}
-
-.div2 .kp2 .li6 .item .menu-btn1:hover,
-.div2 .kp2 .li6 .item .menu-btn2:hover,
-.div2 .kp2 .li6 .item .menu-btn3:hover {
-    color: #01b83b;
-}
-
-.div2 .kp2 .li6 .item .menu-btn1 .bi-caret-down-fill,
-.div2 .kp2 .li6 .item .menu-btn2 .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1,
-.div2 .kp2 .li6 .item .sub-menu2 {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1 a,
-.div2 .kp2 .li6 .item .sub-menu2 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    top: 10px;
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp2 .li6 .item .sub-menu1 span:hover,
-.div2 .kp2 .li6 .item .sub-menu2 span:hover {
-    color: #01b83b;
-}
-
-.div2 .kp2 .li6 .item:target .sub-menu1 {
-    max-height: 500px;
-}
-
-
-
-/* *********** Tax Challan End **************** */
-
-/* ********  Document ************ */
-.kp3 {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 210px;
-    height: 20px;
-    width: 50px;
-}
-
-.kp3 p {
-    background-color: rgb(231, 240, 248);
-    color: #3BB161;
+.sidenav .bi-person-circle {
     font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -13px;
-    margin-top: 0px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-person-circle:hover {
+    color: #349753;
 }
 
 
-.kp3 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
+.sidenav .dropdown-container1 a:hover {
+    background: none;
 }
 
-.bi-file-earmark-fill {
-    margin-top: -0px;
-    position: absolute;
-    margin-left: -28px;
+.sidenav .dropdown-container2 a:hover {
+    background: none;
 }
 
-.kp3 .li7 ul {
-    margin-top: -190px;
-    margin-left: 183px;
+.sidenav .dropdown-container3 a:hover {
+    background: none;
 }
 
-.kp3 .li7 {
-    margin-left: -22px;
+.sidenav .dropdown-container4 a:hover {
+    background: none;
 }
 
-.kp3 ul .Doc1 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 10px;
-    /* padding: 12px 20px; */
+.sidenav .dropdown-container5 a:hover {
+    background: none;
 }
 
-.kp3 .li7 .Doc1:hover {
-    color: #01b83b;
-}
-
-
-/* ********  Document End ************ */
-
-/* *********Acknowledgement******** */
-.kp4 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 270px;
-}
-
-
-.kp4 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -3px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-.bi-file-earmark-check-fill {
-    margin-top: -3px;
-    position: absolute;
-    margin-left: -28px;
-}
-
-.kp4 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-
-.kp4 .li8 ul {
-    margin-top: -250px;
-    margin-left: 181px;
-}
-
-.kp4 ul .Ack1 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    /* top: 15px; */
-}
-
-.kp4 ul .Ack2 {
-    display: block;
-    /* color: #fff; */
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp4 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp4 .li8 .Ack1:hover,
-.kp4 .li8 .Ack2:hover {
-    color: #01b83b;
-}
-
-.div2 .kp4 .li8 .item .Ack2 .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 {
-    /* background-color: #dce8f1; */
-    font-family: "Myriad Pro";
-    /* overflow: hidden; */
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-
-    transition-property: background, max-height;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp4 .li8 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-
-
-/* ********* Acknowledgement End ******** */
-
-/* ********Insure & Invest*********** */
-.kp5 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 328px;
-}
-
-.kp5 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 15px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -4px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-    transition: .1s ease;
-}
-
-.bi-patch-check-fill {
-    margin-top: 0px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp5 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    transition: .1s ease;
-}
-
-.kp5 .li9 ul {
-    margin-top: -308px;
-    margin-left: 180px;
-}
-
-.kp5 ul .Invest {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp5 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp5 .li9 .Invest:hover,
-.kp5 .li9 .Invest1:hover {
-    color: #01b83b;
-}
-
-.div2 .kp5 .li9 .item .Invest .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 {
-    font-family: "Myriad Pro";
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp5 .li9 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-.kp5 .li9 .Invest1 {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
+.sidenav .dropdown-container6 a:hover {
+    background: none;
 }
 
 
 
 
-/* ******** Insure & Invest End *********** */
-
-/* *********** My Account ********* */
-.kp6 {
-    position: absolute;
-    margin-left: 30px;
-    /* background-color: red; */
-    width: 18px;
-    height: 5px;
-    margin-top: 386px;
-}
-
-.kp6 p {
-    /* background-color: rgb(231, 240, 248);
-    color: #3BB161; */
-    font-size: 14px;
-    position: absolute;
-    border-radius: 8px;
-    padding: 17px 0px 0px 40px;
-    margin-left: -15px;
-    margin-top: -4px;
-    width: 180px;
-    height: 55px;
-    text-decoration: none;
-}
-
-.bi-person-square {
-    margin-top: 2px;
-    position: absolute;
-    margin-left: -30px;
-}
-
-.kp6 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-}
-
-.kp6 .li10 ul {
-    margin-top: -367px;
-    margin-left: 180px;
-}
-
-
-.kp6 p:hover {
-    background-color: rgb(231, 240, 248);
-    color: #01b83b;
-    transition: .1s ease;
-}
-
-.kp6 .li10 ul {
-    margin-top: -367px;
-    margin-left: 180px;
-}
-
-.kp6 ul .Acc {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-    top: 15px;
-}
-
-.kp6 ul .item .sub-menu1 {
-    top: 50px;
-    margin-top: 20px;
-}
-
-.kp6 .li10 .Acc:hover {
-    color: #01b83b;
-}
-
-.div2 .kp6 .li10 .item .Acc .bi-caret-down-fill {
-    float: right;
-    font-size: 18px;
-    margin-top: 3px;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 {
-    font-family: "Myriad Pro";
-    transition: 0.3s;
-    max-height: 0px;
-    width: 194px;
-    margin-left: 2px;
-    transition-property: background, max-height;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 a {
-    display: block;
-    position: relative;
-    padding: 0px 20px;
-    /* line-height: 25px; */
-    transition: 0.03s;
-    transition-property: background;
-}
-
-.div2 .kp6 .li10 .item .sub-menu1 span:hover {
-    color: #01b83b;
-}
-
-.kp6 .li10 .Invest1 {
-    display: block;
-    font-family: "Myriad pro Semibold";
-    position: relative;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-
-/* *********** My Account End ********* */
-
-.div2 ul {
-    list-style: none;
-}
-
-.div2 ul li {
-    width: 182px;
-    height: 46px;
-    margin-top: -19px;
-}
-
-.div2 ul ul {
-    position: absolute;
-    display: none;
-    height: 600px;
-    width: 200px;
-    font-size: 14px;
-    background-color: rgb(214, 214, 214);
-    margin-left: 143px;
-    margin-top: -100px;
-}
-
-
+/* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
 
-.div2 ul li:hover>ul {
+.sidenav ul li:hover>ul {
     display: block;
 
-}
-
-.div1 ul ul {
-    display: none;
 }
 
 #opensidebarMenu,
@@ -791,13 +553,12 @@
     position: absolute;
     height: 22px;
     width: 22px;
-    /* background-color: #000000; */
     top: 32px;
     left: 364px;
     cursor: pointer;
 }
 
-#opensidebarMenu:checked~.div2 {
+#opensidebarMenu:checked~.sidenav {
     transform: translateX(0px);
 }
 
@@ -830,142 +591,422 @@
 /* <!--****** 2nd Div End **********--> */
 
 
-/* ******** OUTSTANDING LOAN ******** */
-
-.div4{
-    /* background-color: gray; */
-    height: 600px;
-    padding: 50px 40px;
-    margin-top: -600px;
-    margin-left: 210px;
+.div4 {
     font-size: 14px;
+    width: 1000px;
+    padding: 50px 40px;
+    margin-left: 560px;
+    margin-top: -10px;
 }
 
-.div4 h5{
+.div4 h5 {
     font-family: "Myriad pro Semibold";
-    color: red;
+    color: #36455f;
+
 }
 
 .sub-div {
-    background-color: rgb(197, 197, 197);
-    margin-left: 910px;
+    font-family: Myriad Pro;
+    /* text-align: center; */
+    background-color: rgb(172, 172, 172);
+    margin-left: 820px;
     margin-top: -40px;
-    color: black;
+    color: #36455f;
     width: 80px;
     height: 30px;
 }
 
-.sub-div h5{
-    font-family: Myriad Pro;
-    padding: 4px 10px;
-    color: black;
+.sub-div h5 {
+
+    color: #36455f;
+    /* margin-left: 10px; */
+    padding: 5px 10px;
 }
+
 .sub-div svg {
-    color: black;
+    color: #36455f;
     margin-top: -70px;
     margin-left: 42px;
 }
 
-.sub-div1 tr th{
-    border: 1px solid rgb(0, 0, 0);
+
+.sub-div1 tr {
+    font-family: Myriad Pro;
+    height: 20px;
+    padding: 0px;
+
+}
+
+.sub-div1 tr th {
+    font-family: Myriad Pro;
+    border: 1px solid #36455f;
+    color: #36455f;
+    height: 86px;
+}
+
+.sub-div1 tr td {
+    border: 1px solid #36455f;
+    height: 60px;
 }
 
 table {
-    border: 1px solid rgb(0, 0, 0);
-    width: 990px;
-  }
+    border: 1px solid #36455f;
+    width: 920px;
+    color: #36455f;
+    height: 200px;
+}
 
-  .sub-div1  {
+.sub-div1 {
     font-family: Myriad Pro;
-   margin-top: 40px;
+    margin-top: 40px;
 }
 
-#th1{
-    width: 0px;
-}
-
-.sub-div1 th{
-    padding: 20px;
-}
-
-.sub-div1 th{
+.sub-div1 th {
+    padding: 20px 47px;
     background-color: rgb(160, 160, 160);
 }
 
-.bi-x-lg{
-    margin-left: 990px;
-    margin-top: -260px;
+.sub-div1 td {
+    padding: 8px 52px;
+}
+
+
+.sub-div1 a {
+    padding-left: 20px;
+    color: #36455f;
+}
+
+.bi-x-lg {
+    margin-left: 903px;
+    margin-top: -1512px;
     color: red;
 }
 
-/* ******** OUTSTANDING LOAN Css end ******** */
-  
 /* *********Last Div start  *********** */
 .last-div {
-    background-color: rgb(204, 204, 204);
-    font-family: 'Comfortaa';
+    background-color: #3BB161;
+    color: #fff;
+    font-family: "Myriad Pro";
     text-align: center;
     padding: 10px 0px;
     height: 40px;
-    /* margin-top: 30px; */
+    margin-top: -50px;
+}
+
+p {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 /* *********Last Div End  *********** */
 
 
 
+@media only screen and (max-width: 1440px) {
+
+    .nav {
+        background-color: #3BB161;
+        height: 82px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        width: 144px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 1015px;
+        height: 36px;
+        margin-top: 24px;
+    }
+
+    .sub-nav {
+        width: 45px;
+        height: 45px;
+        padding: 6px 5px;
+        margin-top: -44px;
+        margin-left: 1268px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 12px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .div-cal {
+        background-color: red;
+        width: 9px;
+        height: 9px;
+        border-radius: 30px;
+        margin-top: -41px;
+        margin-left: -14px;
+    }
+
+    .sub-nav1 {
+        background-color: #3e7e52;
+        margin-left: 8px;
+        width: 45px;
+        height: 45px;
+        padding: 7px 5px;
+        border-radius: 200px;
+        margin-top: -43px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+        margin-left: 6px;
+        color: white;
+    }
+
+    .sidenav {
+        top: 85px;
+        left: 0px;
+        height: 89%
+    }
+
+    /* ***************** Dis *********************** */
+
+
+    .div4 {
+        margin-left: 210px;
+    }
+
+    .sub-div {
+        margin-left: 1018px;
+    }
+
+    .bi-x-lg {
+        margin-left: 1100px;
+    }
+
+    table {
+        width: 1120px;
+    }
+
+    /* ****************** dis end ******************* */
+}
+
+@media (max-width: 1366px) {
+    .div1 input[type=search] {
+        margin-left: 947px;
+    }
+
+    .sub-nav {
+        margin-left: 1197px;
+    }
+
+    .bi-x-lg {
+        margin-left: 1007px;
+    }
+
+    .sub-div {
+        margin-left: 951px;
+    }
+
+    .bi-x-lg {
+        margin-left: 1032px;
+    }
+
+    table {
+        width: 1062px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .div1 input[type=search] {
+        margin-left: 785px;
+    }
+
+    .sub-nav {
+        margin-left: 1042px;
+    }
+
+    .sub-div {
+        margin-left: 797px;
+    }
+
+    .bi-x-lg {
+        margin-left: 879px;
+    }
+
+    table {
+        width: 908px;
+    }
+
+    .div4 {
+        width: 959px;
+    }
+
+    .sub-div1 th {
+        padding: 20px 45px;
+        background-color: rgb(160, 160, 160);
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        background-color: #3BB161;
+        height: 80px;
+    }
+
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 678px;
+        margin-top: 23px;
+    }
+
+    .bi-search {
+        margin-left: -178px;
+        padding-left: 6px;
+        margin-top: -4px;
+        color: white;
+    }
+
+    .sub-nav {
+        margin-left: 863px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .div-cal {
+        width: 8px;
+        height: 8px;
+        margin-top: -37px;
+        margin-left: -11px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 11px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .sub-nav1 {
+        margin-left: 8px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+    }
+
+    .logo {
+        width: 147px;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+    }
+
+    .sub-div {
+        margin-left: 637px;
+    }
+
+    .bi-x-lg {
+        margin-left: 719px;
+    }
+
+    .div4 {
+        margin-left: 191px;
+        width: 458px;
+    }
+
+    .sub-div1 th {
+        padding: 20px 23px;
+    }
+
+    .sub-div1 td {
+        padding: 8px 13px;
+    }
+
+    table {
+        width: 755px;
+    }
+
+}
+
+@media only screen and (max-width: 923px) {
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 565px;
+        margin-top: 23px;
+    }
+
+    .sub-nav {
+        margin-left: 758px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    table {
+        width: 663px;
+    }
+
+    .sub-div1 th {
+        padding: 10px 16px;
+    }
+
+    .sub-div1 td {
+        padding: 8px 9px;
+    }
+
+    .sub-div {
+        margin-left: 535px;
+    }
+
+    .bi-x-lg {
+        margin-left: 617px;
+        margin-top: -1511px;
+    }
+
+    .last-div {
+        margin-top: -54px;
+    }
+
+}
 
 
 @media only screen and (max-width: 768px) {
     .nav {
         width: 768px;
+        height: 95px;
     }
 
-    .sec {
-        margin-left: 352px;
-    }
-
-    .bi-search {
-        margin-left: 545px;
-    }
-
+    .div1 input[type=search],
+    .bi-search,
+    .sub-nav,
+    .sub-nav1,
+    .div-cal,
+    .bi-chevron-down,
     .bi-chevron-down {
-        margin-top: -63px;
-        color: white;
-        margin-left: 713px;
+        display: none;
     }
 
-    .sub-nav {
-        margin-left: 582px;
-    }
-
-    .div4 {
-        margin-left: -6px;
-        padding: 0px 19px;
-        height: 590px;
-        width: 547px;
-        text-align: justify;
-        margin-top: -589px;
-    }
-    .main-div {
-        width: 768px;
-    }
-
-
-    .div2{
-        transform: translateX(-210px);
-        transition: transform 250ms ease-in-out
-    }
-   
-    table {
-        width: 732px;
-        margin-top: -33px;
-    }
-
-    .sub-div {
-        margin-left: 631px;
-        margin-top: -24px;
-    }
     .sidebarIconToggle,
     .top,
     .middle,
@@ -973,90 +1014,271 @@ table {
         display: block;
     }
 
-
     .sidebarIconToggle {
-        left: 685px;
-    }
-    .bi-x-lg {
-        margin-left: 710px;
-        margin-top: -197px;
+        top: 27px;
+        left: 363px;
         width: 23px;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -12px;
+    }
+
+    .sidenav {
+        transform: translateX(-220px);
+        transition: transform 250ms ease-in-out
+    }
+
+    .logo {
+        width: 184px;
+        margin-top: -17px;
+        max-width: 100%;
+    }
+
+    .logoHide {
+        width: 768px;
+        position: absolute;
+        height: 25px;
+        background-color: #e5e5e5;
+    }
+
+    .main-div {
+        width: 768px;
+        height: 10px;
+    }
+
+    .sidenav {
+        top: 105px;
+        left: 0px;
+        height: 91%;
     }
 
     .last-div {
         width: 768px;
-        margin-top: -1PX;
+        margin-top: -56px;
+    }
+
+    .div4 h5 {
+        margin-top: -10px;
+    }
+
+    .div4 {
+        font-size: 14px;
+        width: 1000px;
+        padding: 50px 40px;
+        margin-left: -20px;
+        margin-top: -8px;
+    }
+
+    .sub-div {
+        margin-left: 615px;
+        margin-top: -21px;
+    }
+
+    .bi-x-lg {
+        margin-left: 697px;
+        margin-top: -1503px;
+    }
+
+    table {
+        width: 717px;
+    }
+
+    .div4 {
+        width: 506px;
+    }
+
+    .sidebarIconToggle {
+        top: 37px;
+        left: 685px;
+        width: 27px;
+    }
+
+    .sub-div1 td {
+        padding: 8px 10px;
+    }
+
+    .sub-div1 th {
+        padding: 10px 20px;
     }
 }
 
 @media (max-width: 576px) {
     .nav {
-        width: 576px;
-    }
-
-    .sec {
-        margin-left: 252px;
-        width: 157PX;
-    }
-
-    .bi-search {
-        margin-left: 383px;
-    }
-
-    .sub-nav {
-        margin-left: 419px;
-    }
-
-   
-    .div2 {
-        margin-left: -21PX;
-    }
-
-    .sub-nav1 {
-        margin-left: 3px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -63px;
-        color: white;
-        margin-left: 528px;
-    }
-
-    .div4 {
-        margin-left: -6px;
-        padding: 0px 15px;
-        height: 590px;
-        width: 395px;
-        text-align: justify;
-        margin-top: -594px;
-    }
-
-    .sub-div {
-        margin-left: 450px;
-        margin-top: -24px;
+        width: 575px;
     }
 
     .main-div {
-        width: 576px;
-        height: 600px;
+        width: 575px;
     }
 
- 
-    table {
-        width: 549px;
-        margin-top: -33px;
+    .last-div {
+        width: 575px;
     }
+
     .sidebarIconToggle {
-        left: 508px;
+        left: 500px;
+    }
+
+    .sub-div {
+        margin-left: 449px;
+    }
+
+    .logoHide {
+        width: 575px;
+    }
+
+    .sub-div1 td {
+        padding: 8px 5px;
+    }
+
+    table {
+        width: 544px;
+        margin-left: 9px;
     }
 
     .bi-x-lg {
-        margin-left: 531px;
-        margin-top: -197px;
-        width: 21px;
+        margin-left: 533px;
+        margin-top: -1509px;
     }
-    .last-div {
-        width: 576px;
-        margin-top: 4px;
+
+    .div4 {
+        margin-left: -39px;
+    }
+
+    .sub-div1 th {
+        padding: 10px 2px;
     }
 }
+
+
+/* 
+@media (max-width: 425px) {
+
+    .nav {
+        width: 425px;
+        height: 77px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 101px;
+        width: 128px;
+        margin-top: -9px;
+    }
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+
+
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+    }
+
+    .main-div {
+        height: 6px;
+        margin-top: 0px;
+    }
+
+    .main-div {
+        width: 425px;
+    }
+
+    .last-div {
+        width: 425px;
+    }
+
+
+    .bi-x-lg {
+        margin-left: 334px;
+        margin-top: -1171px;
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 375px;
+    }
+
+   
+    .main-div {
+        width: 375px;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+
+    .sidebarIconToggle {
+        top: 25px;
+        left: 319px;
+        width: 24px;
+    }
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -13px;
+    }
+
+    .last-div {
+        width: 375px;
+
+    }
+
+
+    .bi-x-lg {
+        margin-left: 293px;
+
+    }
+} */
