@@ -1,0 +1,144 @@
+.Main_round {
+    background-color: #3bb161;
+    margin-left: 1399px;
+    margin-top: -0px;
+    height: 650px;
+    border-radius: 490px 0px 0px 490px;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 15px rgba(0, 0, 0, 0.19);
+}
+
+.Main_round .Login {
+    background-color: #fff;
+    width: 350px;
+    height: 500px;
+    margin-left: -120px;
+    top: 80px;
+    border-radius: 40px;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 15px rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.Login_img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 160px;
+    height: 70px;
+}
+
+
+.round-mb {
+    background-color: #0069af;
+    width: 110px;
+    height: 110px;
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 100px;
+    transition: all .2s ease-in-out;
+}
+
+.round-mb:hover {
+    background-color: #3BB161;
+    transform: scale(1.2);
+}
+
+.Main_round .bi-phone-vibrate-fill {
+    color: white;
+    font-size: 60px;
+    margin-left: 25px;
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    margin-top: 25px;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Login p {
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #0069af;
+    font-size: 20px;
+}
+
+.Login p span {
+    font-size: 16px;
+    margin-left: -30px;
+}
+
+.Login h1 {
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+/* **************** Form Input *************** */
+/* 
+form .input-field{
+    flex-direction: row;
+    column-gap: 30px;
+}  */
+
+form {
+    margin-left: 70px;
+}
+
+.input-field input {
+    height: 45px;
+    width: 42px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.125rem;
+    outline: none;
+    border: 1px solid #3BB161;
+}
+
+.input-field input:hover {
+    border: 1px solid #0F75bb;
+}
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+    display: none;
+}
+
+/* **************** Form Input End *************** */
+
+.Login .Login_OTP {
+    font-size: 14px;
+    margin-left: 70px;
+}
+
+.Login .Login_OTP span {
+    margin-left: 5px;
+}
+
+
+button {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: -5px;
+    margin-left: 70px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: #0F75bb;
+    transition: 0.25s;
+}
+
+button .active{
+    background-color: red;
+}
+
+button:hover {
+    background-color: #3BB161;
+}

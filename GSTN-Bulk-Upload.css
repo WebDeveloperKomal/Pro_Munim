@@ -4,651 +4,541 @@
     /* font-family: Myriad Pro; */
     /* font-family: "Myriad pro Semibold"; */
     font-size: 14px;
-    /* color: #42526E; */
+    box-sizing: border-box;
 }
 
 /* nav css */
 .nav {
     background-color: #3BB161;
-    height: 80px;
-    /* color: white; */
+    height: 100px;
 }
 
 .logo {
+    width: 160px;
+    height: auto;
+    max-width: 100%;
+    box-sizing: border-box;
     position: absolute;
-    height: 120px;
-    margin-top: -9px;
+    margin-left: 183px;
+    margin-top: -11px;
     padding: 0px 10px;
-    /* width: 200px; */
 }
 
-.sec {
-    /* background-color: #3f8555; */
-    position: absolute;
-    margin-left: 940px;
+
+.div1 input[type=search] {
+    width: 239px;
+    height: 47px;
+    padding: 5px 0px 5px 40px;
+    margin-left: 1138px;
+    margin-top: 26px;
     border-radius: 7px;
-    opacity: 0.5;
-    margin-top: 24px;
-    /* color: rgb(221, 48, 48); */
-    border: none;
-    width: 220PX;
-    height: 35PX;
+    border: #3e7e52;
+    color: white;
+    background-color: #3e7e52;
+}
+
+.div1 ::placeholder {
+    color: white;
+    font-size: 16.2px;
 }
 
 .bi-search {
-    position: absolute;
-    margin-left: 1130px;
-    margin-top: -60px;
-    color: rgb(255, 255, 255);
+    margin-left: -227px;
+    margin-top: -4px;
+    color: white;
 }
 
 .sub-nav {
     background-color: #3e7e52;
-    margin-left: 1180px;
-    width: 40px;
-    height: 40px;
+    margin-left: 1396px;
+    width: 55px;
+    height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: 20px;
+    margin-top: -52px;
+}
+
+.div-cal {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    margin-top: -47px;
+    margin-left: -14px;
 }
 
 .bi-bell-fill {
     color: white;
-    padding-left: 8px;
-    margin-top: 3px;
-
+    padding-left: 7px;
+    margin-top: -1px;
+    margin-left: 4px;
 }
 
 .sub-nav1 {
     background-color: #3e7e52;
     margin-left: 8px;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: 20px;
+    margin-top: -52px;
 }
 
 .bi-person-fill {
-    /* margin-top: 20px; */
     color: white;
-    margin-left: 2px;
+    padding-left: 5px;
+    margin-left: 6px;
+    margin-top: -2px;
 }
 
 
 .bi-chevron-down {
-    margin-top: 30px;
+    margin-top: -71px;
+    margin-left: 6px;
     color: white;
+
 }
+
+body {
+    background-color: #e6e6e6;
+}
+
 
 /* **** Nav Css End ****** */
 .main-div {
-    background-color: #E6E6E6;
-    width: 100%;
-    margin-top: -600px;
-    height: 600px;
-}
-
-
-/* <!-- ********* 2ND DIV ************* --> */
-
-.div2 {
-    font-family: "Myriad Pro";
+    background-color: #0f75bb;
     position: relative;
-    background-color: #ffffff;
-    margin-left: 0PX;
-    margin-top: -13px;
+    width: 100%;
+    margin-top: 0px;
+    height: 3px;
+}
+
+
+/* <!-- ********* Side Bar ************* --> */
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 85%;
+    width: 220px;
+    position: absolute;
+    z-index: 1;
+    top: 103px;
+    left: 367px;
+    background-color: white;
+    overflow-x: hidde n;
+    padding-top: 10px;
+    line-height: 50px;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); */
+}
+
+.sidenav b {
+    margin-left: 30px;
+
+}
+
+
+.sidenav a {
+    font-size: 14px;
+    margin-left: -10px;
     color: #42526E;
-    width: 210px;
-    height: 600px;
-    font-size: 14px;
-}
-
-.kp {
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 15px;
-}
-
-.kp1 {
-  
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 70px;
-}
-
-.kp2 {
-    background-color: #dce8f1;
-    color: #3BB161;
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 125px;
-}
-
-.kp3 {
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 180px;
-}
-
-.kp4 {
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 235px;
-}
-
-.kp5 {
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 290px;
-}
-
-.kp6 {
-    position: absolute;
-    border-radius: 40px;
-    margin-left: 20px;
-    width: 180px;
-    height: 50px;
-    margin-top: 345px;
-}
-
-.kp:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-
-}
-
-.kp1:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-}
-
-.kp2:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-}
-
-.kp3:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-}
-
-.kp4:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-}
-
-.kp5:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-}
-
-.kp6:hover {
-    background-color: #E6E6E6;
-    color: #3BB161;
-}
-
-.div2 ul {
-    list-style: none;
-}
-
-.div2 ul a {
-    color: #42526E;
-    text-decoration: none;
+    outline: none;
+    display: block;
+    border: none;
 }
 
 
 
-/* .li5 {
-    font-size: 14px;
-    font-family: "Myriad pro Semibold"; 
+button {
+    border: none;
 }
 
-.li11, .li12, .li13{
-    font-size: 14px;
-    font-family: "Myriad Pro";
-}
- */
-
-
-.li1,
-.li2,
-.li6,
-.li7,
-.li8,
-.li9,
-.li10 {
-    padding: 22px 63px;
-}
-
-.div2 ul a:hover {
-    color: #00a534;
-
-}
-
-.div2 ul li {
-    width: 244px;
-    height: 60px;
-    line-height: 11px;
-    /* border-left: 3px solid #a0e2b5; */
-}
-
-
-.div2 ul ul {
-    position: absolute;
-    display: none;
-    height: 600px;
+.sidenav a:hover {
+    background: rgb(231, 240, 248);
+    color: #349753;
     width: 200px;
-    /* padding: 0PX 20px; */
-    font-size: 14px;
-    background-color: rgb(214, 214, 214);
-    margin-left: 143px;
-    margin-top: -100px;
+    margin-left: 9px;
+    border-radius: 12px;
 }
 
-.li1 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
+.dropdown-btn {
+    line-height: 50px;
+    margin-left: 0px;
 }
 
-
-.li2 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
+.dropdown-btn .bi-file-arrow-up-fill {
+    margin-left: 0px;
+    color: #42526E;
 }
 
-.li2 ul {
-    padding: 10px 0px;
+.dropdown-btn .bi-file-person-fill {
+    margin-left: 0px;
+    color: #42526E;
 }
 
-.li3,
-.li30 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 14px;
+.dropdown-btn .bi-file-bar-graph-fill {
+    margin-left: 0px;
+    color: #42526E;
 }
 
-.li4 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 0px;
-    margin-left: 15px;
-    font-size: 14px;
+.dropdown-btn .bi-check-circle-fill {
+    margin-left: 0px;
+    color: #42526E;
 }
 
-.li5 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 10px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-.li6 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
+.fa-caret-down {
+    margin-top: 16px;
+    /* margin-left: 10px; */
 }
 
 
-.kp2 .li6 ul {
-    margin-top: -155px;
-}
-
-.li7 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
-}
-
-
-.li8 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
-}
-
-.li9 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
-}
-
-.li10 {
-    height: 80px;
-    margin-top: -2px;
-    margin-left: -15px;
-}
-
-
-.li11 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-top: 15px;
+.sidenav .dropdown-container1 a:active {
+    outline: none;
+    border: none;
 }
 
 
 
-.li12 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-left: 15px;
-    margin-top: -10px;
+
+
+/* ******************************************* */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+    outline: none;
+    border: none;
+    display: block;
 }
 
-.li13 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.li2 hr {
-    margin-top: 40px;
-}
-
-
-.li14 {
-    position: absolute;
-    margin-top: -80px;
-    font-size: 14px;
-    margin-left: 30px;
-}
-
-.li15 {
-    position: absolute;
-    margin-top: -90px;
-    font-size: 14px;
-    margin-left: 30px;
-}
-
-.li16 {
-    position: absolute;
-    margin-top: -20px;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-top: 35px;
-}
-
-.li17 {
-    position: absolute;
-    margin-top: -20px;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-top: 55px;
-}
-
-.li18 {
-    font-family: "Myriad pro Semibold";
-    margin-left: 15px;
-    font-size: 14px;
-    margin-top: 0px;
-}
-
-.li19 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-.li20,
-.li21,
-.li22,
-.li23,
-.li24,
-.li25,
-.li26,
-.li27,
-.li28,
-.li29 {
-    font-family: "Myriad pro Semibold";
-    margin-left: 15px;
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-
-.li31,
-.li32,
-.li35,
-.li36 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-.li37 {
-    font-family: "Myriad pro Semibold";
-    margin-top: -10px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-
-.li33 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-.li39 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.li34 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-.li38 {
-    font-family: "Myriad pro Semibold";
-    font-size: 14px;
-    margin-top: 20px;
-    margin-left: 15px;
-}
-
-.li40 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    font-size: 14px;
-    margin-top: 25px;
-}
-
-.li41 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-.li42,
-.li43,
-.li44 {
-    font-family: "Myriad pro Semibold";
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 14px;
-}
-
-.li45 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-
-.li46 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    margin-top: -20px;
-    font-size: 14px;
-    margin-left: 15px;
-}
-
-.li47 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    margin-top: -10px;
-    font-size: 14px;
-    margin-left: 15px;
-}
-
-.li47 hr {
-    margin-top: 35px;
-}
-
-.li48 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    margin-top: 0px;
-    font-size: 14px;
-    margin-left: 15px;
-}
-
-.li49 {
-    font-family: "Myriad Pro";
-    position: absolute;
-    margin-top: 9px;
-    font-size: 14px;
-    margin-left: 15px;
-}
-
-
-.li50 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-left: 15px;
-    margin-top: -25px;
-}
-
-.li51 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-left: 15px;
-    margin-top: -15px;
-}
-
-.li52 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-
-.li53 {
-    position: absolute;
-    font-family: "Myriad Pro";
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-.div2 ul li:hover>ul {
+.dropdown-btn:hover {
+    outline: none;
+    border: none;
     display: block;
 
 }
 
-.div1 ul ul {
-    display: none;
-}
-
-.li1 a {
-    position: relative;
-    margin-top: -100px;
+a {
+    display: block;
+    outline: none;
+    border: none;
 }
 
 
+.dropdown-container1 {
+    display: block;
+    padding-left: 2px;
+    /* color: black; */
 
-.main-div svg {
+}
+
+.sidenav .dropdown-container1 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: 30px;
+    height: 21px;
+}
+
+.dropdown-container2 {
+    margin-left: 65px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container2 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -25px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container3 {
+    margin-left: 55px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container3 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -7px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container4 {
+    margin-left: 55px;
+    font-size: 14px;
+
+}
+
+.sidenav .dropdown-container4 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -36px;
+    height: 21px;
+    width: 300px;
+}
+
+.dropdown-container5 {
+    margin-left: 75px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container5 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -30px;
+    height: 21px;
+}
+
+.dropdown-container6 {
+    margin-left: 65px;
+    font-size: 14px;
+
+
+}
+
+.sidenav .dropdown-container6 a {
+    color: #42526E;
+    font-size: 14px;
+    margin-left: -20px;
+    height: 21px;
+    width: 300px;
+}
+
+/* ************************************** */
+
+
+
+.dropdown-btn i {
+    margin-left: -23px;
+
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 0px 8px 6px 16px;
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #349753;
+
+}
+
+.sidenav a i:hover {
+    color: #349753;
+
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    /* background-color: rgb(180, 180, 180); */
     color: #42526E;
 }
 
-.bi-house:hover,
-.bi-wallet-fill:hover,
-.bi-wallet-fill:hover,
-.bi-card-list:hover,
-.bi-file-earmark-arrow-down:hover,
-.bi-file-check-fill:hover,
-.bi-patch-check-fill:hover,
-.bi-person-square:hover {
-    color: #3BB161;
+.active :hover {
+    /* background: rgb(231, 240, 248); */
+    color: #349753;
+    width: 200px;
+    margin-left: 9px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    display: block;
 }
 
-.bi-house {
-    margin-top: 30px;
-    position: absolute;
-    margin-left: 35px;
+.dropdown-btn a:hover {
+    margin: inherit;
 }
 
-.bi-wallet-fill {
-    margin-top: 86px;
-    position: absolute;
-    margin-left: 35px;
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container1 {
+    display: none;
+    padding-left: 10px;
+    position: relative;
 }
 
-.bi-card-list {
-    margin-top: 143px;
-    position: absolute;
-    margin-left: 35px;
+.dropdown-container2 {
+    display: none;
+    padding-left: 8px;
+
 }
 
-.bi-file-earmark-arrow-down {
-    margin-top: 195px;
-    position: absolute;
-    margin-left: 35px;
+.dropdown-container3 {
+    display: none;
+    padding-left: 8px;
 }
 
-.bi-file-check-fill {
-    margin-top: 250px;
-    position: absolute;
-    margin-left: 35px;
+.dropdown-container4 {
+    display: none;
+    padding-left: 8px;
 }
 
-.bi-patch-check-fill {
-    margin-top: 305px;
-    position: absolute;
-    margin-left: 35px;
+.dropdown-container5 {
+    display: none;
+    padding-left: 8px;
 }
 
-.bi-person-square {
-    margin-top: 360px;
-    position: absolute;
-    margin-left: 35px;
+.dropdown-container6 {
+    display: none;
+    padding-left: 8px;
 }
 
+
+
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -39px;
+}
+
+.sidenav .bi-house-door-fill {
+    /* color: #42526E; */
+    margin-left: 18px;
+    font-size: 14px;
+    color: #42526E;
+}
+
+.dropdown-btn .bi-alipay {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-alipay:hover {
+    color: #349753;
+
+}
+
+.sidenav .bi-file {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-file:hover {
+    color: #349753;
+}
+
+.sidenav .bi-upload {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+/* 
+a {
+    display: none;
+} */
+
+.dropdown-btn .bi-upload:hover {
+    color: #349753;
+}
+
+.sidenav .bi-browser-chrome {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-browser-chrome:hover {
+    color: #349753;
+}
+
+.sidenav .bi-receipt {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+}
+
+.dropdown-btn .bi-receipt:hover {
+    color: #349753;
+}
+
+.sidenav .bi-person-circle {
+    font-size: 14px;
+    color: #42526E;
+    margin-left: 0px;
+
+}
+
+.dropdown-btn .bi-person-circle:hover {
+    color: #349753;
+}
+
+
+.sidenav .dropdown-container1 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container2 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container3 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container4 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container5 a:hover {
+    background: none;
+}
+
+.sidenav .dropdown-container6 a:hover {
+    background: none;
+}
+
+
+
+
+/* ************ Side Bar End **************** */
+
+/* ************ FN **************** */
+
+.sidenav ul li:hover>ul {
+    display: block;
+
+}
 
 #opensidebarMenu,
 .sidebarIconToggle,
@@ -663,13 +553,12 @@
     position: absolute;
     height: 22px;
     width: 22px;
-    /* background-color: #000000; */
     top: 32px;
     left: 364px;
     cursor: pointer;
 }
 
-#opensidebarMenu:checked~.div2 {
+#opensidebarMenu:checked~.sidenav {
     transform: translateX(0px);
 }
 
@@ -698,6 +587,7 @@
     margin-top: -9px;
 }
 
+
 /* <!--****** 2nd Div End **********--> */
 /* ***************GSTIN Report Work CSS ******************/
 
@@ -706,20 +596,19 @@
     width: 990px;
     font-family: Myriad Pro;
     font-size: 14px;
-    margin-left: 210px;
-    margin-top: -600px;
+    margin-left: 570px;
+    margin-top: -10px;
     padding: 50px 40px;
+    color: #42526E;
 }
 
-.div4 h5 {
-    color: red;
-}
 
 #AcName {
     margin-top: 30px;
     width: 420px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 20px;
+    border: 1px solid #0F75BB;
 }
 
 
@@ -736,7 +625,7 @@ input::file-selector-button {
 #p1 {
     margin-left: 450px;
     margin-top: -30px;
-    color: red;
+    color: #0F75BB;
     font-size: 16px;
 }
 
@@ -750,32 +639,269 @@ input::file-selector-button {
     width: 125px;
     border-radius: 5px;
     height: 40PX;
-    background-color: #0F75BB;
+    background-color: #3BB161;
     color: white;
 }
 
 .btn1:hover {
-    background-color: #3BB161;
+    background-color: #0F75BB;
 }
 
 .bi-x-lg {
-    margin-left: 990px;
+    margin-left: 860px;
     margin-top: -350px;
     color: red;
 }
 
+
 /* *********Last Div start  *********** */
 .last-div {
-    background-color: rgb(204, 204, 204);
-    font-family: 'Comfortaa';
+    background-color: #3BB161;
+    color: #fff;
+    font-family: "Myriad Pro";
     text-align: center;
     padding: 10px 0px;
     height: 40px;
-    margin-top: 303px;
+    margin-top: 538px;
+}
+
+p {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 /* *********Last Div End  *********** */
 
+
+
+@media only screen and (max-width: 1440px) {
+
+    .nav {
+        background-color: #3BB161;
+        height: 82px;
+    }
+
+    .logo {
+        margin-left: 0px;
+        width: 144px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 1015px;
+        height: 36px;
+        margin-top: 24px;
+    }
+
+    .sub-nav {
+        width: 45px;
+        height: 45px;
+        padding: 6px 5px;
+        margin-top: -44px;
+        margin-left: 1268px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 12px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .div-cal {
+        background-color: red;
+        width: 9px;
+        height: 9px;
+        border-radius: 30px;
+        margin-top: -41px;
+        margin-left: -14px;
+    }
+
+    .sub-nav1 {
+        background-color: #3e7e52;
+        margin-left: 8px;
+        width: 45px;
+        height: 45px;
+        padding: 7px 5px;
+        border-radius: 200px;
+        margin-top: -43px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+        margin-left: 6px;
+        color: white;
+    }
+
+    .sidenav {
+        top: 85px;
+        left: 0px;
+    }
+
+    /* ***************** Dis *********************** */
+
+    .div4 {
+        margin-left: 207px;
+    }
+
+    .bi-x-lg {
+        margin-left: 1071px;
+    }
+
+    .last-div {
+        margin-top: 456px;
+    }
+    /* ****************** dis end ******************* */
+}
+
+@media (max-width: 1366px) {
+    .div1 input[type=search] {
+        margin-left: 947px;
+    }
+
+    .sub-nav {
+        margin-left: 1197px;
+    }
+
+    .bi-x-lg {
+        margin-left: 1007px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .div1 input[type=search] {
+        margin-left: 785px;
+    }
+
+    .sub-nav {
+        margin-left: 1042px;
+    }
+
+    .bi-x-lg {
+        margin-left: 851px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        background-color: #3BB161;
+        height: 80px;
+    }
+
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 678px;
+        margin-top: 23px;
+    }
+
+    .bi-search {
+        margin-left: -178px;
+        padding-left: 6px;
+        margin-top: -4px;
+        color: white;
+    }
+
+    .sub-nav {
+        margin-left: 863px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .div-cal {
+        width: 8px;
+        height: 8px;
+        margin-top: -37px;
+        margin-left: -11px;
+    }
+
+    .bi-bell-fill {
+        padding-left: 11px;
+        margin-top: -5px;
+        margin-left: -2px;
+    }
+
+    .sub-nav1 {
+        margin-left: 8px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .bi-person-fill {
+        padding-left: 9px;
+        margin-left: -1px;
+        margin-top: -7px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -62px;
+    }
+
+    .logo {
+        width: 147px;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+    }
+
+    .bi-x-lg {
+        margin-left: 674px;
+    }
+
+    .div4 {
+        width: 74%;
+    }
+    .last-div {
+        margin-top: 416px;
+    }
+
+}
+
+@media only screen and (max-width: 923px) {
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 565px;
+        margin-top: 23px;
+    }
+
+    .sub-nav {
+        margin-left: 758px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .bi-x-lg {
+        margin-top: -365px;
+        margin-left: 566px;
+    }
+
+    .btn1 {
+        margin-left: 456px;
+        width: 147px;
+    }
+
+    #p1 {
+        margin-left: 433px;
+        width: 214px;
+        margin-top: -29px;
+    }
+
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -783,45 +909,45 @@ input::file-selector-button {
         width: 768px;
     }
 
-    .sec {
-        /* background-color: #3f8555; */
-
-        margin-left: 400px;
+    .div1 input[type=search] {
+        margin-left: 439px;
     }
 
     .bi-search {
-        margin-left: 591px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -63px;
-        color: white;
-        margin-left: 713px;
+        margin-left: 442px;
+        margin-top: -62px;
     }
 
     .sub-nav {
-        margin-left: 631px;
+        margin-left: 629px;
+        margin-top: -60px;
     }
 
-    .div4 {
-        /* background-color: gray; */
-        width: 572px;
-        margin-left: 195px;
-        margin-top: -621px;
+    .sub-nav1 {
+        margin-top: -60px;
     }
 
-    #AcName {
-        width: 256px;
-        height: 35px;
+    .div-cal {
+        margin-top: -57px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -100px;
+        margin-left: 727px;
     }
 
     #p1 {
-        margin-left: 264px;
+        margin-left: 1px;
+        width: 214px;
+        margin-top: 18px;
+    }
+    .sidenav {
+        height: 84.8%;
     }
 
     .btn1 {
-        margin-top: 59px;
-        margin-left: 325px;
+        margin-left: 273px;
+        width: 147px;
     }
 
     .main-div {
@@ -829,100 +955,184 @@ input::file-selector-button {
     }
 
     .bi-x-lg {
-        margin-left: 491px;
-        margin-top: -452px;
-        width: 29px;
+        margin-top: -453px;
+        margin-left: 438px;
     }
 
     .last-div {
+        margin-top: 353px;
         width: 768px;
-        margin-top: 265px;
     }
+
 }
 
 @media (max-width: 576px) {
     .nav {
         width: 576px;
+        height: 73px;
     }
 
-    .sec {
-        margin-left: 282px;
-        width: 157PX;
+    .logo {
+        width: 135px;
+        margin-left: -4px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 270px;
+        width: 164px;
+        margin-top: 19px
     }
 
     .bi-search {
-        margin-left: 410px;
+        margin-left: 273px;
     }
 
     .sub-nav {
-        margin-left: 449px;
-    }
-
-    .main-div {
-        width: 561px;
-    }
-
-    .div2 {
-        margin-left: -24PX;
-        width: 188px;
+        margin-left: 441px;
+        margin-top: -61px;
     }
 
     .sub-nav1 {
-        margin-left: 3px;
+        margin-left: 6px;
+        margin-top: -60px;
     }
 
     .bi-chevron-down {
-        margin-top: -63px;
+        margin-top: -100px;
         color: white;
-        margin-left: 528px;
+        margin-left: 536px;
     }
 
+    .sidenav {
+        top: 74px;
+        left: 0px;
+    }
+
+    .sidenav {
+        top: 76px;
+        left: 0px;
+    }
+
+    .main-div {
+        width: 575px;
+    }
+
+    .last-div {
+        width: 575px;
+        margin-top: 335px;
+    }
 
     .div4 {
-        width: 413px;
-        margin-left: 144px;
-        margin-top: -623px;
-    }
-
-    #p1 {
-        margin-left: 0px;
-        margin-top: 6px;
-    } 
-    .btn1 {
-        margin-top: 14px;
-        margin-left: 220px;
-    }
-    
-    .div2 ul ul {
-        margin-left: 119px;
-    }
-    .main-div {
-        width: 576px;
+        width: 69%;
+        margin-left: 191px;
     }
 
     .bi-x-lg {
-        margin-left: 348px;
         margin-top: -493px;
-        width: 21px;
+        margin-left: 268px;
     }
-.kp2{
-    width: 168px;
-}
-    .last-div {
-        width: 576px;
-        margin-top: 256px;
+
+    #AcName {
+        width: 334px;
+    }
+
+    .btn1 {
+        margin-left: 174px;
+        width: 147px;
     }
 }
 
 
 
 @media (max-width: 425px) {
+    /* 
+    .nav {
+        width: 425px;
+        height: 93px;
+    }
 
-    /* .div2 {
-        display: none;
-    } */
+    .logo {
+        position: absolute;
+        height: 107px;
+        margin-top: -7px;
+        padding: 0px 10px;
+    }
+
+    .div1 input[type=search] {
+        margin-left: 237px;
+        width: 170px;
+    }
 
     .bi-search {
+        margin-left: 239px;
+        margin-top: -64px;
+    }
+
+    .sub-nav {
+        margin-left: 251px;
+        margin-top: -16px;
+        width: 32px;
+        height: 29px;
+    }
+    .bi-bell-fill {
+        padding-left: 16px;
+        margin-left: -11px;
+        margin-top: -13px;
+    }
+
+    .div-cal {
+        margin-top: -14px;
+        margin-left: -7px;
+        width: 5px;
+        height: 6px;
+    }
+
+    .sub-nav1 {
+        margin-left: 293px;
+        margin-top: -29px;
+        width: 32px;
+        height: 29px;
+    }
+
+    .bi-person-fill {
+        color: white;
+        margin-left: 1px;
+        width: 17px;
+        height: 16px;
+        margin-top: -14px;
+        padding-left: 3px;
+    }
+
+    .bi-chevron-down {
+        margin-top: -51px;
+        margin-left: 335px;
+    }
+
+    .sidebarIconToggle {
+        top: 66px;
+        left: 369px;
+        width: 18px;
+    } */
+
+
+
+    .nav {
+        width: 425px;
+        height: 77px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 101px;
+        width: 128px;
+        margin-top: -9px;
+    }
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .sub-nav {
         display: none;
     }
 
@@ -934,70 +1144,23 @@ input::file-selector-button {
         display: none;
     }
 
-    .sub-nav {
-        display: none;
+    .sidebarIconToggle {
+        top: 27px;
+        left: 363px;
+        width: 23px;
     }
 
-    .sec {
-        display: none;
+    .spinner {
+        height: 5px;
     }
 
-
-    .nav {
-        width: 425px;
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -12px;
     }
 
-    /* 
-    .logo {
-        height: 114px;
-        margin-top: -10px;
-        margin-left: -5px;
-        width: 133px;
-    }
-
-    .sec {
-        margin-left: 159px;
-        width: 129px;
-    }
-
-    .bi-search {
-        margin-left: 261px;
-    }
-
-    .bi-chevron-down {
-        margin-top: 30px;
-        color: white;
-        margin-left: -3px;
-    }
-
-    .sub-nav {
-        margin-left: 295px;
-    } */
-
-    .main-div {
-        width: 425px;
-    }
-
-    .div4 {
-        padding: 20px 18px;
-        width: 447px;
-        margin-top: -644px;
-        margin-left: -16px;
-    }
-
-    .bi-x-lg {
-        margin-left: 368px;
-        margin-top: -471px;
-        width: 24px;
-    }
-    .div4 {
-        padding: 25px 29px;
-        width: 432px;
-        margin-top: -605px;
-        margin-left: -16px;
-    }
-    .div2 {
-        transform: translateX(-210px);
+    .sidenav {
+        transform: translateX(-220px);
         transition: transform 250ms ease-in-out
     }
 
@@ -1008,11 +1171,47 @@ input::file-selector-button {
         display: block;
     }
 
+    .sidenav {
+        top: 83px;
+        left: 0px;
+    }
 
+    .main-div {
+        height: 6px;
+        margin-top: 0px;
+        width: 425px;
+    }
+
+   
     .last-div {
         width: 425px;
-        margin-top: 288px;
+        margin-top: 362px;
     }
+
+
+    .bi-x-lg {
+        margin-left: 334px;
+        margin-top: -171px;
+    }
+    .div4 {
+        width: 105%;
+        margin-top: -27px;
+        margin-left: -21px;
+    }
+
+    #AcName {
+        width: 379px;
+    }
+    .btn1 {
+        margin-left: 230px;
+        width: 147px;
+    }
+
+    .bi-x-lg {
+        margin-left: 337px;
+        margin-top: -476px;
+    }
+
 }
 
 
@@ -1023,6 +1222,10 @@ input::file-selector-button {
         display: none;
     } */
 
+    .div1 input[type=search] {
+        display: none;
+    }
+
     .bi-search {
         display: none;
     }
@@ -1079,145 +1282,39 @@ input::file-selector-button {
         width: 375px;
     }
 
-    .div4 {
-        width: 375px;
-    }
-    .bi-x-lg {
-        margin-left: 316px;
-    }
-
-    .btn1 {
-        margin-top: 14px;
-        margin-left: 205px;
+    .spinner {
+        height: 5px;
     }
 
 
     .sidebarIconToggle {
-        left: 325px;
+        top: 25px;
+        left: 319px;
+        width: 24px;
     }
 
-
-    .div2 {
-        margin-left: -28PX;
-        transform: translateX(-210px);
-        transition: transform 250ms ease-in-out;
-    }
-
-    .li31 a{
-        font-size: 11px;
-    }
-
-    .div2 ul ul {
-        width: 156px;
-        margin-left: 120px;
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -13px;
     }
 
     .last-div {
         width: 375px;
-        margin-top: 288px;
-    }
-}
 
-
-@media (max-width: 320px) {
-/* 
-    .div2 {
-        display: none;
-    } */
-
-    .bi-search {
-        display: none;
     }
 
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sec {
-        display: none;
-    }
-
-
-    .nav {
-        width: 320px;
-    }
-
-    /* 
-    .logo {
-        height: 114px;
-        margin-top: -10px;
-        margin-left: -5px;
-        width: 133px;
-    }
-
-    .sec {
-        margin-left: 159px;
-        width: 129px;
-    }
-
-    .bi-search {
-        margin-left: 261px;
-    }
-
-    .bi-chevron-down {
-        margin-top: 30px;
-        color: white;
-        margin-left: -3px;
-    }
-
-    .sub-nav {
-        margin-left: 295px;
-    } */
-
-    .main-div {
-        width: 320px;
+    #AcName {
+        width: 326px;
     }
 
     .div4 {
-        width: 322px;
-        margin-top: -601px;
-        margin-left: -19px;
+        margin-left: -28px;
     }
-
-    .btn1 {
-        margin-top: 14px;
-        margin-left: 155px;
-    }
-
     .bi-x-lg {
-        margin-left: 276px;
-        margin-top: -492px;
+        margin-left: 293px;
     }
-
-    .sidebarIconToggle {
-        left: 268px;
+    .btn1 {
+        margin-left: 184px;
+        width: 147px;
     }
-
-    .kp2 {
-        width: 164px;
-    }
-    
-    .div2 {
-        margin-left: -31PX;
-        width: 185px;
-    }
-
-    .div2 ul ul {
-        width: 162px;
-        margin-left: 112px;
-    }
-    
-    .last-div {
-        width: 320px;
-        margin-top: 284px;
-    }
-
 }
