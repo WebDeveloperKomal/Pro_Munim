@@ -2675,15 +2675,11 @@ p {
 
     /* ************************************* */
 
-
     .sidenav {
         top: 85px;
         left: 0px;
-        height: 128%;
+        height: 134%;
     }
-
-
-
 }
 
 @media (max-width: 1199px) {
