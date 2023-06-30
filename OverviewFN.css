@@ -118,7 +118,7 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 100%;
+    height: 92%;
     width: 220px;
     position: absolute;
     z-index: 1;
@@ -1903,10 +1903,9 @@ p {
     }
 
     .sidenav {
-        z-index: 1;
         top: 85px;
         left: 0px;
-        height: 104%;
+        height: 100%;
     }
 
     .main-div {
@@ -2922,6 +2921,8 @@ p {
 @media (max-width: 1366px) {
     .div1 input[type=search] {
         margin-left: 947px;
+
+
     }
 
     .sub-nav {
