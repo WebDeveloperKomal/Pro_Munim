@@ -124,6 +124,7 @@ body {
     top: 103px;
     left: 373px;
     background-color: white;
+
     overflow-x: hidden;
     padding-top: 10px;
     line-height: 50px;
@@ -1197,7 +1198,7 @@ p {
     }
 
     .sidenav {
-        height: 94%;
+        height: 131%;
         top: 85px;
         left: 0px;
     }
