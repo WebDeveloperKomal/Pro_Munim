@@ -117,7 +117,7 @@ body {
 /* <!-- ********* 2ND DIV ************* --> */
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 85%;
+    height: 89%;
     width: 220px;
     position: absolute;
     z-index: 1;
