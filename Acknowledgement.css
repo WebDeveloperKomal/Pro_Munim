@@ -118,11 +118,11 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 99%;
+    height: 96%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 103px;
+    top: 100px;
     left: 373px;
     background-color: white;
     overflow-x: hidden;
@@ -750,7 +750,6 @@ a {
 .sidenav .bi-file-arrow-up-fill {
     margin-top: -10px;
 }
-
 
 /* ************ Side Bar End **************** */
 
@@ -1401,7 +1400,7 @@ p {
 
     /* ******************************* */
     .sidenav {
-        height: 111%;
+        height: 154%;
         top: 85px;
         left: 0px;
     }
