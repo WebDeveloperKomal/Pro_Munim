@@ -1308,7 +1308,7 @@ p {
         height: 86%;
     }
 
-   
+
     .main-div {
         top: 73px;
         width: 575px;
@@ -1371,7 +1371,9 @@ p {
         background-color: #0f75bb;
         color: white;
     }
-    .h6, h6 {
+
+    .h6,
+    h6 {
         font-size: 1rem;
         height: 83px;
     }
@@ -1488,7 +1490,7 @@ p {
 
     .spinner {
         height: 5px;
-       
+
     }
 
     #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
@@ -1566,7 +1568,7 @@ p {
         margin-left: 361px;
         margin-top: -1675px;
     }
-  
+
 }
 
 
