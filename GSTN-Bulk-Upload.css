@@ -219,6 +219,7 @@ button {
     margin-left: 27px;
     font-size: 15px;
     margin-bottom: 1rem;
+    color: #42526E;
 }
 
 .dropdown-btn #p2 {
@@ -980,6 +981,7 @@ p {
     .last-div {
         margin-top: 456px;
     }
+
     /* ****************** dis end ******************* */
 }
 
@@ -1087,6 +1089,7 @@ p {
     .div4 {
         width: 74%;
     }
+
     .last-div {
         margin-top: 416px;
     }
@@ -1165,6 +1168,7 @@ p {
         width: 214px;
         margin-top: 18px;
     }
+
     .sidenav {
         height: 84.8%;
     }
@@ -1406,7 +1410,7 @@ p {
         width: 425px;
     }
 
-   
+
     .last-div {
         width: 425px;
         margin-top: 362px;
@@ -1417,6 +1421,7 @@ p {
         margin-left: 334px;
         margin-top: -171px;
     }
+
     .div4 {
         width: 105%;
         margin-top: -27px;
@@ -1426,6 +1431,7 @@ p {
     #AcName {
         width: 379px;
     }
+
     .btn1 {
         margin-left: 230px;
         width: 147px;
@@ -1534,9 +1540,11 @@ p {
     .div4 {
         margin-left: -28px;
     }
+
     .bi-x-lg {
         margin-left: 293px;
     }
+
     .btn1 {
         margin-left: 184px;
         width: 147px;
