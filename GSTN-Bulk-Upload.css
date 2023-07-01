@@ -118,24 +118,22 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 85%;
+    height: 96%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 103px;
-    left: 367px;
+    top: 100px;
+    left: 373px;
     background-color: white;
-    overflow-x: hidde n;
+    overflow-x: hidden;
     padding-top: 10px;
     line-height: 50px;
     /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 1); */
 }
 
 .sidenav b {
-    margin-left: 30px;
-
+    margin-left: -2px;
 }
-
 
 .sidenav a {
     font-size: 14px;
@@ -146,11 +144,10 @@ body {
     border: none;
 }
 
-
-
 button {
     border: none;
 }
+
 
 .sidenav a:hover {
     background: rgb(231, 240, 248);
@@ -161,28 +158,42 @@ button {
 }
 
 .dropdown-btn {
-    line-height: 50px;
+    line-height: 40px;
     margin-left: 0px;
+    margin-top: 5px;
 }
 
 .dropdown-btn .bi-file-arrow-up-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 24px;
+    margin-top: -10px;
 }
+
 
 .dropdown-btn .bi-file-person-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 23px;
+
 }
+
+#F_P {
+    margin-top: -34px;
+}
+
 
 .dropdown-btn .bi-file-bar-graph-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 24px;
+    margin-top: -40px;
 }
 
 .dropdown-btn .bi-check-circle-fill {
     margin-left: 0px;
     color: #42526E;
+    font-size: 22px;
 }
 
 .fa-caret-down {
@@ -196,11 +207,188 @@ button {
     border: none;
 }
 
+.dropdown-btn p {
+    margin-top: -43px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.dropdown-btn #p1 {
+    margin-top: -45px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    color: #42526E;
+}
+
+.dropdown-btn #p2 {
+    margin-top: -45px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.dropdown-btn #p3 {
+    margin-top: -44px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
 
 
+
+.dropdown-btn #p4 {
+    margin-top: -44px;
+    margin-left: 27px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+p .fa-caret-down {
+    margin-top: -10px;
+    position: absolute;
+}
+
+/* *************************************** */
+.dropdown-container1 #di {
+    margin-top: 14px;
+}
+
+.dropdown-container1 #di1 {
+    margin-top: 14px;
+}
+
+/* **************************************** */
+
+.dropdown-container2 #di2 {
+    margin-top: 13px;
+}
+
+.dropdown-container2 #di3 {
+    margin-top: 13px;
+}
+
+.dropdown-container2 #di4 {
+    margin-top: 13px;
+}
+
+.dropdown-container2 #di5 {
+    margin-top: 13px;
+}
+
+.dropdown-container2 #di6 {
+    margin-top: 13px;
+}
+
+.dropdown-container2 #di7 {
+    margin-top: 13px;
+}
+
+/* **************************************** */
+.dropdown-container3 #di8 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di9 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di10 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di11 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di12 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di13 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di14 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di15 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di16 {
+    margin-top: 13px;
+}
+
+.dropdown-container3 #di17 {
+    margin-top: 13px;
+}
+
+/* *******************************************/
+
+.dropdown-container4 #di18 {
+    margin-top: 13px;
+}
+
+.dropdown-container4 #di19 {
+    margin-top: 13px;
+}
+
+.dropdown-container4 #di20 {
+    margin-top: 13px;
+}
+
+.dropdown-container4 #di21 {
+    margin-top: 13px;
+}
+
+.dropdown-container4 #di22 {
+    margin-top: 13px;
+}
+
+.dropdown-container4 #di23 {
+    margin-top: 13px;
+}
+
+/* *************************************** */
+.dropdown-container5 #di24 {
+    margin-top: 13px;
+}
+
+.dropdown-container5 #di25 {
+    margin-top: 13px;
+}
+
+/* **************************************** */
+.dropdown-container6 #di26 {
+    margin-top: 13px;
+}
+
+.dropdown-container6 #di27 {
+    margin-top: 13px;
+}
+
+.dropdown-container6 #di28 {
+    margin-top: 13px;
+}
+
+.dropdown-container6 #di29 {
+    margin-top: 13px;
+}
+
+.dropdown-container6 #di30 {
+    margin-top: 13px;
+}
+
+.dropdown-container6 #di31 {
+    margin-top: 13px;
+}
 
 
 /* ******************************************* */
+
 .sidenav a:hover,
 .dropdown-btn:hover {
     color: #349753;
@@ -220,103 +408,129 @@ a {
     display: block;
     outline: none;
     border: none;
+
 }
+
+/* ***************************************** */
 
 
 .dropdown-container1 {
-    display: block;
-    padding-left: 2px;
-    /* color: black; */
+    display: none;
+    margin-left: -11px;
+    position: relative;
+    margin-top: -20px;
+}
 
+.dropdown-container1 #i3 {
+    margin-top: 4px;
+}
+
+.dropdown-container2 #i4 {
+    margin-top: 4px;
+}
+
+.dropdown-container3 #i5 {
+    margin-top: 4px;
+}
+
+.dropdown-container4 #i6 {
+    margin-top: 4px;
+}
+
+.dropdown-container5 #i7 {
+    margin-top: 4px;
 }
 
 .sidenav .dropdown-container1 a {
     color: #42526E;
     font-size: 14px;
     margin-left: 30px;
-    height: 21px;
+    height: 26px;
+    width: 164px;
+
 }
 
 .dropdown-container2 {
-    margin-left: 65px;
-    font-size: 14px;
-
-
+    display: none;
+    margin-left: 54px;
+    margin-top: -20px;
 }
 
 .sidenav .dropdown-container2 a {
     color: #42526E;
     font-size: 14px;
     margin-left: -25px;
-    height: 21px;
-    width: 300px;
+    height: 26px;
+    width: 138px;
+
 }
 
 .dropdown-container3 {
-    margin-left: 55px;
+    margin-left: 35px;
     font-size: 14px;
-
-
+    margin-top: -19px;
 }
 
 .sidenav .dropdown-container3 a {
     color: #42526E;
     font-size: 14px;
     margin-left: -7px;
-    height: 21px;
-    width: 300px;
+    height: 26px;
+    width: 154px;
 }
 
 .dropdown-container4 {
     margin-left: 55px;
     font-size: 14px;
-
+    margin-top: -18px;
 }
 
 .sidenav .dropdown-container4 a {
     color: #42526E;
     font-size: 14px;
     margin-left: -36px;
-    height: 21px;
-    width: 300px;
+    height: 26px;
+    width: 187px;
 }
 
 .dropdown-container5 {
-    margin-left: 75px;
+    margin-left: 58px;
     font-size: 14px;
-
-
+    margin-top: -20px;
 }
 
 .sidenav .dropdown-container5 a {
     color: #42526E;
     font-size: 14px;
     margin-left: -30px;
-    height: 21px;
+    height: 26px;
+    width: 109px;
 }
 
 .dropdown-container6 {
-    margin-left: 65px;
+    margin-left: 46px;
     font-size: 14px;
-
-
+    margin-top: -20px;
 }
 
 .sidenav .dropdown-container6 a {
     color: #42526E;
     font-size: 14px;
     margin-left: -20px;
-    height: 21px;
-    width: 300px;
+    height: 27px;
+    width: 163px;
 }
 
 /* ************************************** */
 
 
-
 .dropdown-btn i {
     margin-left: -23px;
+    margin-top: -45px;
+}
 
+.dropdown-btn i .bi-file-bar-graph-fill {
+    margin-top: -10px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -364,13 +578,14 @@ a {
 .active {
     /* background-color: rgb(180, 180, 180); */
     color: #42526E;
+
 }
 
 .active :hover {
     /* background: rgb(231, 240, 248); */
     color: #349753;
     width: 200px;
-    margin-left: 9px;
+    margin-left: 28px;
     border-radius: 12px;
     border: none;
     outline: none;
@@ -379,44 +594,50 @@ a {
 
 .dropdown-btn a:hover {
     margin: inherit;
+    height: 55px;
 }
 
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+/* Dropdown container (hidden by default). 
+Optional: add a lighter background color and 
+some left padding to change the design of the 
+dropdown content */
 
 .dropdown-container1 {
     display: none;
     padding-left: 10px;
     position: relative;
+    margin-top: -10px;
 }
 
 .dropdown-container2 {
     display: none;
     padding-left: 8px;
-
+    margin-top: -20px;
 }
 
 .dropdown-container3 {
     display: none;
     padding-left: 8px;
+    margin-top: -19px;
 }
 
 .dropdown-container4 {
     display: none;
     padding-left: 8px;
+    margin-top: -18px;
 }
 
 .dropdown-container5 {
     display: none;
     padding-left: 8px;
+    margin-top: -18px;
 }
 
 .dropdown-container6 {
     display: none;
     padding-left: 8px;
+    margin-top: -18px;
 }
-
-
-
 
 
 /* Optional: Style the caret down icon */
@@ -430,14 +651,14 @@ a {
 .sidenav .bi-house-door-fill {
     /* color: #42526E; */
     margin-left: 18px;
-    font-size: 14px;
+    font-size: 22px;
     color: #42526E;
 }
 
 .dropdown-btn .bi-alipay {
-    font-size: 14px;
+    font-size: 20px;
     color: #42526E;
-    margin-left: 0px;
+    margin-left: 1px;
 }
 
 .dropdown-btn .bi-alipay:hover {
@@ -472,10 +693,9 @@ a {
 }
 
 .sidenav .bi-browser-chrome {
-    font-size: 14px;
+    font-size: 23px;
     color: #42526E;
     margin-left: 0px;
-
 }
 
 .dropdown-btn .bi-browser-chrome:hover {
@@ -528,7 +748,9 @@ a {
     background: none;
 }
 
-
+.sidenav .bi-file-arrow-up-fill {
+    margin-top: -10px;
+}
 
 
 /* ************ Side Bar End **************** */
@@ -741,6 +963,7 @@ p {
     .sidenav {
         top: 85px;
         left: 0px;
+        height: 100%;
     }
 
     /* ***************** Dis *********************** */
@@ -756,6 +979,7 @@ p {
     .last-div {
         margin-top: 456px;
     }
+
     /* ****************** dis end ******************* */
 }
 
@@ -770,6 +994,10 @@ p {
 
     .bi-x-lg {
         margin-left: 1007px;
+    }
+
+    .sidenav {
+        height: 113%;
     }
 
 }
@@ -863,6 +1091,7 @@ p {
     .div4 {
         width: 74%;
     }
+
     .last-div {
         margin-top: 416px;
     }
@@ -941,6 +1170,7 @@ p {
         width: 214px;
         margin-top: 18px;
     }
+
     .sidenav {
         height: 84.8%;
     }
@@ -1182,7 +1412,7 @@ p {
         width: 425px;
     }
 
-   
+
     .last-div {
         width: 425px;
         margin-top: 362px;
@@ -1193,6 +1423,7 @@ p {
         margin-left: 334px;
         margin-top: -171px;
     }
+
     .div4 {
         width: 105%;
         margin-top: -27px;
@@ -1202,6 +1433,7 @@ p {
     #AcName {
         width: 379px;
     }
+
     .btn1 {
         margin-left: 230px;
         width: 147px;
@@ -1310,9 +1542,11 @@ p {
     .div4 {
         margin-left: -28px;
     }
+
     .bi-x-lg {
         margin-left: 293px;
     }
+
     .btn1 {
         margin-left: 184px;
         width: 147px;
