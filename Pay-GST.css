@@ -118,11 +118,11 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 96%;
+    height: 89%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 103px;
     left: 373px;
     background-color: white;
     overflow-x: hidden;
@@ -817,7 +817,7 @@ a {
     font-size: 14px;
     margin-top: -20px;
     padding: 0px 20px;
-
+    
 }
 
 .div4 {
@@ -825,7 +825,7 @@ a {
     font-size: 14px;
     margin-left: 570px;
     padding: 0px 20px;
-    color: #42526E;
+    color: #42526E;    
     margin-top: 0px;
     height: 590px;
     width: 990px;
@@ -948,9 +948,7 @@ p {
     .sidenav {
         top: 85px;
         left: 0px;
-        height: 100%;
     }
-
     /* ***************** Dis *********************** */
 
     .div4 {
@@ -960,11 +958,9 @@ p {
     .bi-x-lg {
         margin-left: 1102px;
     }
-
     .last-div {
         margin-top: 152px;
     }
-
     /* ****************** dis end ******************* */
 }
 
@@ -976,13 +972,8 @@ p {
     .sub-nav {
         margin-left: 1197px;
     }
-
     .bi-x-lg {
         margin-left: 1029px;
-    }
-
-    .sidenav {
-        height: 113%;
     }
 
 }
@@ -1067,11 +1058,10 @@ p {
         top: 83px;
         left: 0px;
     }
-
     .div4 {
         width: 783px;
     }
-
+    
     .div4 .p1 {
         width: 776px;
     }
@@ -1100,7 +1090,7 @@ p {
         height: 44px;
         margin-top: -41px;
     }
-
+  
     .div4 {
         width: 706px;
     }
@@ -1147,16 +1137,15 @@ p {
         margin-top: -100px;
         margin-left: 727px;
     }
-
-
-    .main-div {
+  
+    
+    .main-div{
         width: 768px;
     }
-
-    .last-div {
+    .last-div{
         width: 768px;
     }
-
+  
     .div4 {
         width: 559px;
     }
@@ -1206,35 +1195,31 @@ p {
         color: white;
         margin-left: 536px;
     }
-
     .sidenav {
         top: 74px;
         left: 0px;
     }
-
-    .main-div {
+  
+    .main-div{
         width: 575px;
     }
 
-    .last-div {
-        width: 575px;
+    .last-div{
+       width:  575px;
         margin-top: 102px;
-
+    
     }
 
     .sidenav {
         top: 76px;
         left: 0px;
     }
-
     .div4 {
         width: 356px;
     }
-
     .div4 .p1 {
         width: 336px;
     }
-
     .bi-x-lg {
         margin-left: 278px;
         margin-top: -489px;
@@ -1348,7 +1333,6 @@ p {
         left: 363px;
         width: 23px;
     }
-
     .spinner {
         height: 5px;
     }
@@ -1369,25 +1353,21 @@ p {
     .bottom {
         display: block;
     }
-
     .sidenav {
         top: 83px;
         left: 0px;
     }
-
     .main-div {
         height: 6px;
         margin-top: 0px;
     }
-
-    .main-div {
+    .main-div{
         width: 425px;
     }
 
-    .last-div {
-        width: 425px;
+    .last-div{
+       width:  425px;
     }
-
     .div4 .p1 {
         width: 415px;
     }
@@ -1402,7 +1382,6 @@ p {
         margin-left: 346px;
         margin-top: -480px;
     }
-
     .last-div {
         width: 425px;
         margin-top: 131px;
@@ -1498,12 +1477,11 @@ p {
         margin-top: 131px;
     }
 
-
+  
     .bi-x-lg {
         margin-left: 320px;
-
+       
     }
-
     .div4 {
         margin-left: -30px;
         margin-top: -19px;
@@ -1514,3 +1492,5 @@ p {
         width: 377px;
     }
 }
+
+
