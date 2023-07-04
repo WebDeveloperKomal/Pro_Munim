@@ -1035,6 +1035,10 @@ p {
     .btn4 {
         width: 200px;
     }
+
+    .sidenav {
+        height: 136%;
+    }
 }
 
 @media (max-width: 1199px) {

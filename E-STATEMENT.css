@@ -118,11 +118,11 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 87%;
+    height: 96%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 103px;
+    top: 100px;
     left: 373px;
     background-color: white;
     overflow-x: hidden;
@@ -597,9 +597,9 @@ a {
 }
 
 /* Dropdown container (hidden by default). 
-  Optional: add a lighter background color and 
-  some left padding to change the design of the 
-  dropdown content */
+Optional: add a lighter background color and 
+some left padding to change the design of the 
+dropdown content */
 
 .dropdown-container1 {
     display: none;
@@ -683,9 +683,9 @@ a {
 }
 
 /* 
-  a {
+a {
     display: none;
-  } */
+} */
 
 .dropdown-btn .bi-upload:hover {
     color: #349753;
@@ -750,6 +750,8 @@ a {
 .sidenav .bi-file-arrow-up-fill {
     margin-top: -10px;
 }
+
+
 
 
 
@@ -851,7 +853,7 @@ a {
 
 .btn1 {
     font-family: Myriad Pro;
-    width: 200PX;
+    width: 150PX;
     height: 40PX;
     margin-top: 40PX;
     text-align: center;
@@ -862,9 +864,9 @@ a {
 
 .btn2 {
     font-family: Myriad Pro;
-    width: 200PX;
+    width: 150PX;
     height: 40PX;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 40PX;
     text-align: center;
     transition: 0.3S;
@@ -875,7 +877,7 @@ a {
     font-family: Myriad Pro;
     width: 200PX;
     height: 40PX;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 40PX;
     text-align: center;
     transition: 0.3S;
@@ -1017,22 +1019,11 @@ p {
     .sidenav {
         top: 85px;
         left: 0px;
-        height: 85%;
+        height: 89%
     }
 
     /* ***************** Dis *********************** */
 
-    .div4 {
-        margin-left: 208px;
-    }
-
-    .bi-x-lg {
-        margin-left: 1075px;
-    }
-
-    .last-div {
-        margin-top: 154px;
-    }
 
     /* ****************** dis end ******************* */
 }
@@ -1046,10 +1037,24 @@ p {
         margin-left: 1197px;
     }
 
+    .last-div {
+        margin-top: 76px;
+    }
+
+    .sidenav {
+        height: 119%;
+    }
+
     /* **************************************** */
 
     .div4 {
+        /* width: 900px; */
+        height: 600PX;
+        padding: 50px 40px;
         margin-left: 220px;
+        margin-top: -10PX;
+        font-family: "Myriad pro Semibold";
+        color: #42526E;
     }
 
     .bi-x-lg {
@@ -1077,6 +1082,13 @@ p {
         margin-top: -974px;
         color: red;
     }
+
+    .sidenav {
+        height: 96%;
+    }
+
+
+
 
 }
 
@@ -1146,6 +1158,11 @@ p {
         margin-left: 195px;
     }
 
+    .sidenav {
+        top: 83px;
+        left: 0px;
+        height: 89%;
+    }
 
     /* *************************************** */
 
@@ -1153,10 +1170,11 @@ p {
     .bi-x-lg {
         margin-left: 686px;
         margin-top: -974px;
+        color: red;
     }
 
     .last-div {
-        margin-top: 113px;
+        margin-top: 22px;
     }
 
 }
@@ -1189,60 +1207,8 @@ p {
 
 
 @media only screen and (max-width: 768px) {
-
-    .div1 input[type=search] {
-        width: 180px;
-        height: 36px;
-        padding: 2px 0px 5px 27px;
-        margin-left: 463px;
-        margin-top: 23px;
-    }
-
-    .sub-nav {
-        margin-left: 646px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
-    }
-
-    select {
-        height: 40px;
-        width: 200px;
-        margin-top: 51px;
-        margin-left: -449px;
-    }
-
-    .last-div {
+    /* .nav {
         width: 768px;
-        margin-top: 113px;
-    }
-
-    .btn3 {
-        width: 200PX;
-        margin-left: 0px;
-        margin-top: 21PX;
-    }
-
-    .btn2 {
-        margin-left: 21px;
-    }
-
-
-    .sidenav {
-        top: 83px;
-        left: 0px;
-        height: 85%;
-    }
-
-    .bi-x-lg {
-        margin-left: 466px;
-        margin-top: -1245px;
-    }
-}
-
-@media (max-width: 576px) {
-    .nav {
-        width: 575px;
         height: 95px;
     }
 
@@ -1290,22 +1256,177 @@ p {
     }
 
     .logoHide {
-        width: 575px;
+        width: 768px;
         position: absolute;
         height: 25px;
         background-color: #e5e5e5;
     }
 
     .main-div {
-        width: 575px;
+        width: 768px;
         height: 10px;
     }
 
     .sidenav {
         top: 105px;
         left: 0px;
-        height: 82%;
+        height: 91%;
     }
+
+
+
+    .sidebarIconToggle {
+        top: 37px;
+        left: 685px;
+        width: 27px;
+    }
+
+    .last-div {
+        width: 768px;
+        margin-top: 167px;
+    } */
+
+    .div1 input[type=search] {
+        width: 180px;
+        height: 36px;
+        padding: 2px 0px 5px 27px;
+        margin-left: 463px;
+        margin-top: 23px;
+    }
+
+    .sub-nav {
+        margin-left: 646px;
+        width: 44px;
+        height: 44px;
+        margin-top: -41px;
+    }
+
+    .bi-x-lg {
+        margin-left: 466px;
+        margin-top: -1317px;
+        color: red;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+        height: 91%;
+    }
+
+    select {
+        height: 40px;
+        width: 200px;
+        margin-top: 51px;
+        margin-left: -449px;
+    }
+
+    .last-div {
+        margin-top: 34px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    /* .nav {
+        width: 575px;
+    }
+
+    .main-div {
+        width: 575px;
+    }
+
+    .last-div {
+        width: 575px;
+    }
+
+    .sidebarIconToggle {
+        left: 500px;
+    }
+
+
+    .logoHide {
+        width: 575px;
+    }
+
+    .bi-x-lg {
+        margin-left: 475px;
+        margin-top: -1610px;
+    }
+
+    .last-div {
+        width: 575px;
+        margin-top: 255px;
+    } */
+
+
+
+
+    .nav {
+        width: 563px;
+        height: 95px;
+    }
+
+    .div1 input[type=search],
+    .bi-search,
+    .sub-nav,
+    .sub-nav1,
+    .div-cal,
+    .bi-chevron-down,
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sidebarIconToggle,
+    .top,
+    .middle,
+    .bottom {
+        display: block;
+    }
+
+    .sidebarIconToggle {
+        top: 27px;
+        left: 363px;
+        width: 23px;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -12px;
+    }
+
+    .sidenav {
+        transform: translateX(-220px);
+        transition: transform 250ms ease-in-out
+    }
+
+    .logo {
+        width: 184px;
+        margin-top: -17px;
+        max-width: 100%;
+    }
+
+    .logoHide {
+        width: 768px;
+        position: absolute;
+        height: 25px;
+        background-color: #e5e5e5;
+    }
+
+    .main-div {
+        width: 568px;
+        height: 10px;
+    }
+
+    .sidenav {
+        top: 105px;
+        left: 0px;
+        height: 91%;
+    }
+
 
     .sidebarIconToggle {
         top: 37px;
@@ -1314,12 +1435,152 @@ p {
     }
 
     .last-div {
-        width: 575px;
-        margin-top: 91px;
+        width: 568px;
+        margin-top: 167px;
     }
 
     .div4 {
         margin-left: -6px;
     }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+    .nav {
+        width: 425px;
+        height: 77px;
+    }
+
+    .logo {
+        position: absolute;
+        height: 101px;
+        width: 128px;
+        margin-top: -9px;
+    }
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sidenav {
+        top: 83px;
+        left: 0px;
+    }
+
+    .main-div {
+        height: 6px;
+        margin-top: 0px;
+    }
+
+    .main-div {
+        width: 425px;
+    }
+
+    .last-div {
+        width: 425px;
+    }
+
+
+    .bi-x-lg {
+        margin-left: 321px;
+        margin-top: -1371px;
+    }
+
+    .sidebarIconToggle {
+        top: 37px;
+        left: 359px;
+        width: 27px;
+    }
+
+    .date2 {
+        font-family: Myriad Pro;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .div1 input[type=search] {
+        display: none;
+    }
+
+    .bi-search {
+        display: none;
+    }
+
+    .sub-nav1 {
+        display: none;
+    }
+
+    .bi-chevron-down {
+        display: none;
+    }
+
+    .sub-nav {
+        display: none;
+    }
+
+    .sec {
+        display: none;
+    }
+
+
+    .nav {
+        width: 375px;
+    }
+
+
+    .main-div {
+        width: 375px;
+    }
+
+    .spinner {
+        height: 5px;
+    }
+
+
+    .sidebarIconToggle {
+        top: 25px;
+        left: 319px;
+        width: 24px;
+    }
+
+    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -13px;
+    }
+
+    .last-div {
+        width: 375px;
+
+    }
+
+    .bi-x-lg {
+        margin-left: 279px;
+        margin-top: -1605px;
+    }
+
+
 
 }
