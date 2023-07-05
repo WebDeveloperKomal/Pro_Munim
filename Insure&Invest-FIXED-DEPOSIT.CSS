@@ -118,7 +118,7 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 86%;
+    height: 88%;
     width: 220px;
     position: absolute;
     z-index: 1;
@@ -209,9 +209,10 @@ button {
 
 .dropdown-btn p {
     margin-top: -43px;
-    margin-left: -15px;
+    margin-left: -13px;
     font-size: 15px;
     margin-bottom: 1rem;
+    color: #42526E;
 }
 
 .dropdown-btn #p1 {
@@ -219,6 +220,7 @@ button {
     margin-left: -13px;
     font-size: 15px;
     margin-bottom: 1rem;
+    color: #42526E;
 }
 
 .dropdown-btn #p2 {
@@ -226,6 +228,7 @@ button {
     margin-left: -13px;
     font-size: 15px;
     margin-bottom: 1rem;
+    color: #42526E;
 }
 
 .dropdown-btn #p3 {
@@ -233,13 +236,16 @@ button {
     margin-left: -13px;
     font-size: 15px;
     margin-bottom: 1rem;
+    color: #42526E;
 }
+
 
 .dropdown-btn #p4 {
     margin-top: -44px;
     margin-left: -13px;
     font-size: 15px;
     margin-bottom: 1rem;
+    color: #42526E;
 }
 
 p .fa-caret-down {
@@ -751,6 +757,11 @@ a {
 
 
 
+
+
+
+
+
 /* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
@@ -1122,7 +1133,7 @@ p {
     .sidenav {
         top: 85px;
         left: 0px;
-        height: 89%
+        height: 100%
     }
 
     /* ***************** Dis *********************** */
@@ -1158,6 +1169,10 @@ p {
 
     .bi-x-lg {
         margin-left: 1054px;
+    }
+
+    .sidenav {
+        height: 129%;
     }
 }
 

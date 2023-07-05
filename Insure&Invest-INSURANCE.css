@@ -118,7 +118,7 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 86%;
+    height: 88%;
     width: 220px;
     position: absolute;
     z-index: 1;
@@ -754,9 +754,6 @@ a {
 
 
 
-
-
-
 /* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
@@ -1078,7 +1075,7 @@ p {
     .sidenav {
         top: 85px;
         left: 0px;
-        height: 85%
+        height: 100%
     }
 
     /* ***************** Dis *********************** */
@@ -1109,6 +1106,10 @@ p {
 
     .bi-x-lg {
         margin-left: 1037px;
+    }
+
+    .sidenav {
+        height: 119%;
     }
 }
 
