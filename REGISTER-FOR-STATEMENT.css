@@ -118,7 +118,7 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 87%;
+    height: 86%;
     width: 220px;
     position: absolute;
     z-index: 1;
@@ -1034,10 +1034,6 @@ p {
 
     .btn4 {
         width: 200px;
-    }
-
-    .sidenav {
-        height: 136%;
     }
 }
 
