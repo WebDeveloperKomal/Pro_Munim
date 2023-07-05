@@ -221,6 +221,7 @@ button {
     margin-bottom: 1rem;
     color: #42526E;
 }
+
 .dropdown-btn #p2 {
     margin-top: -45px;
     margin-left: 27px;
@@ -1053,6 +1054,10 @@ p {
 
     .bi-x-lg {
         margin-left: 1028px;
+    }
+
+    .sidenav {
+        height: 119%;
     }
 
 }

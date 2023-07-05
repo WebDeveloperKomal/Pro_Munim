@@ -1051,6 +1051,10 @@ p {
         margin-left: 1027px;
     }
 
+    .sidenav {
+        height: 119%;
+    }
+
 }
 
 @media (max-width: 1199px) {

@@ -831,7 +831,7 @@ a {
     width: 155px;
     border-radius: 5px;
     height: 40PX;
-    background-color:  #3BB161;
+    background-color: #3BB161;
     color: white;
 }
 
@@ -934,11 +934,13 @@ p {
         top: 85px;
         left: 0px;
     }
+
     /* ***************** Dis *********************** */
 
     .div4 {
         margin-left: 204px;
     }
+
     .bi-x-lg {
         margin-left: 1078px;
     }
@@ -946,7 +948,7 @@ p {
     .last-div {
         margin-top: 502px;
     }
-    
+
     /* ****************** dis end ******************* */
 }
 
@@ -958,8 +960,13 @@ p {
     .sub-nav {
         margin-left: 1197px;
     }
+
     .bi-x-lg {
         margin-left: 1007px;
+    }
+
+    .sidenav {
+        height: 119%;
     }
 
 }
@@ -972,6 +979,7 @@ p {
     .sub-nav {
         margin-left: 1042px;
     }
+
     .bi-x-lg {
         margin-left: 855px;
     }
@@ -979,6 +987,7 @@ p {
     .div4 {
         width: 367px;
     }
+
     .bi-x-lg {
         margin-left: 676px;
     }
@@ -1050,6 +1059,7 @@ p {
         top: 83px;
         left: 0px;
     }
+
     .last-div {
         margin-top: 464px;
     }
@@ -1071,6 +1081,7 @@ p {
         height: 44px;
         margin-top: -41px;
     }
+
     .bi-x-lg {
         margin-left: 569px;
     }
@@ -1108,18 +1119,20 @@ p {
         margin-top: -100px;
         margin-left: 727px;
     }
-  
-    
-    .main-div{
+
+
+    .main-div {
         width: 768px;
     }
-    .last-div{
+
+    .last-div {
         width: 768px;
     }
+
     .bi-x-lg {
         margin-left: 442px;
     }
-  
+
 }
 
 @media (max-width: 576px) {
@@ -1158,18 +1171,21 @@ p {
         color: white;
         margin-left: 536px;
     }
+
     .sidenav {
         top: 76px;
         left: 0px;
-    }   
-    .main-div{
+    }
+
+    .main-div {
         width: 575px;
     }
 
-    .last-div{
-       width:  575px;
-       margin-top: 452px;
+    .last-div {
+        width: 575px;
+        margin-top: 452px;
     }
+
     .bi-x-lg {
         margin-left: 254px;
     }
@@ -1283,6 +1299,7 @@ p {
         left: 363px;
         width: 23px;
     }
+
     .spinner {
         height: 5px;
     }
@@ -1303,21 +1320,24 @@ p {
     .bottom {
         display: block;
     }
+
     .sidenav {
         top: 83px;
         left: 0px;
     }
+
     .main-div {
         height: 6px;
         margin-top: 0px;
     }
-    .main-div{
+
+    .main-div {
         width: 425px;
     }
 
-    .last-div{
-       width:  425px;
-       margin-top: 463px;
+    .last-div {
+        width: 425px;
+        margin-top: 463px;
 
     }
 
@@ -1417,13 +1437,11 @@ p {
 
     .last-div {
         width: 375px;
-        
+
     }
 
-  
+
     .bi-x-lg {
         margin-left: 284px;
     }
 }
-
-
