@@ -118,11 +118,11 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 96%;
+    height: 103%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 103px;
     left: 373px;
     background-color: white;
     overflow-x: hidden;
