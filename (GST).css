@@ -118,7 +118,7 @@ body {
 
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 86%;
+    height: 88%;
     width: 220px;
     position: absolute;
     z-index: 1;
@@ -755,6 +755,8 @@ a {
 
 
 
+
+
 /* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
@@ -838,15 +840,15 @@ a {
     color: #36455f;
 }
 
-.sub-div .p2 ,
-.sub-div .p3 ,
-.sub-div .p4 ,
+.sub-div .p2,
+.sub-div .p3,
+.sub-div .p4,
 .sub-div .p5,
-.sub-div .p6 ,
-.sub-div .p7 ,
+.sub-div .p6,
+.sub-div .p7,
 .sub-div .p8,
-.sub-div .p9 ,
-.sub-div .p10{
+.sub-div .p9,
+.sub-div .p10 {
     font-family: Myriad Pro;
     /* margin-top: 60px; */
     padding: 10px 0px;
@@ -962,7 +964,7 @@ p {
     .sidenav {
         top: 85px;
         left: 0px;
-        height: 89%
+        height: 100%
     }
 
     /* ***************** Dis *********************** */
@@ -982,7 +984,7 @@ p {
         margin-left: 1077px;
     }
 
-  
+
 
     /* ****************** dis end ******************* */
 }
@@ -998,6 +1000,10 @@ p {
 
     .bi-x-lg {
         margin-left: 1014px;
+    }
+
+    .sidenav {
+        height: 129%;
     }
 
 }
@@ -1023,7 +1029,7 @@ p {
         margin-left: 849px;
     }
 
- 
+
 
 }
 
@@ -1111,7 +1117,7 @@ p {
         margin-left: 689px;
     }
 
-   
+
 
 
 }
@@ -1155,7 +1161,7 @@ p {
     .bi-x-lg {
         margin-left: 595px;
     }
-   
+
 
 }
 
@@ -1258,13 +1264,14 @@ p {
         width: 768px;
         margin-top: 226px;
     }
-    .sub-div  .p4  a {
+
+    .sub-div .p4 a {
         padding-left: 665px;
         margin-top: -25px;
     }
 
-    .sub-div  .p8  a {
-        padding-left:  665px;
+    .sub-div .p8 a {
+        padding-left: 665px;
         margin-top: -20px;
     }
 
@@ -1285,7 +1292,7 @@ p {
 
     .sidebarIconToggle {
         left: 500px;
-    }  
+    }
 
 
     .logoHide {
@@ -1378,16 +1385,18 @@ p {
     .sub-div .p1 {
         margin-top: 16px;
     }
+
     .last-div {
         width: 425px;
         margin-top: 231px;
     }
-    .sub-div  .p4  a {
+
+    .sub-div .p4 a {
         padding-left: 340px;
         margin-top: -25px;
     }
 
-    .sub-div  .p8  a {
+    .sub-div .p8 a {
         padding-left: 340px;
         margin-top: -20px;
     }
@@ -1397,7 +1406,7 @@ p {
         margin-top: -1504px;
     }
 
-   
+
 
 }
 
@@ -1434,7 +1443,7 @@ p {
         width: 375px;
     }
 
-   
+
     .main-div {
         width: 375px;
     }
@@ -1460,9 +1469,11 @@ p {
         margin-top: 361px;
 
     }
+
     hr {
         width: 320px;
     }
+
     .sub-div a {
         padding-left: 295px;
         margin-top: -49px;
@@ -1476,6 +1487,7 @@ p {
     .div4 {
         margin-left: -20px;
     }
+
     .logoHide {
         width: 375px;
     }
