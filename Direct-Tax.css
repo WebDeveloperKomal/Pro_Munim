@@ -830,79 +830,39 @@ a {
     padding: 50px 30px;
 }
 
-.FD0 {
-    padding: 10px 0px;
-}
-
-.FD,
-.FD1,
-.FD2,
-.FD3,
-.FD4,
-.FD5,
-.FD6 {
-    background-color: rgba(204, 198, 198, 0.493);
-    text-align: center;
-    padding: 8px 25px;
+.FD0{
     margin-top: -30px;
-    border-style: groove;
-    height: 40px;
-    margin-left: 30px;
-    width: 400px;
 }
 
-.FD1,
-.FD2,
-.FD3,
-.FD4,
-.FD5,
-.FD6 {
-    margin-top: 15px;
-}
-
-.FD7,
-.FD8,
-.FD9,
-.FD10,
-.FD11,
-.FD12,
-.FD13 {
+#bt1{
     background-color: rgba(204, 198, 198, 0.493);
     text-align: center;
-    padding: 8px 25px;
+    padding: 12px 25px;
     margin-top: -380px;
-    border-style: groove;
     height: 40px;
-    margin-left: 450px;
+    margin-left: 50px;
     width: 400px;
 }
 
-.FD8,
-.FD9,
-.FD10,
-.FD11,
-.FD12,
-.FD13 {
+#bt1{
     margin-top: 15px;
 }
 
-.FD:hover,
-.FD1:hover,
-.FD2:hover,
-.FD3:hover,
-.FD4:hover,
-.FD5:hover,
-.FD6:hover,
-.FD7:hover,
-.FD8:hover,
-.FD9:hover,
-.FD10:hover,
-.FD11:hover,
-.FD12:hover,
-.FD13:hover {
+#bt1:hover {
     background-color: white;
 }
 
+
+
+.FD0 a button h6,
+.FD01 a button h6{
+    color: #42526E;
+}
+
+.FD01{
+    margin-left: 420px;
+    margin-top: -385px;
+}
 .bi-x-lg {
     margin-top: -870px;
     margin-left: 890px;
