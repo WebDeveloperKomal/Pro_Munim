@@ -117,14 +117,13 @@ body {
 /* <!-- ********* 2ND DIV ************* --> */
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 88%;
+    height: 96%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 103px;
+    top: 100px;
     left: 373px;
     background-color: white;
-
     overflow-x: hidden;
     padding-top: 10px;
     line-height: 50px;
@@ -751,6 +750,7 @@ a {
     margin-top: -10px;
 }
 
+
 /* ************ Side Bar End **************** */
 
 /* ************ FN **************** */
@@ -987,8 +987,9 @@ a {
     background-color: #0F75BB;
 }
 
+/* 
 .round {
-    background-color: #0F75BB;
+    /* background-color: #0F75BB; 
     margin-left: 630px;
     margin-top: -600px;
     width: 200px;
@@ -997,15 +998,13 @@ a {
 }
 
 .round_Img {
-    width: 190px;
-    height: 190px;
-    border-radius: 100px;
-    margin-left: 5px;
-    margin-top: 8px;
+    width: 436px;
+    height: 316px;
+    border-radius: 121px;
 }
 
 .round1 {
-    background-color: #0F75BB;
+    /* background-color: #0F75BB; 
     margin-left: 640px;
     margin-top: 50px;
     width: 200px;
@@ -1019,14 +1018,23 @@ a {
     border-radius: 150px;
     margin-left: 6px;
     margin-top: 6px;
+} */
+
+
+.round img {
+    height: 368px;
+    width: 444px;
+    margin-top: -945px;
+    margin-left: -105px;
 }
 
-.round_Img2 {
-    width: 400px;
-    height: 250px;
-    margin-left: 630px;
-    margin-top: 40px;
+.round1 img {
+    height: 313px;
+    width: 444px;
+    margin-top: -850px;
+    margin-left: -105px;
 }
+
 
 
 /* *********Last Div start  *********** */
@@ -1114,9 +1122,9 @@ p {
     }
 
     .sidenav {
+        height: 94%;
         top: 85px;
         left: 0px;
-        height: 100%;
     }
 
     /* ***************** Dis *********************** */
