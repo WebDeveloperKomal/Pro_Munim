@@ -26,13 +26,14 @@
 
 
 .div1 input[type=search] {
-    width: 239px;
+    width: 279px;
     height: 47px;
     padding: 5px 0px 5px 40px;
-    margin-left: 1138px;
-    margin-top: 26px;
+    margin-left: 1100px;
+    margin-top: 66px;
     border-radius: 7px;
     border: #3e7e52;
+    font-size: 18px;
     color: white;
     background-color: #3e7e52;
 }
@@ -43,8 +44,8 @@
 }
 
 .bi-search {
-    margin-left: -227px;
-    margin-top: -4px;
+    margin-left: -267px;
+    margin-top: -10px;
     color: white;
 }
 
@@ -55,7 +56,7 @@
     height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .div-cal {
@@ -63,7 +64,7 @@
     width: 10px;
     height: 10px;
     border-radius: 30px;
-    margin-top: -47px;
+    margin-top: -57px;
     margin-left: -14px;
 }
 
@@ -81,7 +82,7 @@
     height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .bi-person-fill {
@@ -104,6 +105,20 @@ body {
 }
 
 
+
+form{
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 0px;
+}
+.nav form select{
+    background-color: #3BB161;
+    border: none;
+    color: #fff;
+}
+
+
+
 /* **** Nav Css End ****** */
 .main-div {
     background-color: #0f75bb;
@@ -117,11 +132,11 @@ body {
 /* <!-- ********* 2ND DIV ************* --> */
 /* Fixed sidenav, full height */
 .sidenav {
-    height: 96%;
+    height: 88%;
     width: 220px;
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 103px;
     left: 373px;
     background-color: white;
     overflow-x: hidden;
@@ -949,6 +964,10 @@ a {
     height: 10px;
 }
 
+.Form1 a{
+    text-decoration: none;
+}
+
 #p1 {
     margin-left: 22px;
     margin-top: -20px;
@@ -974,7 +993,9 @@ a {
 }
 
 .btn2 {
-    margin-left: 5px;
+    position: relative;
+    margin-left: 200px;
+    top: -40px;
     width: 170px;
     height: 40px;
     transition: 0.20s;
@@ -1023,16 +1044,15 @@ a {
 
 .round img {
     height: 368px;
-    width: 444px;
-    margin-top: -945px;
-    margin-left: -105px;
+    width: 424px;
+    margin-top: -995px;
+    margin-left: 539px;
 }
-
 .round1 img {
     height: 313px;
     width: 444px;
-    margin-top: -850px;
-    margin-left: -105px;
+    margin-top: -490px;
+    margin-left: 529px;
 }
 
 
@@ -1071,16 +1091,16 @@ p {
     }
 
     .div1 input[type=search] {
-        margin-left: 1015px;
+        margin-left: 975px;
         height: 36px;
-        margin-top: 24px;
+        margin-top: 65px;
     }
 
     .sub-nav {
         width: 45px;
         height: 45px;
         padding: 6px 5px;
-        margin-top: -44px;
+        margin-top: -50px;
         margin-left: 1268px;
     }
 
@@ -1095,7 +1115,7 @@ p {
         width: 9px;
         height: 9px;
         border-radius: 30px;
-        margin-top: -41px;
+        margin-top: -47px;
         margin-left: -14px;
     }
 
@@ -1106,7 +1126,7 @@ p {
         height: 45px;
         padding: 7px 5px;
         border-radius: 200px;
-        margin-top: -43px;
+        margin-top: -50px;
     }
 
     .bi-person-fill {
@@ -1115,10 +1135,8 @@ p {
         margin-top: -7px;
     }
 
-    .bi-chevron-down {
-        margin-top: -62px;
-        margin-left: 6px;
-        color: white;
+    .nav form select {
+        margin-top: 5px;
     }
 
     .sidenav {
@@ -1149,25 +1167,25 @@ p {
         border-radius: 120px;
     }
 
-    .round_Img {
-        width: 207px;
-        height: 203px;
-        border-radius: 121px;
+    .round img {
+        height: 368px;
+        width: 424px;
+        margin-top: -995px;
+        margin-left: -65px;
     }
-
-    .round1 {
+    .round1  {
         margin-left: 763px;
         width: 219px;
         height: 218px;
         border-radius: 120px;
     }
 
-    .round_Img1 {
-        width: 207px;
-        height: 203px;
-        border-radius: 121px;
+    .round1 img {
+        height: 313px;
+        width: 444px;
+        margin-top: -869px;
+        margin-left: -77px;
     }
-
     .month {
         width: 230px;
     }
@@ -1198,9 +1216,13 @@ p {
 
 @media (max-width: 1366px) {
     .div1 input[type=search] {
-        margin-left: 947px;
+        margin-left: 929px;
+        width: 258px;
     }
 
+    .bi-search {
+        margin-left: -246px;
+    }
     .sub-nav {
         margin-left: 1197px;
     }
@@ -1222,11 +1244,19 @@ p {
         font-size: 22px;
     }
 
+    .round img {
+        margin-left: -90px;
+    }
+
+    .round1 img {
+        margin-left: -106px;
+    }
+
 }
 
 @media (max-width: 1199px) {
     .div1 input[type=search] {
-        margin-left: 785px;
+        margin-left: 774px;
     }
 
     .sub-nav {
@@ -1273,6 +1303,19 @@ p {
         top: 85px;
         left: 0px;
     }
+
+    .round img {
+        height: 286px;
+        width: 308px;
+        margin-top: -1021px;
+        margin-left: -48px;
+    }
+    .round1 img {
+        height: 242px;
+        width: 326px;
+        margin-top: -931px;
+        margin-left: -59px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1286,7 +1329,7 @@ p {
         height: 36px;
         padding: 2px 0px 5px 27px;
         margin-left: 678px;
-        margin-top: 23px;
+        margin-top: 64px;
     }
 
     .bi-search {
@@ -1300,13 +1343,13 @@ p {
         margin-left: 863px;
         width: 44px;
         height: 44px;
-        margin-top: -41px;
+        margin-top: -49px;
     }
 
     .div-cal {
         width: 8px;
         height: 8px;
-        margin-top: -37px;
+        margin-top: -45px;
         margin-left: -11px;
     }
 
@@ -1320,7 +1363,7 @@ p {
         margin-left: 8px;
         width: 44px;
         height: 44px;
-        margin-top: -41px;
+        margin-top: -49px;
     }
 
     .bi-person-fill {
@@ -1394,29 +1437,23 @@ p {
         font-size: 22px;
     }
 
-
-
-
-
-
-
 }
 
 @media only screen and (max-width: 923px) {
     .div1 input[type=search] {
-        width: 180px;
-        height: 36px;
-        padding: 2px 0px 5px 27px;
-        margin-left: 565px;
-        margin-top: 23px;
-    }
+        margin-left: 578px;
+    }   
 
     .sub-nav {
+        margin-left: 772px;
+    }
+
+    /* .sub-nav {
         margin-left: 758px;
         width: 44px;
         height: 44px;
         margin-top: -41px;
-    }
+    } */
 
     /* ************************************* */
 
@@ -1426,27 +1463,26 @@ p {
     }
 
     .Form1 input {
-        width: 408px;
+        width: 621px;
     }
 
     .round {
-        margin-left: 418px;
+        display: none;
     }
 
-    .round1 {
-        margin-left: 413px;
+    .round1{
+       display: none;
     }
-
     .month {
-        width: 131px;
+        width: 208px;
     }
 
     .Year {
-        width: 123px;
+        width: 196px;
     }
 
     .Other {
-        width: 150px;
+        width: 207px;
     }
 
     .sub-div4 h6 {
@@ -1463,30 +1499,10 @@ p {
     }
 
     .div1 input[type=search] {
-        margin-left: 439px;
+        margin-left: 429px;
     }
-
-    .bi-search {
-        margin-left: 442px;
-        margin-top: -62px;
-    }
-
     .sub-nav {
-        margin-left: 629px;
-        margin-top: -60px;
-    }
-
-    .sub-nav1 {
-        margin-top: -60px;
-    }
-
-    .div-cal {
-        margin-top: -57px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -100px;
-        margin-left: 727px;
+        margin-left: 616px;
     }
 
     .main-div {

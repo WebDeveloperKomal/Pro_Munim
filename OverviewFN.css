@@ -26,13 +26,14 @@
 
 
 .div1 input[type=search] {
-    width: 239px;
+    width: 279px;
     height: 47px;
     padding: 5px 0px 5px 40px;
-    margin-left: 1138px;
-    margin-top: 26px;
+    margin-left: 1100px;
+    margin-top: 66px;
     border-radius: 7px;
     border: #3e7e52;
+    font-size: 18px;
     color: white;
     background-color: #3e7e52;
 }
@@ -43,8 +44,8 @@
 }
 
 .bi-search {
-    margin-left: -227px;
-    margin-top: -4px;
+    margin-left: -267px;
+    margin-top: -10px;
     color: white;
 }
 
@@ -55,7 +56,7 @@
     height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .div-cal {
@@ -63,7 +64,7 @@
     width: 10px;
     height: 10px;
     border-radius: 30px;
-    margin-top: -47px;
+    margin-top: -57px;
     margin-left: -14px;
 }
 
@@ -81,7 +82,7 @@
     height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .bi-person-fill {
@@ -104,7 +105,19 @@ body {
 }
 
 
-/* **** Nav Css End ****** */
+
+form{
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 0px;
+}
+.nav form select{
+    background-color: #3BB161;
+    border: none;
+    color: #fff;
+}
+
+
 .main-div {
     background-color: #0f75bb;
     position: relative;
@@ -867,6 +880,10 @@ a {
     margin-top: 21px;
 }
 
+.div15 a{
+    text-decoration: none;
+}
+
 .div15 h2 {
     margin-left: 106px;
     color: white;
@@ -909,6 +926,10 @@ a {
     margin-top: 21px;
 }
 
+.div19 a{
+    text-decoration: none;
+}
+
 .div19 h4 {
     margin-left: 106px;
     color: white;
@@ -930,6 +951,7 @@ a {
     margin-left: 234px;
     margin-top: 232px;
     border-radius: 15px;
+   
 }
 
 
@@ -957,6 +979,7 @@ a {
     outline: none;
     padding: 0 10px;
     font-size: 14px;
+   
 }
 
 .Form1 span {
@@ -981,7 +1004,7 @@ a {
 
 .Form1 input:valid,
 .Form1 input:focus {
-    color: #0F75BB;
+    color: #42526E;
     border: 2px solid black;
 }
 
@@ -1028,7 +1051,7 @@ a {
 
 .Form2 input:valid,
 .Form2 input:focus {
-    color: #0F75BB;
+    color: #42526E;
     border: 2px solid black;
 }
 
@@ -1105,7 +1128,7 @@ a {
 
 .Form3 input:valid,
 .Form3 input:focus {
-    color: #0F75BB;
+    color: #42526E;
     border: 2px solid black;
 }
 
@@ -1150,12 +1173,9 @@ a {
 
 .Form4 input:valid,
 .Form4 input:focus {
-    color: #0F75BB;
+    color: #42526E;
     border: 2px solid black;
 }
-
-
-
 
 .div25 {
     margin-left: 226px;
@@ -1187,7 +1207,7 @@ a {
 
 .div28 h5 {
     margin-left: 15px;
-    margin-top: 8px;
+    margin-top: -13px;
     position: absolute;
     color: #fff;
 }
@@ -1221,6 +1241,7 @@ a {
     margin-top: -30px;
     font-size: 18px;
     position: absolute;
+    color: #42526E;
 }
 
 
@@ -1247,6 +1268,7 @@ a {
     margin-top: -30px;
     position: absolute;
     font-size: 18px;
+    color: #42526E;
 }
 
 .Os-sales-img img {
@@ -1256,14 +1278,20 @@ a {
     margin-left: -46px;
 }
 
+.Os-sales-img a{
+    text-decoration: none;
+}
+
 .Os-sales-img p {
     margin-left: 15px;
     margin-top: -10px;
     font-size: 14px;
+    color: #1a2f53;
 }
 
 .Os-sales-img p span {
     color: #1a2f53;
+
 }
 
 .Os-Sales-SubDiv {
@@ -1359,6 +1387,7 @@ a {
     margin-top: -30px;
     position: absolute;
     font-size: 18px;
+    color: #42526E;
 }
 
 .Payments-img img {
@@ -1472,6 +1501,7 @@ a {
     margin-top: -30px;
     position: absolute;
     font-size: 18px;
+    color: #42526E;
 }
 
 .Investments-img img {
@@ -1852,16 +1882,16 @@ p {
     }
 
     .div1 input[type=search] {
-        margin-left: 1015px;
+        margin-left: 975px;
         height: 36px;
-        margin-top: 24px;
+        margin-top: 65px;
     }
 
     .sub-nav {
         width: 45px;
         height: 45px;
         padding: 6px 5px;
-        margin-top: -44px;
+        margin-top: -50px;
         margin-left: 1268px;
     }
 
@@ -1876,7 +1906,7 @@ p {
         width: 9px;
         height: 9px;
         border-radius: 30px;
-        margin-top: -41px;
+        margin-top: -47px;
         margin-left: -14px;
     }
 
@@ -1887,7 +1917,7 @@ p {
         height: 45px;
         padding: 7px 5px;
         border-radius: 200px;
-        margin-top: -43px;
+        margin-top: -50px;
     }
 
     .bi-person-fill {
@@ -1896,12 +1926,11 @@ p {
         margin-top: -7px;
     }
 
-    .bi-chevron-down {
-        margin-top: -62px;
-        margin-left: 6px;
-        color: white;
+    .nav form select {
+        margin-top: 5px;
     }
 
+  
     .sidenav {
         top: 85px;
         left: 0px;
@@ -2279,10 +2308,7 @@ p {
     }
 
     .div28 h5 {
-        margin-left: 15px;
-        margin-top: 8px;
-        position: absolute;
-        color: #fff;
+         margin-top: -13px;
     }
 
     .div29 {
@@ -2920,9 +2946,7 @@ p {
 
 @media (max-width: 1366px) {
     .div1 input[type=search] {
-        margin-left: 947px;
-
-
+        margin-left: 908px;
     }
 
     .sub-nav {
@@ -3237,7 +3261,7 @@ p {
 
 @media (max-width: 1199px) {
     .div1 input[type=search] {
-        margin-left: 785px;
+        margin-left: 755px;
     }
 
     .sub-nav {
@@ -3681,7 +3705,7 @@ p {
         height: 36px;
         padding: 2px 0px 5px 27px;
         margin-left: 678px;
-        margin-top: 23px;
+        margin-top: 64px;
     }
 
     .bi-search {
@@ -3695,37 +3719,7 @@ p {
         margin-left: 863px;
         width: 44px;
         height: 44px;
-        margin-top: -41px;
-    }
-
-    .div-cal {
-        width: 8px;
-        height: 8px;
-        margin-top: -37px;
-        margin-left: -11px;
-    }
-
-    .bi-bell-fill {
-        padding-left: 11px;
-        margin-top: -5px;
-        margin-left: -2px;
-    }
-
-    .sub-nav1 {
-        margin-left: 8px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
-    }
-
-    .bi-person-fill {
-        padding-left: 9px;
-        margin-left: -1px;
-        margin-top: -7px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -62px;
+        margin-top: -49px;
     }
 
     .logo {
@@ -3937,11 +3931,8 @@ p {
         position: absolute;
     }
 
-    .div28 h5 {
-        margin-left: 15px;
-        margin-top: 9px;
-        position: absolute;
-        color: #fff;
+    .div28 h5 { 
+        margin-top: -14px;
     }
 
     .Quick-Links {
@@ -4111,27 +4102,18 @@ p {
 }
 
 @media only screen and (max-width: 923px) {
-    .div1 input[type=search] {
-        width: 180px;
-        height: 36px;
-        padding: 2px 0px 5px 27px;
-        margin-left: 565px;
-        margin-top: 23px;
-    }
-
-    .sub-nav {
-        margin-left: 758px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
-    }
-
     .nav {
         background-color: #3BB161;
         height: 80px;
         width: 909px;
     }
+    .sub-nav {
+        margin-left: 767px;
+    }
 
+    .div1 input[type=search] {
+        margin-left: 581px;
+    }
 
     /* ******************************** */
 
@@ -4388,7 +4370,7 @@ p {
         margin-left: 629px;
     }
 
-
+   
     .last-div {
         margin-top: 1266px;
     }
@@ -4600,10 +4582,7 @@ p {
     }
 
     .div28 h5 {
-        margin-left: 15px;
-        margin-top: 9px;
-        position: absolute;
-        color: #fff;
+        margin-top: -15px;
     }
 
     .person img {
@@ -5664,1175 +5643,3 @@ p {
 }
 
 
-
-@media (max-width: 425px) {
-    /* 
-    .nav {
-        width: 425px;
-        height: 93px;
-    }
-
-    .logo {
-        position: absolute;
-        height: 107px;
-        margin-top: -7px;
-        padding: 0px 10px;
-    }
-
-    .div1 input[type=search] {
-        margin-left: 237px;
-        width: 170px;
-    }
-
-    .bi-search {
-        margin-left: 239px;
-        margin-top: -64px;
-    }
-
-    .sub-nav {
-        margin-left: 251px;
-        margin-top: -16px;
-        width: 32px;
-        height: 29px;
-    }
-    .bi-bell-fill {
-        padding-left: 16px;
-        margin-left: -11px;
-        margin-top: -13px;
-    }
-
-    .div-cal {
-        margin-top: -14px;
-        margin-left: -7px;
-        width: 5px;
-        height: 6px;
-    }
-
-    .sub-nav1 {
-        margin-left: 293px;
-        margin-top: -29px;
-        width: 32px;
-        height: 29px;
-    }
-
-    .bi-person-fill {
-        color: white;
-        margin-left: 1px;
-        width: 17px;
-        height: 16px;
-        margin-top: -14px;
-        padding-left: 3px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -51px;
-        margin-left: 335px;
-    }
-
-    .sidebarIconToggle {
-        top: 66px;
-        left: 369px;
-        width: 18px;
-    } */
-
-
-
-    .nav {
-        width: 425px;
-        height: 77px;
-    }
-
-    .logo {
-        position: absolute;
-        height: 101px;
-        width: 128px;
-        margin-top: -9px;
-    }
-
-    .div1 input[type=search] {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sidebarIconToggle {
-        top: 27px;
-        left: 373px;
-        width: 23px;
-    }
-
-    .spinner {
-        height: 5px;
-    }
-
-    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
-        transform: rotate(-135deg);
-        margin-top: -12px;
-    }
-
-
-    .sidenav {
-        transform: translateX(-220px);
-        transition: transform 250ms ease-in-out
-    }
-
-    .sidebarIconToggle,
-    .top,
-    .middle,
-    .bottom {
-        display: block;
-    }
-
-    .sidenav {
-        top: 83px;
-        left: 0px;
-        height: 100%;
-    }
-
-    .main-div {
-        width: 425px;
-        height: 6px;
-    }
-
-    .last-div {
-        width: 417px;
-        margin-top: 1730px;
-    }
-
-    /* *************************************** */
-
-    .div10 h3 {
-        margin-left: -349px;
-        margin-top: 9px;
-        font-family: 'MYRIAD PRO';
-        color: #36455f;
-        font-size: 29px;
-    }
-
-    .Form3 {
-        position: absolute;
-        width: 257px;
-        margin-left: -4px;
-        margin-top: -1px;
-    }
-
-    .Form4 {
-        position: absolute;
-        width: 141px;
-        margin-left: 363px;
-        margin-top: -40px;
-    }
-
-    .div11 {
-        height: 150px;
-        width: 395px;
-        background-color: white;
-        margin-left: -356px;
-        margin-top: 52px;
-        border-radius: 18px;
-        background-color: #3BB161;
-    }
-
-    .div11 h6 {
-        color: white;
-        margin-left: 7px;
-        font-size: 12px;
-        margin-top: 14px;
-        width: 400px;
-    }
-
-    .div15 h2 {
-        margin-left: 72px;
-    }
-
-    .div11 img {
-        margin-left: 184px;
-        height: 118px;
-        width: 212px;
-        margin-top: -81px;
-        border-radius: 0px 0px 22px 0px;
-    }
-
-    .div16 {
-        height: 150px;
-        width: 397px;
-        margin-left: -358px;
-        margin-top: 227px;
-        border-radius: 18px;
-        background-color: #3BB161;
-    }
-
-    .div16 h6 {
-        color: white;
-        margin-left: 8px;
-        font-size: 12px;
-        margin-top: 13px;
-        width: 600px;
-    }
-
-    .div19 h4 {
-        margin-left: 74px;
-    }
-
-    .div16 img {
-        margin-left: 185px;
-        height: 147px;
-        width: 291px;
-        margin-top: -107px;
-    }
-
-    .div21 {
-        background-color: white;
-        width: 401px;
-        height: 80px;
-        margin-left: -361px;
-        margin-top: 404px;
-        border-radius: 17px;
-    }
-
-    .Form1 input {
-        width: 195px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 14px;
-        margin-left: -254px;
-    }
-
-    .Form1 span {
-        position: absolute;
-        left: -256px;
-        top: 0;
-        padding: 10px;
-        color: #42526E;
-        font-size: 14px;
-        transition: 0.6s;
-    }
-
-    .div22 h6 {
-        margin-left: -97px;
-        margin-top: 432px;
-        position: absolute;
-    }
-
-    .Form2 input {
-        width: 184px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 14px;
-        margin-left: -320px;
-        margin-top: 177px;
-    }
-
-    .Form2 span {
-        position: absolute;
-        left: -318px;
-        top: 177px;
-        padding: 10px;
-        color: #42526E;
-        font-size: 14px;
-        transition: 0.6s;
-    }
-
-    .div23 {
-        position: absolute;
-        background-color: white;
-        width: 402px;
-        height: 80px;
-        margin-left: -362px;
-        margin-top: 505px;
-        border-radius: 17px;
-    }
-
-    .div24 h6 {
-        margin-left: 3px;
-        margin-top: 29px;
-        font-size: 14px;
-        color: #36455f;
-        text-decoration: bold;
-    }
-
-    .Form3 input {
-        width: 151px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 24px;
-        margin-left: 81px;
-    }
-
-    .Form3 span {
-        position: absolute;
-        left: 76px;
-        top: -36px;
-        padding: 10px;
-        color: #42526E;
-        font-size: 13px;
-        transition: 0.6s;
-        width: 298px;
-    }
-
-    .div25 {
-        margin-left: 293px;
-        margin-top: -52px;
-    }
-
-    .Form4 input {
-        width: 115px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 14px;
-        margin-left: -130px;
-    }
-
-    .Form4 span {
-        position: absolute;
-        left: -70px;
-        top: 2px;
-        padding: 10px;
-        color: #42526E;
-        font-size: 14px;
-        transition: 0.6s;
-        margin-left: -63px;
-    }
-
-    .div26 {
-        margin-left: 410px;
-        margin-top: -53px;
-    }
-
-    .div27 {
-        margin-left: 351px;
-        background-color: #3BB161;
-        border-radius: 23px;
-        height: 45px;
-        width: 45px;
-        margin-top: -38px;
-        position: absolute;
-    }
-
-    .div29 {
-        position: absolute;
-        background-color: white;
-        width: 386px;
-        height: 310px;
-        margin-left: -355px;
-        margin-top: 612px;
-        border-radius: 17px;
-    }
-
-    .person img {
-        height: 313px;
-        width: 523px;
-        margin-top: 34px;
-        margin-left: -43px;
-    }
-
-    .Payments {
-        position: absolute;
-        background-color: white;
-        width: 261px;
-        height: 260px;
-        margin-left: -133px;
-        margin-top: 1213px;
-        border-radius: 17px;
-    }
-
-    .Os-sales {
-        position: absolute;
-        background-color: white;
-        width: 384px;
-        height: 310px;
-        margin-left: -354px;
-        margin-top: 944px;
-        border-radius: 17px;
-    }
-
-    .first-div {
-        height: 9px;
-        width: 9px;
-        background-color: #004C8F;
-        border-radius: 50%;
-        margin-left: 26px;
-    }
-
-    .sec-div {
-        height: 9px;
-        width: 9px;
-        background-color: #3BB161;
-        border-radius: 50%;
-        margin-top: 20px;
-        margin-left: 27px;
-    }
-
-    .the-div {
-        height: 9px;
-        width: 9px;
-        background-color: #79c457;
-        border-radius: 50%;
-        margin-top: 20px;
-        margin-left: 27px;
-    }
-
-    .Four-div {
-        height: 9px;
-        width: 9px;
-        background-color: #67dfe7;
-        border-radius: 50%;
-        margin-top: 20px;
-        margin-left: 27px;
-    }
-
-    .Os-sales-img img {
-        height: 216px;
-        width: 325px;
-        margin-top: 9px;
-        margin-left: -46px;
-    }
-
-    .Payments {
-        position: absolute;
-        background-color: white;
-        width: 384px;
-        height: 260px;
-        margin-left: -354px;
-        margin-top: 1270px;
-        border-radius: 17px;
-    }
-
-    .Payments-SubDiv {
-        margin-left: 331px;
-        margin-top: -170px;
-    }
-
-    .Payments-img img {
-        height: 232px;
-        width: 330px;
-        margin-top: -21px;
-        margin-left: -46px;
-    }
-
-    .Investments {
-        position: absolute;
-        background-color: white;
-        width: 383px;
-        height: 260px;
-        margin-left: -353px;
-        margin-top: 1551px;
-        border-radius: 17px;
-    }
-
-    .Investments-SubDiv {
-        margin-left: 353px;
-        margin-top: -170px;
-    }
-
-    .Investments-img img {
-        height: 235px;
-        width: 343px;
-        margin-top: -14px;
-        margin-left: -57px;
-    }
-
-    .last-div {
-        margin-top: 2420px;
-    }
-
-    .Quick-Links {
-        position: absolute;
-        background-color: white;
-        width: 384px;
-        height: 585px;
-        margin-left: -353px;
-        margin-top: 1829px;
-        border-radius: 17px;
-    }
-
-    .Quick-Links-Subdiv #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 272px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Quick-Links-Subdiv1 #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 272px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Quick-Links-Subdiv2 #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 272px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Quick-Links-Subdiv3 #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 272px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Notifications-Subdiv #b1 {
-        width: 112px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 243px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Notifications-Subdiv1 #b1 {
-        width: 112px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 243px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Notifications-Subdiv2 #b1 {
-        width: 112px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 243px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Form2 {
-        position: absolute;
-        width: 241px;
-        margin-left: 165px;
-        margin-top: 241px;
-    }
-
-    .Form1 {
-        position: absolute;
-        width: 293px;
-        margin-left: -99px;
-        margin-top: 417px;
-    }
-
-    .div28 h5 {
-        margin-left: 15px;
-        margin-top: 9px;
-        position: absolute;
-        color: #fff;
-    }
-
-
-
-
-
-
-
-}
-
-
-
-@media (max-width: 375px) {
-
-    /* .div2 {
-        display: none;
-    } */
-
-    .div1 input[type=search] {
-        display: none;
-    }
-
-    .bi-search {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sec {
-        display: none;
-    }
-
-
-    .nav {
-        width: 375px;
-    }
-
-    /* 
-    .logo {
-        height: 114px;
-        margin-top: -10px;
-        margin-left: -5px;
-        width: 133px;
-    }
-
-    .sec {
-        margin-left: 159px;
-        width: 129px;
-    }
-
-    .bi-search {
-        margin-left: 261px;
-    }
-
-    .bi-chevron-down {
-        margin-top: 30px;
-        color: white;
-        margin-left: -3px;
-    }
-
-    .sub-nav {
-        margin-left: 295px;
-    } */
-
-    .main-div {
-        width: 375px;
-    }
-
-    .spinner {
-        height: 5px;
-    }
-
-
-    .sidebarIconToggle {
-        top: 25px;
-        left: 319px;
-        width: 24px;
-    }
-
-    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
-        transform: rotate(-135deg);
-        margin-top: -13px;
-    }
-
-    .last-div {
-        width: 375px;
-        margin-top: px;
-    }
-
-    /* ************************************** */
-
-    .Quick-Links {
-        position: absolute;
-        background-color: white;
-        width: 335px;
-        height: 585px;
-        margin-left: -353px;
-        margin-top: 1829px;
-        border-radius: 17px;
-    }
-
-    .Quick-Links-Subdiv #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 236px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Quick-Links-Subdiv1 #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 236px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Quick-Links-Subdiv2 #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 236px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Quick-Links-Subdiv3 #b1 {
-        width: 75px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 236px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Notifications-Subdiv #b1 {
-        width: 112px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 205px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Notifications-Subdiv1 #b1 {
-        width: 112px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 205px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Notifications-Subdiv2 #b1 {
-        width: 112px;
-        height: 33px;
-        border-radius: 30px;
-        background-color: #3BB161;
-        color: white;
-        border: solid 1px #004C8F;
-        margin-left: 205px;
-        position: absolute;
-        margin-top: -30px;
-        font-size: 16px;
-    }
-
-    .Investments {
-        position: absolute;
-        background-color: white;
-        width: 334px;
-        height: 260px;
-        margin-left: -353px;
-        margin-top: 1551px;
-        border-radius: 17px;
-    }
-
-    .Investments-SubDiv {
-        margin-left: 323px;
-        margin-top: -190px;
-    }
-
-    .Payments {
-        position: absolute;
-        background-color: white;
-        width: 337px;
-        height: 260px;
-        margin-left: -354px;
-        margin-top: 1270px;
-        border-radius: 17px;
-    }
-
-    .Payments-SubDiv {
-        margin-left: 293px;
-        margin-top: -180px;
-    }
-
-    .Os-sales {
-        position: absolute;
-        background-color: white;
-        width: 336px;
-        height: 310px;
-        margin-left: -354px;
-        margin-top: 944px;
-        border-radius: 17px;
-    }
-
-    .Os-Sales-SubDiv {
-        margin-left: 199px;
-        margin-top: -187px;
-    }
-
-    .div29 {
-        position: absolute;
-        background-color: white;
-        width: 333px;
-        height: 310px;
-        margin-left: -355px;
-        margin-top: 612px;
-        border-radius: 17px;
-    }
-
-    .person img {
-        height: 313px;
-        width: 454px;
-        margin-top: 34px;
-        margin-left: -43px;
-    }
-
-    .div11 {
-        height: 150px;
-        width: 346px;
-        background-color: white;
-        margin-left: -356px;
-        margin-top: 52px;
-        border-radius: 18px;
-        background-color: #3BB161;
-    }
-
-    .div11 h6 {
-        color: white;
-        margin-left: 7px;
-        font-size: 10px;
-        margin-top: 14px;
-        width: 400px;
-    }
-
-    .div11 img {
-        margin-left: 135px;
-        height: 118px;
-        width: 212px;
-        margin-top: -76px;
-        border-radius: 0px 0px 22px 0px;
-    }
-
-    .div16 {
-        height: 150px;
-        width: 349px;
-        margin-left: -358px;
-        margin-top: 227px;
-        border-radius: 18px;
-        background-color: #3BB161;
-    }
-
-    .div16 h6 {
-        color: white;
-        margin-left: 8px;
-        font-size: 10px;
-        margin-top: 13px;
-        width: 600px;
-    }
-
-    .div16 img {
-        margin-left: 141px;
-        height: 147px;
-        width: 291px;
-        margin-top: -102px;
-    }
-
-    .div15 h2 {
-        margin-left: 67px;
-        margin-top: -30px;
-    }
-
-    .div19 h4 {
-        margin-left: 69px;
-        margin-top: -27px;
-    }
-
-    .div21 {
-        background-color: white;
-        width: 351px;
-        height: 80px;
-        margin-left: -361px;
-        margin-top: 404px;
-        border-radius: 17px;
-    }
-
-    .Form1 input {
-        width: 167px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 14px;
-        margin-left: -254px;
-    }
-
-    .Form1 span {
-        position: absolute;
-        left: -256px;
-        top: 0;
-        padding: 10px;
-        color: #42526E;
-        font-size: 12px;
-        transition: 0.6s;
-    }
-
-    .div22 h6 {
-        margin-left: -125px;
-        margin-top: 432px;
-        position: absolute;
-    }
-
-    .Form2 input {
-        width: 157px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 14px;
-        margin-left: -345px;
-        margin-top: 177px;
-    }
-
-    .Form2 span {
-        position: absolute;
-        left: -347px;
-        top: 181px;
-        padding: 10px;
-        color: #42526E;
-        font-size: 11px;
-        transition: 0.6s;
-    }
-
-    .div23 {
-        position: absolute;
-        background-color: white;
-        width: 349px;
-        height: 80px;
-        margin-left: -362px;
-        margin-top: 505px;
-        border-radius: 17px;
-    }
-
-    .div24 h6 {
-        margin-left: 3px;
-        margin-top: 29px;
-        font-size: 12px;
-        color: #36455f;
-        text-decoration: bold;
-    }
-
-    .Form3 input {
-        width: 128px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 24px;
-        margin-left: 66px;
-    }
-
-    .Form3 span {
-        position: absolute;
-        left: 60px;
-        top: -34px;
-        padding: 10px;
-        color: #42526E;
-        font-size: 11px;
-        transition: 0.6s;
-        width: 298px;
-    }
-
-    .div25 {
-        margin-left: 262px;
-        margin-top: -52px;
-    }
-
-    .Form4 input {
-        width: 98px;
-        height: 50px;
-        /* background: transparent; */
-        transition: 0.6s;
-        border: 1px solid gray;
-        border-radius: 15px;
-        outline: none;
-        padding: 0 10px;
-        font-size: 14px;
-        margin-left: -170px;
-    }
-
-    .Form4 span {
-        position: absolute;
-        left: -70px;
-        top: 2px;
-        padding: 10px;
-        color: #42526E;
-        font-size: 12px;
-        transition: 0.6s;
-        margin-left: -106px;
-    }
-
-    .div26 {
-        margin-left: 360px;
-        margin-top: -53px;
-    }
-
-    .div27 {
-        margin-left: 299px;
-        background-color: #3BB161;
-        border-radius: 23px;
-        height: 45px;
-        width: 45px;
-        margin-top: -38px;
-        position: absolute;
-    }
-
-
-
-}
-
-
-@media (max-width: 320px) {
-
-    /* .div2 {
-        display: none;
-    } */
-
-    .bi-search {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sec {
-        display: none;
-    }
-
-
-    .nav {
-        width: 320px;
-    }
-
-    /* 
-    .logo {
-        height: 114px;
-        margin-top: -10px;
-        margin-left: -5px;
-        width: 133px;
-    }
-
-    .sec {
-        margin-left: 159px;
-        width: 129px;
-    }
-
-    .bi-search {
-        margin-left: 261px;
-    }
-
-    .bi-chevron-down {
-        margin-top: 30px;
-        color: white;
-        margin-left: -3px;
-    }
-
-    .sub-nav {
-        margin-left: 295px;
-    } */
-
-    .main-div {
-        width: 320px;
-    }
-
-    .sidebarIconToggle {
-        top: 25px;
-        left: 277px;
-        width: 24px;
-    }
-
-    .last-div {
-        width: 320px;
-    }
-
-}
