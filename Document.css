@@ -26,13 +26,14 @@
 
 
 .div1 input[type=search] {
-    width: 239px;
+    width: 279px;
     height: 47px;
     padding: 5px 0px 5px 40px;
-    margin-left: 1138px;
-    margin-top: 26px;
+    margin-left: 1100px;
+    margin-top: 66px;
     border-radius: 7px;
     border: #3e7e52;
+    font-size: 18px;
     color: white;
     background-color: #3e7e52;
 }
@@ -43,8 +44,8 @@
 }
 
 .bi-search {
-    margin-left: -227px;
-    margin-top: -4px;
+    margin-left: -267px;
+    margin-top: -10px;
     color: white;
 }
 
@@ -55,7 +56,7 @@
     height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .div-cal {
@@ -63,7 +64,7 @@
     width: 10px;
     height: 10px;
     border-radius: 30px;
-    margin-top: -47px;
+    margin-top: -57px;
     margin-left: -14px;
 }
 
@@ -81,7 +82,7 @@
     height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .bi-person-fill {
@@ -102,6 +103,22 @@
 body {
     background-color: #e6e6e6;
 }
+
+
+
+form{
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 0px;
+}
+
+
+.nav form select{
+    background-color: #3BB161;
+    border: none;
+    color: #fff;
+}
+
 
 
 /* **** Nav Css End ****** */
@@ -1148,10 +1165,11 @@ a {
 .sub-div02 .bi-question-circle {
     margin-left: 151px;
     margin-top: -100px;
+    color: #42526E;
 }
 
 
-.sub-div02 input[type=search] {
+.sub-div02 form input[type=search] {
     width: 248px;
     position: relative;
     height: 30px;
@@ -1161,7 +1179,7 @@ a {
     border-radius: 10px;
     border: 1px solid #42526E;
     color: #42526E;
-    top: -67px;
+    top: -25px;
     /* background-color: #3e7e52; */
 }
 
@@ -1173,35 +1191,28 @@ a {
 .sub-div02 .bi-search {
     position: absolute;
     margin-left: -234px;
-    margin-top: -65px;
+    margin-top: -26px;
     color: #42526E;
 }
 
 
-.sub-div02 .sub-div02-Cal input[type=search] {
+.sub-div02 .sub-div02-Cal form input[type=date] {
     width: 150px;
     position: relative;
     height: 30px;
-    padding: 5px 0px 5px 25px;
+    padding: 5px 0px 5px 10px;
     margin-left: 668px;
-    margin-top: -83px;
     border-radius: 10px;
     border: 1px solid #42526E;
     color: #42526E;
-    top: -93px;
+    top: -15px;
+    font-size: 15px;
     /* background-color: #3e7e52; */
 }
 
 .sub-div02 .sub-div02-Cal ::placeholder {
     color: rgb(110, 105, 105);
     font-size: 16.2px;
-}
-
-.sub-div02 .sub-div02-Cal .bi-calendar-minus {
-    position: absolute;
-    margin-left: -143px;
-    margin-top: -94px;
-    color: #42526E;
 }
 
 .sub-div02-Cal button {
@@ -1211,7 +1222,7 @@ a {
     font-size: 17px;
     background-color: #3BB161;
     border-radius: 20px;
-    margin-top: -126px;
+    margin-top: -47px;
     margin-left: 825px;
     position: absolute;
     border: 1px solid #3BB161;
@@ -1243,7 +1254,7 @@ table {
     /* border: 1px solid rgb(0, 0, 0); */
     width: 900px;
     color: #36455f;
-    margin-top: -110px;
+    margin-top: -30px;
     margin-left: 10px;
     height: 200px;
 }
@@ -1315,16 +1326,16 @@ p {
     }
 
     .div1 input[type=search] {
-        margin-left: 1015px;
+        margin-left: 975px;
         height: 36px;
-        margin-top: 24px;
+        margin-top: 65px;
     }
 
     .sub-nav {
         width: 45px;
         height: 45px;
         padding: 6px 5px;
-        margin-top: -44px;
+        margin-top: -50px;
         margin-left: 1268px;
     }
 
@@ -1339,7 +1350,7 @@ p {
         width: 9px;
         height: 9px;
         border-radius: 30px;
-        margin-top: -41px;
+        margin-top: -47px;
         margin-left: -14px;
     }
 
@@ -1350,7 +1361,7 @@ p {
         height: 45px;
         padding: 7px 5px;
         border-radius: 200px;
-        margin-top: -43px;
+        margin-top: -50px;
     }
 
     .bi-person-fill {
@@ -1359,11 +1370,10 @@ p {
         margin-top: -7px;
     }
 
-    .bi-chevron-down {
-        margin-top: -62px;
-        margin-left: 6px;
-        color: white;
+    .nav form select {
+        margin-top: 5px;
     }
+
 
 
     .main-div {
@@ -1402,11 +1412,11 @@ p {
         width: 1148px;
     }
 
-    .sub-div02 input[type=search] {
+    .sub-div02 form  input[type=search] {
         margin-left: 628px;
     }
 
-    .sub-div02 .sub-div02-Cal input[type=search] {
+    .sub-div02 .sub-div02-Cal form  input[type=date] {
         margin-left: 885px;
     }
 
@@ -1430,7 +1440,7 @@ p {
 
 @media (max-width: 1366px) {
     .div1 input[type=search] {
-        margin-left: 947px;
+        margin-left: 909px;
     }
 
     .sub-nav {
@@ -1450,11 +1460,11 @@ p {
         margin-left: 1008px;
     }
 
-    .sub-div02 .sub-div02-Cal input[type=search] {
+    .sub-div02 .sub-div02-Cal form  input[type=date] {
         margin-left: 851px;
     }
 
-    .sub-div02 input[type=search] {
+    .sub-div02 form  input[type=search] {
         margin-left: 594px;
     }
 
@@ -1484,13 +1494,12 @@ p {
 
 @media (max-width: 1199px) {
     .div1 input[type=search] {
-        margin-left: 785px;
+        margin-left: 754px;
     }
 
     .sub-nav {
         margin-left: 1042px;
     }
-
 
     /* ******************************************* */
 
@@ -1509,11 +1518,11 @@ p {
         margin-left: 768px;
     }
 
-    .sub-div02 input[type=search] {
+    .sub-div02  form input[type=search] {
         margin-left: 435px;
     }
 
-    .sub-div02 .sub-div02-Cal input[type=search] {
+    .sub-div02 .sub-div02-Cal form input[type=date] {
         margin-left: 690px;
     }
 
@@ -1553,10 +1562,10 @@ p {
         height: 36px;
         padding: 2px 0px 5px 27px;
         margin-left: 678px;
-        margin-top: 23px;
+        margin-top: 64px;
     }
 
-    .bi-search {
+   .div1 .bi-search {
         margin-left: -178px;
         padding-left: 6px;
         margin-top: -4px;
@@ -1567,29 +1576,8 @@ p {
         margin-left: 863px;
         width: 44px;
         height: 44px;
-        margin-top: -41px;
+        margin-top: -49px;
     }
-
-    .div-cal {
-        width: 8px;
-        height: 8px;
-        margin-top: -37px;
-        margin-left: -11px;
-    }
-
-    .bi-bell-fill {
-        padding-left: 11px;
-        margin-top: -5px;
-        margin-left: -2px;
-    }
-
-    .sub-nav1 {
-        margin-left: 8px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
-    }
-
     .bi-person-fill {
         padding-left: 9px;
         margin-left: -1px;
@@ -1635,11 +1623,11 @@ p {
         margin-left: 597px;
     }
 
-    .sub-div02 input[type=search] {
+    .sub-div02 form input[type=search] {
         margin-left: 272px;
     }
 
-    .sub-div02 .sub-div02-Cal input[type=search] {
+    .sub-div02 .sub-div02-Cal form input[type=date] {
         margin-left: 525px;
     }
 
@@ -1656,18 +1644,10 @@ p {
 @media only screen and (max-width: 923px) {
 
     .div1 input[type=search] {
-        width: 180px;
-        height: 36px;
-        padding: 2px 0px 5px 27px;
-        margin-left: 565px;
-        margin-top: 23px;
+        margin-left: 582px;
     }
-
     .sub-nav {
-        margin-left: 758px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
+        margin-left: 771px;
     }
 
     .sidenav {
@@ -1698,11 +1678,11 @@ p {
         margin-left: 496px;
     }
 
-    .sub-div02 input[type=search] {
+    .sub-div02 form input[type=search] {
         margin-left: 174px;
     }
 
-    .sub-div02 .sub-div02-Cal input[type=search] {
+    .sub-div02 .sub-div02-Cal form input[type=date] {
         margin-left: 427px;
     }
 
@@ -1757,31 +1737,12 @@ p {
     }
 
     .div1 input[type=search] {
-        margin-left: 439px;
+        margin-left: 441px;
     }
-
-    .bi-search {
-        margin-left: 442px;
-        margin-top: -62px;
-    }
-
     .sub-nav {
-        margin-left: 629px;
-        margin-top: -60px;
+        margin-left: 632px;
     }
 
-    .sub-nav1 {
-        margin-top: -60px;
-    }
-
-    .div-cal {
-        margin-top: -57px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -100px;
-        margin-left: 727px;
-    }
 
     /* ******************************************* */
     .sidenav {
@@ -1789,29 +1750,10 @@ p {
         height: 158%;
         left: 0px;
     }
-
-    .sub-div02 {
-        position: relative;
-        background-color: white;
-        margin-left: 20px;
-        margin-top: 20px;
-        height: 662px;
-        width: 920px;
-        border-radius: 16px;
+    .main-div {
+        width: 102%;
     }
-
-    .sub-div01,
-    .sub-div02 {
-        width: 670px;
-        height: 250px;
-    }
-
-    table {
-        width: 417px;
-        margin-top: -67px;
-        height: 800px;
-    }
-
+  
     .sub-div01,
     .sub-div02 {
         width: 585px;
@@ -1847,100 +1789,53 @@ p {
         margin-top: 1279px;
     }
 
-    .sub-div02-Cal button {
-        margin-left: 429px;
-        margin-top: -125px;
-    }
+  
 
     .sub-div02 {
         background-color: white;
         height: 925px;
         width: 517px;
     }
-
-    * {
-        margin: 0px;
-        padding: 0px;
-        /* font-family: Myriad Pro; */
-        /* font-family: "Myriad pro Semibold"; */
-        font-size: 11px;
-        box-sizing: border-box;
-    }
-
-    .sub-div02 input[type=search] {
+    .sub-div02 form input[type=search] {
         margin-left: 174px;
         width: 122px;
-        margin-top: 4px;
+        margin-top: -5px;
     }
 
     .sub-div02 .bi-search {
-        position: absolute;
-        margin-left: -117px;
-        margin-top: -57px;
-        color: rgb(0, 0, 0);
+        margin-left: -110px;
+        margin-top: -24px;
     }
 
-    .sub-div02 .bi-question-circle {
-        margin-left: 151px;
-        margin-top: -88px;
-    }
-
-    .sub-div02 .sub-div02-Cal input[type=search] {
+    .sub-div02 .sub-div02-Cal form input[type=date] {
         margin-left: 301px;
-        margin-top: -5px;
+        margin-top: 0px;
         width: 120px;
+        font-size: 13px;
+    }
+    .sub-div02-Cal button {
+        margin-left: 426px;
     }
 
-    .sub-div02 .sub-div02-Cal .bi-calendar-minus {
-        position: absolute;
-        margin-left: -111px;
-        margin-top: -91px;
-        color: rgb(0, 0, 0);
+    table {
+        width: 400px;
+        margin-top: -41px;
+        height: 800px;
     }
 
-    .subdiv1 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 17px;
-        border-radius: 50px;
-        margin-left: 13px;
+    .sub-div1 th {
+        padding: 15px;
     }
 
-    .subdiv5 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 79px;
-        border-radius: 50px;
-        margin-left: 13px;
+    .sub-div1 .bi-arrow-down-short {
+     display: none;
+    }
+ 
+    .sub-div1 a {
+        padding-left: 26px;
     }
 
-    .subdiv9 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 143px;
-        border-radius: 50px;
-        margin-left: 13px;
-    }
-
-    .subdiv4 {
-        margin-top: 185px;
-        margin-left: 13px;
-    }
-
-    .sub-div1 {
-        font-family: Myriad Pro;
-        margin-top: -10px;
-    }
-
+  
 }
 
 @media (max-width: 576px) {
@@ -1990,12 +1885,12 @@ p {
 
 
     .nav {
-        width: 563px;
+        width: 576px;
         height: 95px;
     }
 
     .div1 input[type=search],
-    .bi-search,
+    .div1 .bi-search,
     .sub-nav,
     .sub-nav1,
     .div-cal,
@@ -2045,7 +1940,7 @@ p {
     }
 
     .main-div {
-        width: 568px;
+        width: 576px;
         height: 6px;
     }
 
@@ -2060,138 +1955,19 @@ p {
         width: 27px;
     }
 
-    .last-div {
-        width: 568px;
-        margin-top: 1730px;
-        background-color: #3BB161;
-        color: white;
-    }
-
+   
     .div4 {
         margin-left: -14px;
     }
 
     /* *******************************************/
 
-
-    .sub-div01 {
-        width: 548px;
-        height: 265px;
-    }
-
-    .sub-div02 {
-        background-color: white;
-        height: 925px;
-        width: 548px;
-        margin-top: 12px;
-    }
-
-    .subdiv3,
-    .subdiv7,
-    .subdiv11 {
-        margin-left: 385px;
-    }
-
-    .subdiv2,
-    .subdiv6,
-    .subdiv10 {
-        margin-left: 182px;
-    }
-
-    .subdiv8 {
-        margin-top: 124px;
-        margin-left: 182px;
-    }
-
-    .subdiv1 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 17px;
-        border-radius: 50px;
-        margin-left: 13px;
-    }
-
-    .subdiv5 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 79px;
-        border-radius: 50px;
-        margin-left: 13px;
-    }
-
-    .subdiv9 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 143px;
-        border-radius: 50px;
-        margin-left: 13px;
-    }
-
     .subdiv4 {
-        margin-top: 185px;
-        margin-left: 13px;
+        margin-left: 14px;
     }
-
-    .sub-div02 .bi-question-circle {
-        margin-left: 143px;
-        margin-top: -88px;
+    .subdiv8 {
+        margin-left: 162px;
     }
-
-    .sub-div02 input[type=search] {
-        margin-left: 174px;
-        width: 141px;
-        margin-top: 4px;
-    }
-
-    .sub-div02 .sub-div02-Cal input[type=search] {
-        margin-left: 321px;
-        margin-top: -5px;
-    }
-
-    .sub-div02 .sub-div02-Cal input[type=search] {
-        margin-left: 321px;
-        margin-top: -5px;
-        width: 129px;
-    }
-
-    .sub-div02 .sub-div02-Cal .bi-calendar-minus {
-        position: absolute;
-        margin-left: -120px;
-        margin-top: -91px;
-        color: rgb(0, 0, 0);
-    }
-
-    .sub-div02-Cal button {
-        margin-left: 458px;
-        margin-top: -125px;
-    }
-
-    .sub-div1 {
-        font-family: Myriad Pro;
-        margin-top: -1px;
-    }
-
-    .sub-div1 th {
-        padding: 23px;
-        margin-left: 5px;
-    }
-
-    table {
-        width: 417px;
-        margin-top: -67px;
-        height: 800px;
-        margin-left: 5px;
-    }
-
     .last-div {
         width: 568px;
         margin-top: 1279px;
@@ -2199,513 +1975,15 @@ p {
         color: white;
     }
 
-
-
-
-
-
-
-
-}
-
-
-
-@media (max-width: 425px) {
-    /* 
-    .nav {
-        width: 425px;
-        height: 93px;
-    }
-
-    .logo {
-        position: absolute;
-        height: 107px;
-        margin-top: -7px;
-        padding: 0px 10px;
-    }
-
-    .div1 input[type=search] {
-        margin-left: 237px;
-        width: 170px;
-    }
-
-    .bi-search {
-        margin-left: 239px;
-        margin-top: -64px;
-    }
-
-    .sub-nav {
-        margin-left: 251px;
-        margin-top: -16px;
-        width: 32px;
-        height: 29px;
-    }
-    .bi-bell-fill {
-        padding-left: 16px;
-        margin-left: -11px;
-        margin-top: -13px;
-    }
-
-    .div-cal {
-        margin-top: -14px;
-        margin-left: -7px;
-        width: 5px;
-        height: 6px;
-    }
-
-    .sub-nav1 {
-        margin-left: 293px;
-        margin-top: -29px;
-        width: 32px;
-        height: 29px;
-    }
-
-    .bi-person-fill {
-        color: white;
-        margin-left: 1px;
-        width: 17px;
-        height: 16px;
-        margin-top: -14px;
-        padding-left: 3px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -51px;
-        margin-left: 335px;
-    }
-
-    .sidebarIconToggle {
-        top: 66px;
-        left: 369px;
-        width: 18px;
-    } */
-
-
-
-    .nav {
-        width: 425px;
-        height: 77px;
-    }
-
-    .logo {
-        position: absolute;
-        height: 101px;
-        width: 128px;
-        margin-top: -9px;
-    }
-
-    .div1 input[type=search] {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sidebarIconToggle {
-        top: 27px;
-        left: 363px;
-        width: 23px;
-    }
-
-
-    .spinner {
-        height: 5px;
-    }
-
-    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
-        transform: rotate(-135deg);
-        margin-top: -12px;
-    }
-
-
-    .sidenav {
-        transform: translateX(-220px);
-        transition: transform 250ms ease-in-out
-    }
-
-    .sidebarIconToggle,
-    .top,
-    .middle,
-    .bottom {
-        display: block;
-    }
-
-    .sidenav {
-        top: 83px;
-    }
-
-    .main-div {
-        width: 425px;
-        height: 6px;
-    }
-
-    /* ******************************************* */
-    .div4 {
-        margin-left: -4px;
-    }
-
     .sub-div01 {
-        width: 380px;
-        height: 370px;
-    }
-
-    .subdiv3 {
-        margin-top: 246px;
-        margin-left: 20px;
-    }
-
-    .subdiv7 {
-        margin-top: 242px;
-        margin-left: 20px;
-    }
-
-    .subdiv2,
-    .subdiv6,
-    .subdiv10 {
-        margin-left: 191px;
-    }
-
-    .subdiv8 {
-        margin-top: 124px;
-        margin-left: 191px;
-    }
-
-
-    .subdiv11 {
-        margin-top: 122px;
-        margin-left: 192px;
+        width: 518px;
+        margin-left: 37px;
     }
 
     .sub-div02 {
-        width: 382px;
-    }
-
-    .last-div {
-        background-color: #3BB161;
-        font-family: "Myriad Pro";
-        text-align: center;
-        padding: 10px 0px;
-        height: 40px;
-        margin-top: 1415px;
-        COLOR: WHITE;
-    }
-
-    .sub-div02 input[type=search] {
-        margin-left: 185px;
-        width: 183px;
-        margin-top: 5px;
-    }
-
-    .sub-div02 .bi-search {
-        position: absolute;
-        margin-left: -176px;
-        margin-top: -56px;
-        color: rgb(0, 0, 0);
-    }
-
-    .sub-div02 .sub-div02-Cal input[type=search] {
-        margin-left: 103px;
-        margin-top: 38px;
-    }
-
-    .sub-div02 .sub-div02-Cal .bi-calendar-minus {
-        position: absolute;
-        margin-left: -143px;
-        margin-top: -48px;
-        color: rgb(0, 0, 0);
-    }
-
-    .sub-div02-Cal button {
-        margin-left: 268px;
-        margin-top: -125px;
-    }
-
-    table {
-        width: 417px;
-        margin-top: -113px;
-        height: 800px;
-    }
-
-    .sub-div1 table {
-        width: 300px;
-        font-size: 10px;
-    }
-
-    .sub-div1 th {
-        padding: 8px;
-    }
-
-    * {
-        margin: 0px;
-        padding: 0px;
-        /* font-family: Myriad Pro; */
-        /* font-family: "Myriad pro Semibold"; */
-        font-size: 10px;
-        box-sizing: border-box;
-    }
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-@media (max-width: 375px) {
-
-    /* .div2 {
-        display: none;
-    } */
-
-    .div1 input[type=search] {
-        display: none;
-    }
-
-    .bi-search {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sec {
-        display: none;
-    }
-
-
-    .nav {
-        width: 375px;
-    }
-
-    /* 
-    .logo {
-        height: 114px;
-        margin-top: -10px;
-        margin-left: -5px;
-        width: 133px;
-    }
-
-    .sec {
-        margin-left: 159px;
-        width: 129px;
-    }
-
-    .bi-search {
-        margin-left: 261px;
-    }
-
-    .bi-chevron-down {
-        margin-top: 30px;
-        color: white;
-        margin-left: -3px;
-    }
-
-    .sub-nav {
-        margin-left: 295px;
-    } */
-
-
-    .spinner {
-        height: 5px;
-    }
-
-
-    .sidebarIconToggle {
-        top: 25px;
-        left: 319px;
-        width: 24px;
-    }
-
-    #opensidebarMenu:checked~.sidebarIconToggle>.spinner.bottom {
-        transform: rotate(-135deg);
-        margin-top: -13px;
-    }
-
-    /* ******************************************* */
-
-    .sub-div01 {
-        width: 335px;
-        height: 370px;
-    }
-
-    .subdiv2,
-    .subdiv6,
-    .subdiv10 {
-        margin-left: 155px;
-    }
-
-    .subdiv1 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 17px;
-        border-radius: 50px;
-        margin-left: 5px;
-    }
-
-    .subdiv5 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 79px;
-        border-radius: 50px;
-        margin-left: 5px;
-    }
-
-    .subdiv9 {
-        background-color: #3BB161;
-        padding: 7px 10px;
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 143px;
-        border-radius: 50px;
-        margin-left: 5px;
-    }
-
-    .subdiv4 {
-        margin-top: 185px;
-        margin-left: 4px;
-    }
-
-    .subdiv3 {
-        margin-top: 246px;
-        margin-left: 4px;
-    }
-
-    .subdiv7 {
-        margin-top: 242px;
-        margin-left: 4px;
-    }
-
-    .subdiv8 {
-        margin-top: 124px;
-        margin-left: 156px;
-    }
-
-    .subdiv11 {
-        margin-top: 122px;
-        margin-left: 156px;
-    }
-
-    * {
-        margin: 0px;
-        padding: 0px;
-        /* font-family: Myriad Pro; */
-        /* font-family: "Myriad pro Semibold"; */
-        font-size: 9px;
-        box-sizing: border-box;
-    }
-
-    .sub-div02 {
-        width: 358px;
-        margin-left: 3px;
-    }
-
-    .sub-div02 input[type=search] {
-        margin-left: 185px;
-        width: 160px;
-        margin-top: 5px;
-    }
-
-
-
-
-}
-
-
-@media (max-width: 320px) {
-
-    /* .div2 {
-        display: none;
-    } */
-
-    .bi-search {
-        display: none;
-    }
-
-    .sub-nav1 {
-        display: none;
-    }
-
-    .bi-chevron-down {
-        display: none;
-    }
-
-    .sub-nav {
-        display: none;
-    }
-
-    .sec {
-        display: none;
-    }
-
-
-    .nav {
-        width: 320px;
-    }
-
-    /* 
-    .logo {
-        height: 114px;
-        margin-top: -10px;
-        margin-left: -5px;
-        width: 133px;
-    }
-
-    .sec {
-        margin-left: 159px;
-        width: 129px;
-    }
-
-    .bi-search {
-        margin-left: 261px;
-    }
-
-    .bi-chevron-down {
-        margin-top: 30px;
-        color: white;
-        margin-left: -3px;
-    }
-
-    .sub-nav {
-        margin-left: 295px;
-    } */
-
-
-
-    .sidebarIconToggle {
-        top: 25px;
-        left: 277px;
-        width: 24px;
+        height: 885px;
+        margin-left: 36px;
+        width: 517px;
     }
 
 
