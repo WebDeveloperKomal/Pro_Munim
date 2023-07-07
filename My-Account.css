@@ -26,13 +26,14 @@
 
 
 .div1 input[type=search] {
-    width: 239px;
+    width: 279px;
     height: 47px;
-    padding: 5px 0px 5px 40px;
-    margin-left: 1138px;
-    margin-top: 26px;
+    padding: 5px 0px 10px 40px;
+    margin-left: 1100px;
+    margin-top: 66px;
     border-radius: 7px;
     border: #3e7e52;
+    font-size: 18px;
     color: white;
     background-color: #3e7e52;
 }
@@ -43,8 +44,8 @@
 }
 
 .bi-search {
-    margin-left: -227px;
-    margin-top: -4px;
+    margin-left: -267px;
+    margin-top: -10px;
     color: white;
 }
 
@@ -55,7 +56,7 @@
     height: 55px;
     padding: 6px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .div-cal {
@@ -63,7 +64,7 @@
     width: 10px;
     height: 10px;
     border-radius: 30px;
-    margin-top: -47px;
+    margin-top: -57px;
     margin-left: -14px;
 }
 
@@ -81,7 +82,7 @@
     height: 55px;
     padding: 7px 5px;
     border-radius: 200px;
-    margin-top: -52px;
+    margin-top: -62px;
 }
 
 .bi-person-fill {
@@ -102,6 +103,20 @@
 body {
     background-color: #e6e6e6;
 }
+
+
+
+form{
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 0px;
+}
+.nav form select{
+    background-color: #3BB161;
+    border: none;
+    color: #fff;
+}
+
 
 
 /* **** Nav Css End ****** */
@@ -851,12 +866,16 @@ a {
     border-radius: 130px;
 }
 
+.sub-div4 a{
+    text-decoration: none;
+}
 
 #t1 {
     font-family: Myriad Pro;
     margin-left: 70px;
     margin-top: -65px;
     font-size: 18px;
+    color: #42526E;
 }
 
 .sub-div4 p {
@@ -1244,7 +1263,7 @@ a {
     padding: 10px 0px;
     height: 40px;
     margin-left: -597px;
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 p {
@@ -1269,17 +1288,18 @@ p {
         width: 144px;
     }
 
+    
     .div1 input[type=search] {
-        margin-left: 1015px;
+        margin-left: 975px;
         height: 36px;
-        margin-top: 24px;
+        margin-top: 65px;
     }
 
     .sub-nav {
         width: 45px;
         height: 45px;
         padding: 6px 5px;
-        margin-top: -44px;
+        margin-top: -50px;
         margin-left: 1268px;
     }
 
@@ -1294,7 +1314,7 @@ p {
         width: 9px;
         height: 9px;
         border-radius: 30px;
-        margin-top: -41px;
+        margin-top: -47px;
         margin-left: -14px;
     }
 
@@ -1305,7 +1325,7 @@ p {
         height: 45px;
         padding: 7px 5px;
         border-radius: 200px;
-        margin-top: -43px;
+        margin-top: -50px;
     }
 
     .bi-person-fill {
@@ -1314,11 +1334,10 @@ p {
         margin-top: -7px;
     }
 
-    .bi-chevron-down {
-        margin-top: -62px;
-        margin-left: 6px;
-        color: white;
+    .nav form select {
+        margin-top: 5px;
     }
+
 
     .main-div {
         margin-top: 0px;
@@ -1424,7 +1443,7 @@ p {
 
 @media (max-width: 1366px) {
     .div1 input[type=search] {
-        margin-left: 947px;
+        margin-left: 908px;
     }
 
     .sub-nav {
@@ -1506,7 +1525,7 @@ p {
 
 @media (max-width: 1199px) {
     .div1 input[type=search] {
-        margin-left: 785px;
+        margin-left: 754px;
     }
 
     .sub-nav {
@@ -1628,7 +1647,7 @@ p {
         height: 36px;
         padding: 2px 0px 5px 27px;
         margin-left: 678px;
-        margin-top: 23px;
+        margin-top: 64px;
     }
 
     .bi-search {
@@ -1642,39 +1661,8 @@ p {
         margin-left: 863px;
         width: 44px;
         height: 44px;
-        margin-top: -41px;
+        margin-top: -49px;
     }
-
-    .div-cal {
-        width: 8px;
-        height: 8px;
-        margin-top: -37px;
-        margin-left: -11px;
-    }
-
-    .bi-bell-fill {
-        padding-left: 11px;
-        margin-top: -5px;
-        margin-left: -2px;
-    }
-
-    .sub-nav1 {
-        margin-left: 8px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
-    }
-
-    .bi-person-fill {
-        padding-left: 9px;
-        margin-left: -1px;
-        margin-top: -7px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -62px;
-    }
-
     .sidenav {
         z-index: 1;
         top: 83px;
@@ -1811,23 +1799,29 @@ p {
         margin-left: 110px;
     }
 
-
+    .Payments {
+        margin-left: 241px;
+        margin-top: -250px;
+    }
+    .Payments-SubDiv {
+        margin-left: 96px;
+        margin-top: -108px;
+    }
+    .Payments-img img {
+        height: 163px;
+        width: 223px;
+        margin-top: 85px;
+        margin-left: -80px;
+    }
 }
 
 @media only screen and (max-width: 923px) {
-    .div1 input[type=search] {
-        width: 180px;
-        height: 36px;
-        padding: 2px 0px 5px 27px;
-        margin-left: 565px;
-        margin-top: 23px;
+    .sub-nav {
+        margin-left: 766px;
     }
 
-    .sub-nav {
-        margin-left: 758px;
-        width: 44px;
-        height: 44px;
-        margin-top: -41px;
+    .div1 input[type=search] {
+        margin-left: 578px;
     }
 
     .last-div {
@@ -1986,31 +1980,12 @@ p {
         width: 768px;
     }
 
-    .div1 input[type=search] {
-        margin-left: 439px;
-    }
-
-    .bi-search {
-        margin-left: 442px;
-        margin-top: -62px;
-    }
-
     .sub-nav {
-        margin-left: 629px;
-        margin-top: -60px;
+        margin-left: 623px;
     }
 
-    .sub-nav1 {
-        margin-top: -60px;
-    }
-
-    .div-cal {
-        margin-top: -57px;
-    }
-
-    .bi-chevron-down {
-        margin-top: -100px;
-        margin-left: 727px;
+    .div1 input[type=search] {
+        margin-left: 437px;
     }
 
     .last-div {
